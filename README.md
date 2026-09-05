@@ -21,18 +21,16 @@
 ## 目录
 
 - [✨ 特性](#features)
-- [🧠 工作原理](#how-it-works)
-- [🎯 技能画像：匹配质量的核心](#customize)
+- [🎯 核心：技能画像（匹配质量的关键）](#customize)
 - [🚀 快速开始](#quickstart)
+  - [💻 命令行用法](#cli)
 - [⚙️ 配置说明](#configuration)
+  - [🔒 隐私与安全](#privacy)
 - [📮 定时自动推送](#scheduling)
-- [💻 命令行用法](#cli)
 - [📁 项目结构](#structure)
 - [❓ 常见问题](#faq)
-- [🧩 扩展：新增数据源](#extend)
-- [🔒 隐私与安全](#privacy)
-- [🤝 贡献与开发](#contributing)
-- [⚠️ 免责声明](#disclaimer)
+- [🧩 扩展开发：新增数据源](#extend)
+- [🤝 贡献](#contributing)
 - [📄 License](#license)
 
 ---
@@ -51,9 +49,7 @@
 
 <a id="how-it-works"></a>
 
-[⬆ 返回目录](#目录)
-
-## 🧠 工作原理
+### 工作原理（一次运行做什么）
 
 ```
 并行抓取多源岗位 ──> 跨来源去重 ──> 过滤已推送历史 ──> DeepSeek 分批打分
@@ -68,14 +64,14 @@
 
 > 匹配算法细节见 `jobdigest/scorer.py`；各来源抓取实现见 `jobdigest/fetchers.py`。
 
-<a id="customize"></a>
-
 [⬆ 返回目录](#目录)
 
-## 🎯 技能画像：匹配质量的核心（请先写好它）
+<a id="customize"></a>
+
+## 🎯 核心：技能画像（匹配质量的关键）
 
 > ⚠️ **本项目不绑定任何特定职业背景，推荐质量的好坏几乎只取决于这一份 `skill_profile.txt`。**
-> 打分时，岗位的技术栈与画像的**重合度占评分权重的 40%**（见「工作原理」）；
+> 打分时，岗位的技术栈与画像的**重合度占评分权重的 40%**（见上文「工作原理」）；
 > 画像越真实、越具体，推荐越准；照抄示例或用占位模板 ≈ 随机推荐。
 
 1. **填写技能画像**：`copy skill_profile.txt.example skill_profile.txt`，然后整段替换成你自己的真实背景（工作年限、职业路径、技术栈、核心优势、偏好）。**不要照抄示例**，否则打分会偏离你的实际情况。
@@ -83,9 +79,9 @@
 3. **调整匹配门槛**：想更"挑剔"就调高 `SCORE_THRESHOLD`（如 70~80），想更"海量"就调低（如 50）。
 4. **隐私说明**：仓库只提交 `.example` 模板；你复制模板生成的 `config.env`、`skill_profile.txt` 已被 `.gitignore` 忽略，**不会**被提交到公开仓库。
 
-<a id="quickstart"></a>
-
 [⬆ 返回目录](#目录)
+
+<a id="quickstart"></a>
 
 ## 🚀 快速开始
 
@@ -111,7 +107,7 @@ python scripts/setup.py
 # 4. 试跑一次（不真发邮件，只生成 HTML 预览，预览在 logs/ 下）
 python daily_job_digest.py --dry-run
 
-# 5. 正式推送一次，或配置每天自动推送（见「📮 定时自动推送」）
+# 5. 正式推送一次，或配置每天自动推送（见「定时自动推送」）
 python daily_job_digest.py
 ```
 
@@ -132,9 +128,19 @@ cp skill_profile.txt.example skill_profile.txt
 然后用编辑器填写 `config.env`（必填项：`DEEPSEEK_API_KEY`、`SMTP_USER`、`SMTP_PASS`、`MAIL_TO`），
 并将 `skill_profile.txt` 整段替换成你自己的真实背景。
 
-<a id="configuration"></a>
+<a id="cli"></a>
+
+### 💻 命令行用法
+
+| 命令 | 说明 |
+| --- | --- |
+| `python daily_job_digest.py` | 正常推送（读取 `config.env`） |
+| `python daily_job_digest.py --dry-run` | 只抓取 + 打分，生成 HTML 预览到 `logs/preview_*.html`，**不发送邮件** |
+| `python daily_job_digest.py --config my.env` | 指定配置文件（默认 `config.env`） |
 
 [⬆ 返回目录](#目录)
+
+<a id="configuration"></a>
 
 ## ⚙️ 配置说明
 
@@ -197,9 +203,28 @@ cp skill_profile.txt.example skill_profile.txt
 | `SEND_EMPTY_DIGEST` | 今天没有达标岗位时是否仍发一封说明邮件（默认 `false`） |
 | `USE_SYSTEM_PROXY` | 是否使用系统代理（默认 `true`）。每个请求若走代理失败（如代理软件未开）会自动改直连重试一次 |
 
-<a id="scheduling"></a>
+<a id="privacy"></a>
+
+### 🔒 隐私与安全
+
+- **什么会留在本地**：`config.env`（API Key、SMTP 授权码、收件邮箱）、`skill_profile.txt`（个人简历/背景）、`logs/`（运行日志，含收件邮箱）、`sent_job_ids.json`（已推送记录）。
+- **什么会进入仓库**：见下表——公开仓库只含代码与 `.example` 模板；`.gitignore` 中的条目即使 `git add .` 也不会被追踪。
+
+| 文件 | 是否入库 | 说明 |
+| --- | --- | --- |
+| `config.env.example` | ✅ 入库（模板） | 配置模板，供任何用户复制生成自己的 `config.env` |
+| `config.env` | ❌ 被 `.gitignore` 忽略 | 你的真实配置：API Key、SMTP 授权码、收件邮箱等 |
+| `skill_profile.txt.example` | ✅ 入库（模板） | 技能画像模板/示例（含占位标记，无真实简历） |
+| `skill_profile.txt` | ❌ 被 `.gitignore` 忽略 | 你的真实简历与求职背景 |
+| `logs/` · `sent_job_ids.json` | ❌ 被忽略 | 运行日志（含收件邮箱）与已推送历史 |
+
+  验证方式：`git status` 看不到上述 ❌ 文件；`git ls-files` 只列出 ✅ 与代码文件。
+- **占位提醒**：若 `skill_profile.txt` 仍是模板占位内容（未删除「请整段替换成你自己的真实背景」），程序运行时会打印警告，避免照抄示例打分。
+- **网络请求**：程序只访问你配置的数据源 / DeepSeek / SMTP 服务，不向任何第三方上报你的配置或个人画像。
 
 [⬆ 返回目录](#目录)
+
+<a id="scheduling"></a>
 
 ## 📮 定时自动推送
 
@@ -244,21 +269,9 @@ powershell -ExecutionPolicy Bypass -File scripts\uninstall_task.ps1
 macOS 也可用 `launchd`；Linux 桌面可配 systemd timer。
 核心就是在固定时间执行 `python daily_job_digest.py`（工作目录为项目根目录，保证能读到 `config.env`）。
 
-<a id="cli"></a>
-
 [⬆ 返回目录](#目录)
-
-## 💻 命令行用法
-
-| 命令 | 说明 |
-| --- | --- |
-| `python daily_job_digest.py` | 正常推送（读取 `config.env`） |
-| `python daily_job_digest.py --dry-run` | 只抓取 + 打分，生成 HTML 预览到 `logs/preview_*.html`，**不发送邮件** |
-| `python daily_job_digest.py --config my.env` | 指定配置文件（默认 `config.env`） |
 
 <a id="structure"></a>
-
-[⬆ 返回目录](#目录)
 
 ## 📁 项目结构
 
@@ -289,9 +302,9 @@ daily-job-digest/
 > 以下本地文件由运行/初始化生成，**不入库**（已被 `.gitignore` 排除）：
 > `config.env`（真实配置）、`skill_profile.txt`（真实技能画像）、`logs/`（运行日志与预览）、`sent_job_ids.json`（已推送历史）。
 
-<a id="faq"></a>
-
 [⬆ 返回目录](#目录)
+
+<a id="faq"></a>
 
 ## ❓ 常见问题
 
@@ -308,11 +321,11 @@ daily-job-digest/
 - **改技能画像 / 适配不同用户**：复制 `skill_profile.txt.example` 为 `skill_profile.txt` 后整段替换成你自己的背景，并在 `config.env` 里同步修改 `REMOTEOK_TAGS`。项目不绑定任何职业背景，打分完全以你的画像为准。
 - **避免重复推送**：推送成功的岗位 id 会记入 `sent_job_ids.json`（最多保留 5000 条），同一天重复运行不会重复推送。
 
-<a id="extend"></a>
-
 [⬆ 返回目录](#目录)
 
-## 🧩 扩展：新增数据源
+<a id="extend"></a>
+
+## 🧩 扩展开发：新增数据源
 
 内置五类来源，注册表在 `jobdigest/fetchers.py` 的 `SOURCE_FUNCS`：
 
@@ -326,34 +339,11 @@ daily-job-digest/
 
 想再加来源：在 `fetchers.py` 里写 `def fetch_xxx(cfg) -> list[dict]`（统一字段：`source / id / title / company / tags / description / url / posted_at`），注册进 `SOURCE_FUNCS` / `SOURCE_NAMES`，并在 `ENABLED_SOURCES` 中开启即可，其余流程（去重 / 打分 / 推送）无需改动。
 
-> 详细开发流程与提交规范见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
-
-<a id="privacy"></a>
-
 [⬆ 返回目录](#目录)
-
-## 🔒 隐私与安全
-
-- **什么会留在本地**：`config.env`（API Key、SMTP 授权码、收件邮箱）、`skill_profile.txt`（个人简历/背景）、`logs/`（运行日志，含收件邮箱）、`sent_job_ids.json`（已推送记录）。
-- **什么会进入仓库**：见下表——公开仓库只含代码与 `.example` 模板；`.gitignore` 中的条目即使 `git add .` 也不会被追踪。
-
-| 文件 | 是否入库 | 说明 |
-| --- | --- | --- |
-| `config.env.example` | ✅ 入库（模板） | 配置模板，供任何用户复制生成自己的 `config.env` |
-| `config.env` | ❌ 被 `.gitignore` 忽略 | 你的真实配置：API Key、SMTP 授权码、收件邮箱等 |
-| `skill_profile.txt.example` | ✅ 入库（模板） | 技能画像模板/示例（含占位标记，无真实简历） |
-| `skill_profile.txt` | ❌ 被 `.gitignore` 忽略 | 你的真实简历与求职背景 |
-| `logs/` · `sent_job_ids.json` | ❌ 被忽略 | 运行日志（含收件邮箱）与已推送历史 |
-
-  验证方式：`git status` 看不到上述 ❌ 文件；`git ls-files` 只列出 ✅ 与代码文件。
-- **占位提醒**：若 `skill_profile.txt` 仍是模板占位内容（未删除「请整段替换成你自己的真实背景」），程序运行时会打印警告，避免照抄示例打分。
-- **网络请求**：程序只访问你配置的数据源 / DeepSeek / SMTP 服务，不向任何第三方上报你的配置或个人画像。
 
 <a id="contributing"></a>
 
-[⬆ 返回目录](#目录)
-
-## 🤝 贡献与开发
+## 🤝 贡献
 
 欢迎提交 Issue、PR、新数据源与文档改进。
 
@@ -364,31 +354,15 @@ python tests/test_smoke.py        # 冒烟测试（无网络、无 API Key 也�
 
 - 本地开发、加数据源步骤、代码约定与提交检查清单见 [CONTRIBUTING.md](./CONTRIBUTING.md)。
 - 每次 push / PR 会由 [GitHub Actions](./.github/workflows/ci.yml) 在 Python 3.10/3.11/3.12 上自动跑测试。
-
-<a id="disclaimer"></a>
+- ⭐ Star：<https://github.com/xiaoman0517/daily-job-digest>
+- 🐛 反馈问题 / 提建议（New Issue）：<https://github.com/xiaoman0517/daily-job-digest/issues/new>
 
 [⬆ 返回目录](#目录)
-
-## ⚠️ 免责声明
-
-自动匹配结果仅供参考。HN "Who is Hiring" 评论区岗位格式不统一，标题可能不完整，请以正文/链接内容为准。
 
 <a id="license"></a>
 
-[⬆ 返回目录](#目录)
-
 ## 📄 License
 
+> ⚠️ **免责声明**：自动匹配结果仅供参考。HN "Who is Hiring" 评论区岗位格式不统一，标题可能不完整，请以正文/链接内容为准。
+
 [MIT](./LICENSE) © daily-job-digest contributors
-
----
-
-## 🧭 参与贡献
-
-觉得这个项目有用？欢迎用任何方式支持：
-
-- ⭐ **Star**：<https://github.com/xiaoman0517/daily-job-digest>
-- 🐛 **反馈问题 / 提建议**：<https://github.com/xiaoman0517/daily-job-digest/issues/new>
-- 🤝 **贡献代码 / 新数据源 / 文档**：请先阅读 [**贡献指南（CONTRIBUTING.md）**](./CONTRIBUTING.md)
-
-*README 太长？文档目录见顶部「[📑 目录](#目录)」*
