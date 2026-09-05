@@ -1,0 +1,27 @@
+# ============================================================
+# 个人/本地敏感文件：绝不提交（模板 .example 除外）
+# ============================================================
+config.env
+config.*.env
+.env
+.env.*
+*.local.env
+!*.env.example
+
+# 个人技能画像（含真实工作背景，绝不提交）
+skill_profile.txt
+skill_profile*.txt
+!skill_profile.txt.example
+
+# 运行产物（日志里含收件邮箱等）
+logs/
+sent_job_ids.json
+*.html.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
