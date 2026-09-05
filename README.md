@@ -7,8 +7,11 @@
 > 不绑定任何职业背景——换一个用户，只需改一份技能画像与搜索关键词即可复用。
 
 [![CI](https://github.com/xiaoman0517/daily-job-digest/actions/workflows/ci.yml/badge.svg)](https://github.com/xiaoman0517/daily-job-digest/actions)
-![Python](https://img.shields.io/badge/python-3.9%2B-blue)
-[![License: MIT](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue)](https://github.com/xiaoman0517/daily-job-digest/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-brightgreen.svg)](./CONTRIBUTING.md)
+[![GitHub Stars](https://img.shields.io/github/stars/xiaoman0517/daily-job-digest?style=social)](https://github.com/xiaoman0517/daily-job-digest)
+[![Last Commit](https://img.shields.io/github/last-commit/xiaoman0517/daily-job-digest)](https://github.com/xiaoman0517/daily-job-digest/commits/main)
 
 **数据源**：RemoteOK · We Work Remotely · Hacker News "Who is Hiring" · Jobicy · Remotive
 （均为无 Key 免费 API/RSS，可用 `ENABLED_SOURCES` 裁剪）
