@@ -380,3 +380,15 @@ python tests/test_smoke.py        # 冒烟测试（无网络、无 API Key 也�
 ## 📄 License
 
 [MIT](./LICENSE) © daily-job-digest contributors
+
+---
+
+## 🧭 参与贡献
+
+觉得这个项目有用？欢迎用任何方式支持：
+
+- ⭐ **Star**：<https://github.com/xiaoman0517/daily-job-digest>
+- 🐛 **反馈问题 / 提建议**：<https://github.com/xiaoman0517/daily-job-digest/issues/new>
+- 🤝 **贡献代码 / 新数据源 / 文档**：请先阅读 [**贡献指南（CONTRIBUTING.md）**](./CONTRIBUTING.md)
+
+*README 太长？文档目录见顶部「[📑 目录](#目录)」*
