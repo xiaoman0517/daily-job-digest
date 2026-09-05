@@ -51,6 +51,8 @@
 
 <a id="how-it-works"></a>
 
+[⬆ 返回目录](#目录)
+
 ## 🧠 工作原理
 
 ```
@@ -67,6 +69,8 @@
 > 匹配算法细节见 `jobdigest/scorer.py`；各来源抓取实现见 `jobdigest/fetchers.py`。
 
 <a id="quickstart"></a>
+
+[⬆ 返回目录](#目录)
 
 ## 🚀 快速开始
 
@@ -114,6 +118,8 @@ cp skill_profile.txt.example skill_profile.txt
 并将 `skill_profile.txt` 整段替换成你自己的真实背景。
 
 <a id="configuration"></a>
+
+[⬆ 返回目录](#目录)
 
 ## ⚙️ 配置说明
 
@@ -173,6 +179,8 @@ cp skill_profile.txt.example skill_profile.txt
 
 <a id="customize"></a>
 
+[⬆ 返回目录](#目录)
+
 ## 🎯 适配你自己的求职画像（技能画像是核心）
 
 这个项目不绑定任何特定职业背景，评分质量完全取决于你提供的**技能画像**：
@@ -183,6 +191,8 @@ cp skill_profile.txt.example skill_profile.txt
 4. **隐私说明**：`config.env` 和 `skill_profile.txt` 已被 `.gitignore` 排除，**不会**被提交到公开仓库，只会上传 `.example` 模板。
 
 <a id="scheduling"></a>
+
+[⬆ 返回目录](#目录)
 
 ## 📮 定时自动推送
 
@@ -229,6 +239,8 @@ macOS 也可用 `launchd`；Linux 桌面可配 systemd timer。
 
 <a id="cli"></a>
 
+[⬆ 返回目录](#目录)
+
 ## 💻 命令行用法
 
 | 命令 | 说明 |
@@ -238,6 +250,8 @@ macOS 也可用 `launchd`；Linux 桌面可配 systemd timer。
 | `python daily_job_digest.py --config my.env` | 指定配置文件（默认 `config.env`） |
 
 <a id="structure"></a>
+
+[⬆ 返回目录](#目录)
 
 ## 📁 项目结构
 
@@ -270,6 +284,8 @@ daily-job-digest/
 
 <a id="faq"></a>
 
+[⬆ 返回目录](#目录)
+
 ## ❓ 常见问题
 
 - **提示"缺少必要配置项"**：`config.env` 里 `DEEPSEEK_API_KEY`、`SMTP_USER`、`SMTP_PASS`、`MAIL_TO` 必须填。
@@ -286,6 +302,8 @@ daily-job-digest/
 - **避免重复推送**：推送成功的岗位 id 会记入 `sent_job_ids.json`（最多保留 5000 条），同一天重复运行不会重复推送。
 
 <a id="extend"></a>
+
+[⬆ 返回目录](#目录)
 
 ## 🧩 扩展：新增数据源
 
@@ -305,6 +323,8 @@ daily-job-digest/
 
 <a id="privacy"></a>
 
+[⬆ 返回目录](#目录)
+
 ## 🔒 隐私与安全
 
 - **什么会留在本地**：`config.env`（API Key、SMTP 授权码、收件邮箱）、`skill_profile.txt`（个人简历/背景）、`logs/`（运行日志，含收件邮箱）、`sent_job_ids.json`（已推送记录）。
@@ -312,6 +332,8 @@ daily-job-digest/
 - **网络请求**：程序只访问你配置的数据源 / DeepSeek / SMTP 服务，不向任何第三方上报你的配置或个人画像。
 
 <a id="contributing"></a>
+
+[⬆ 返回目录](#目录)
 
 ## 🤝 贡献与开发
 
@@ -327,11 +349,15 @@ python tests/test_smoke.py        # 冒烟测试（无网络、无 API Key 也�
 
 <a id="disclaimer"></a>
 
+[⬆ 返回目录](#目录)
+
 ## ⚠️ 免责声明
 
 自动匹配结果仅供参考。HN "Who is Hiring" 评论区岗位格式不统一，标题可能不完整，请以正文/链接内容为准。
 
 <a id="license"></a>
+
+[⬆ 返回目录](#目录)
 
 ## 📄 License
 
