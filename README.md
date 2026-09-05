@@ -22,9 +22,9 @@
 
 - [✨ 特性](#features)
 - [🧠 工作原理](#how-it-works)
+- [🎯 技能画像：匹配质量的核心](#customize)
 - [🚀 快速开始](#quickstart)
 - [⚙️ 配置说明](#configuration)
-- [🎯 适配你自己的求职画像](#customize)
 - [📮 定时自动推送](#scheduling)
 - [💻 命令行用法](#cli)
 - [📁 项目结构](#structure)
@@ -67,6 +67,21 @@
 4. **推送**：渲染 HTML 邮件发送至 `MAIL_TO`；成功推送的岗位 id 记入历史（上限 5000 条）。
 
 > 匹配算法细节见 `jobdigest/scorer.py`；各来源抓取实现见 `jobdigest/fetchers.py`。
+
+<a id="customize"></a>
+
+[⬆ 返回目录](#目录)
+
+## 🎯 技能画像：匹配质量的核心（请先写好它）
+
+> ⚠️ **本项目不绑定任何特定职业背景，推荐质量的好坏几乎只取决于这一份 `skill_profile.txt`。**
+> 打分时，岗位的技术栈与画像的**重合度占评分权重的 40%**（见「工作原理」）；
+> 画像越真实、越具体，推荐越准；照抄示例或用占位模板 ≈ 随机推荐。
+
+1. **填写技能画像**：`copy skill_profile.txt.example skill_profile.txt`，然后整段替换成你自己的真实背景（工作年限、职业路径、技术栈、核心优势、偏好）。**不要照抄示例**，否则打分会偏离你的实际情况。
+2. **同步调整搜索范围**：在 `config.env` 里把 `REMOTEOK_TAGS` 改成与你技术栈相关的标签（RemoteOK 支持的标签如 `python` / `java` / `frontend` / `data` / `devops` 等），标签越多请求越慢，建议 5~10 个。
+3. **调整匹配门槛**：想更"挑剔"就调高 `SCORE_THRESHOLD`（如 70~80），想更"海量"就调低（如 50）。
+4. **隐私说明**：仓库只提交 `.example` 模板；你复制模板生成的 `config.env`、`skill_profile.txt` 已被 `.gitignore` 忽略，**不会**被提交到公开仓库。
 
 <a id="quickstart"></a>
 
@@ -181,19 +196,6 @@ cp skill_profile.txt.example skill_profile.txt
 | `LOG_DIR` | 运行日志目录（`logs/digest.log`，自动滚动） |
 | `SEND_EMPTY_DIGEST` | 今天没有达标岗位时是否仍发一封说明邮件（默认 `false`） |
 | `USE_SYSTEM_PROXY` | 是否使用系统代理（默认 `true`）。每个请求若走代理失败（如代理软件未开）会自动改直连重试一次 |
-
-<a id="customize"></a>
-
-[⬆ 返回目录](#目录)
-
-## 🎯 适配你自己的求职画像（技能画像是核心）
-
-这个项目不绑定任何特定职业背景，评分质量完全取决于你提供的**技能画像**：
-
-1. **填写技能画像**：`copy skill_profile.txt.example skill_profile.txt`，然后整段替换成你自己的真实背景（工作年限、职业路径、技术栈、核心优势、偏好）。**不要照抄示例**，否则打分会偏离你的实际情况。
-2. **同步调整搜索范围**：在 `config.env` 里把 `REMOTEOK_TAGS` 改成与你技术栈相关的标签（RemoteOK 支持的标签如 `python` / `java` / `frontend` / `data` / `devops` 等），标签越多请求越慢，建议 5~10 个。
-3. **调整匹配门槛**：想更"挑剔"就调高 `SCORE_THRESHOLD`（如 70~80），想更"海量"就调低（如 50）。
-4. **隐私说明**：仓库只提交 `.example` 模板；你复制模板生成的 `config.env`、`skill_profile.txt` 已被 `.gitignore` 忽略，**不会**被提交到公开仓库。
 
 <a id="scheduling"></a>
 
