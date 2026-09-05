@@ -126,6 +126,11 @@ cp skill_profile.txt.example skill_profile.txt
 配置文件为项目根目录的 `config.env`（从 `config.env.example` 复制）。**所有敏感信息只放这里，不要提交到版本库。**
 配置优先级：**系统环境变量 > `config.env` > 内置默认值**。
 
+> 🔒 **文件入库约定（重要）**
+>
+> - ✅ **提交到公开仓库的只是模板**：`config.env.example`、`skill_profile.txt.example`——它们是给所有用户参考/复制的空壳，不包含任何个人真实信息；
+> - ❌ **你自己的真实文件不会入库**：复制模板生成的 `config.env`、`skill_profile.txt`（以及 `logs/`、`sent_job_ids.json`）都已被 [.gitignore](./.gitignore) 明确忽略。即使误执行 `git add .` 也不会被追踪，可随时用 `git status` 验证。
+
 ### DeepSeek 打分
 
 | 配置项 | 说明 |
@@ -188,7 +193,7 @@ cp skill_profile.txt.example skill_profile.txt
 1. **填写技能画像**：`copy skill_profile.txt.example skill_profile.txt`，然后整段替换成你自己的真实背景（工作年限、职业路径、技术栈、核心优势、偏好）。**不要照抄示例**，否则打分会偏离你的实际情况。
 2. **同步调整搜索范围**：在 `config.env` 里把 `REMOTEOK_TAGS` 改成与你技术栈相关的标签（RemoteOK 支持的标签如 `python` / `java` / `frontend` / `data` / `devops` 等），标签越多请求越慢，建议 5~10 个。
 3. **调整匹配门槛**：想更"挑剔"就调高 `SCORE_THRESHOLD`（如 70~80），想更"海量"就调低（如 50）。
-4. **隐私说明**：`config.env` 和 `skill_profile.txt` 已被 `.gitignore` 排除，**不会**被提交到公开仓库，只会上传 `.example` 模板。
+4. **隐私说明**：仓库只提交 `.example` 模板；你复制模板生成的 `config.env`、`skill_profile.txt` 已被 `.gitignore` 忽略，**不会**被提交到公开仓库。
 
 <a id="scheduling"></a>
 
@@ -328,7 +333,18 @@ daily-job-digest/
 ## 🔒 隐私与安全
 
 - **什么会留在本地**：`config.env`（API Key、SMTP 授权码、收件邮箱）、`skill_profile.txt`（个人简历/背景）、`logs/`（运行日志，含收件邮箱）、`sent_job_ids.json`（已推送记录）。
-- **什么会进入仓库**：仅代码与 `.example` 模板。上述本地文件均被 [.gitignore](./.gitignore) 排除；技能画像若仍含模板占位标记，程序会在运行时给出警告。
+- **什么会进入仓库**：见下表——公开仓库只含代码与 `.example` 模板；`.gitignore` 中的条目即使 `git add .` 也不会被追踪。
+
+| 文件 | 是否入库 | 说明 |
+| --- | --- | --- |
+| `config.env.example` | ✅ 入库（模板） | 配置模板，供任何用户复制生成自己的 `config.env` |
+| `config.env` | ❌ 被 `.gitignore` 忽略 | 你的真实配置：API Key、SMTP 授权码、收件邮箱等 |
+| `skill_profile.txt.example` | ✅ 入库（模板） | 技能画像模板/示例（含占位标记，无真实简历） |
+| `skill_profile.txt` | ❌ 被 `.gitignore` 忽略 | 你的真实简历与求职背景 |
+| `logs/` · `sent_job_ids.json` | ❌ 被忽略 | 运行日志（含收件邮箱）与已推送历史 |
+
+  验证方式：`git status` 看不到上述 ❌ 文件；`git ls-files` 只列出 ✅ 与代码文件。
+- **占位提醒**：若 `skill_profile.txt` 仍是模板占位内容（未删除「请整段替换成你自己的真实背景」），程序运行时会打印警告，避免照抄示例打分。
 - **网络请求**：程序只访问你配置的数据源 / DeepSeek / SMTP 服务，不向任何第三方上报你的配置或个人画像。
 
 <a id="contributing"></a>
