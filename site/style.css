@@ -178,6 +178,32 @@ h1 {
   font-weight: 600;
 }
 
+.project-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+  padding: 9px 13px;
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 999px;
+  color: #fff;
+  background: rgb(255 255 255 / 12%);
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .18s ease, transform .18s ease;
+}
+
+.project-link:hover {
+  background: rgb(255 255 255 / 22%);
+  transform: translateY(-1px);
+}
+
+.project-link:focus-visible {
+  outline: 3px solid #ffd9a8;
+  outline-offset: 3px;
+}
+
 .hero-art {
   position: relative;
   display: grid;
@@ -661,6 +687,13 @@ footer {
   .profile-tags {
     gap: 6px;
     margin-top: 11px;
+  }
+
+  .project-link {
+    position: relative;
+    z-index: 1;
+    margin-top: 11px;
+    font-size: 11px;
   }
 
   .profile-tags span {
