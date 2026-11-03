@@ -44,6 +44,7 @@
 - **只推"新"岗位**：跨来源去重 + `sent_job_ids.json` 历史记录，同一天重复运行不会重复推送。
 - **自适配任意职业**：评分唯一依据是 `skill_profile.txt`——工程师、数据、设计、运营均可，改画像即换人。
 - **HTML 邮件**：按分数排序的可读邮件，附来源徽标、标签与匹配理由；支持 QQ / 163 / Gmail 等常见 SMTP。
+- **网页历史归档**：GitHub Actions 可每日抓取并打分，将岗位按日期保存为 JSON，并部署到 GitHub Pages。
 - **跨平台**：`scripts/setup.py` 一键初始化向导；Windows 计划任务 / Linux cron / macOS launchd 均可定时。
 - **隐私友好**：所有密钥与简历只存在于本地 `config.env` / `skill_profile.txt`（已 `.gitignore`，模板才入库）。
 
@@ -136,6 +137,7 @@ cp skill_profile.txt.example skill_profile.txt
 | --- | --- |
 | `python daily_job_digest.py` | 正常推送（读取 `config.env`） |
 | `python daily_job_digest.py --dry-run` | 只抓取 + 打分，生成 HTML 预览到 `logs/preview_*.html`，**不发送邮件** |
+| `python daily_job_digest.py --web-export` | 抓取 + 打分并更新 `site/data/` 每日归档，**不需要 SMTP 配置** |
 | `python daily_job_digest.py --config my.env` | 指定配置文件（默认 `config.env`） |
 
 [⬆ 返回目录](#目录)
@@ -269,6 +271,16 @@ powershell -ExecutionPolicy Bypass -File scripts\uninstall_task.ps1
 macOS 也可用 `launchd`；Linux 桌面可配 systemd timer。
 核心就是在固定时间执行 `python daily_job_digest.py`（工作目录为项目根目录，保证能读到 `config.env`）。
 
+### GitHub Actions + GitHub Pages（云端运行与历史岗位页面）
+
+仓库内置 `.github/workflows/pages.yml`，默认每天北京时间 08:30 抓取、打分并部署岗位页面。首次启用：
+
+1. 在 GitHub 仓库 **Settings → Secrets and variables → Actions** 添加 `DEEPSEEK_API_KEY`，并添加 `SKILL_PROFILE_TEXT`（你的技能画像，多行文本），供云端评分使用。不要将密钥或个人画像提交到仓库。
+2. 在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+3. 在 **Actions → Publish job archive → Run workflow** 手动运行一次。之后也可在该工作流的运行记录中查看结果。
+
+工作流使用 `--web-export`，不需要配置 SMTP；本地邮件推送流程不受影响。每日归档写入 `site/data/YYYY-MM-DD.json` 并提交到仓库，因此历史记录会跨运行保留。页面含职位、公司、匹配分数、来源、标签、描述和原始链接；**GitHub Pages 与仓库中的归档数据是公开的**，请勿在技能画像或岗位描述中放入隐私信息。工作流使用的 `DEEPSEEK_API_KEY` 和 `SKILL_PROFILE_TEXT` 仅从 Actions Secrets 读取，不会发布到 Pages。
+
 [⬆ 返回目录](#目录)
 
 <a id="structure"></a>
@@ -288,13 +300,16 @@ daily-job-digest/
 │   ├── scorer.py              #   DeepSeek 分批打分（带重试）
 │   ├── emailer.py             #   HTML/纯文本邮件构建与发送
 │   ├── history.py             #   已推送历史记录（原子写入）
+│   ├── web.py                 #   每日网页归档与日期索引
 │   └── utils.py               #   日志/HTTP会话/时间/文本工具
+├── site/                      # GitHub Pages 静态岗位页面
 ├── scripts/
 │   ├── setup.py               # 跨平台初始化向导（推荐先跑这个）
 │   ├── install_task.ps1       # 一键注册每天8点计划任务(Windows)
 │   ├── uninstall_task.ps1
 │   └── run.bat                # 手动运行(Windows)
 ├── .github/workflows/ci.yml   # 提交自动跑测试
+├── .github/workflows/pages.yml # 每日生成岗位归档并部署 Pages
 ├── CONTRIBUTING.md            # 贡献指南
 └── tests/                     # 冒烟测试（不依赖真实 API Key）
 ```

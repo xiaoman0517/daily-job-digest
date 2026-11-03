@@ -10,6 +10,7 @@
 用法：
     python daily_job_digest.py             # 正常推送（读取 config.env）
     python daily_job_digest.py --dry-run   # 只抓取+打分，生成HTML预览，不发送邮件
+    python daily_job_digest.py --web-export # 保存岗位到 site/data/，不发送邮件
     python daily_job_digest.py --config my.env
 
 定时任务（Windows，每天8点自动推送）：
@@ -29,12 +30,13 @@ from jobdigest.emailer import build_email_html, build_email_plain, send_email
 from jobdigest.fetchers import dedupe, fetch_all_jobs
 from jobdigest.history import load_sent_ids, save_sent_ids
 from jobdigest.scorer import score_jobs
-from jobdigest.utils import setup_logging, utc_now
+from jobdigest.utils import now_in, setup_logging, utc_now
+from jobdigest.web import load_archived_ids, save_daily_archive
 
 logger = logging.getLogger("digest")
 
 
-def run(cfg: Config, dry_run: bool = False) -> int:
+def run(cfg: Config, dry_run: bool = False, web_export: bool = False) -> int:
     logger.info("=== 每日岗位推送启动 v%s ===", __version__)
 
     # 1) 并行抓取
@@ -47,12 +49,19 @@ def run(cfg: Config, dry_run: bool = False) -> int:
 
     # 3) 过滤历史已推送
     sent_ids = load_sent_ids(cfg.get("SENT_HISTORY_FILE"))
+    data_dir = cfg.get("WEB_DATA_DIR", os.path.join("site", "data"))
+    if web_export:
+        sent_ids.update(load_archived_ids(data_dir))
     new_jobs = [j for j in all_jobs if j["id"] not in sent_ids]
     logger.info("过滤历史已推送，待打分 %d 条", len(new_jobs))
 
+    archive_date = now_in(cfg.tz_name).strftime("%Y-%m-%d")
     if not new_jobs:
         logger.info("今天没有新岗位，结束。")
         logger.info("提示：可调大 HOURS_LOOKBACK 扩大抓取范围，例如 48/72 小时。")
+        if web_export:
+            path = save_daily_archive(data_dir, archive_date, utc_now().isoformat(), [])
+            logger.info("岗位归档已更新：%s", path)
         return 0
 
     # 4) DeepSeek 打分
@@ -68,6 +77,11 @@ def run(cfg: Config, dry_run: bool = False) -> int:
     ranked = ranked[: cfg.get_int("TOP_N")]
     logger.info("匹配度>=%d 的岗位 %d 条，取 Top %d",
                 cfg.get_int("SCORE_THRESHOLD"), len(ranked), cfg.get_int("TOP_N"))
+
+    if web_export:
+        path = save_daily_archive(data_dir, archive_date, utc_now().isoformat(), ranked)
+        logger.info("岗位归档已更新：%s（本次新增 %d 个岗位）", path, len(ranked))
+        return 0
 
     # 6) 构建邮件内容（无论是否达标都先构建，dry-run 时总能输出预览）
     html = build_email_html(ranked, cfg)
@@ -102,12 +116,15 @@ def run(cfg: Config, dry_run: bool = False) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description="每日远程岗位智能匹配推送")
     parser.add_argument("--config", default="config.env", help="配置文件路径（默认 config.env）")
-    parser.add_argument("--dry-run", action="store_true",
-                        help="只抓取+打分并生成HTML预览，不发送邮件")
+    output_mode = parser.add_mutually_exclusive_group()
+    output_mode.add_argument("--dry-run", action="store_true",
+                             help="只抓取+打分并生成HTML预览，不发送邮件")
+    output_mode.add_argument("--web-export", action="store_true",
+                             help="抓取+打分并保存每日网站归档，不需要 SMTP 配置")
     args = parser.parse_args()
 
     try:
-        cfg = Config.load(args.config)
+        cfg = Config.load(args.config, require_mail=not args.web_export)
     except SystemExit as e:
         # 配置缺失时也写入日志，便于计划任务排查
         setup_logging("logs")
@@ -115,7 +132,7 @@ def main() -> int:
         raise
     setup_logging(cfg.get("LOG_DIR"))
     try:
-        return run(cfg, dry_run=args.dry_run)
+        return run(cfg, dry_run=args.dry_run, web_export=args.web_export)
     except KeyboardInterrupt:
         logger.warning("用户中断。")
         return 130

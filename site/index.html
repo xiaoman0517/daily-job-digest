@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="每日远程岗位推荐与历史归档">
+  <title>每日岗位推荐</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <p class="eyebrow">DAILY JOB DIGEST</p>
+      <h1>每日岗位推荐</h1>
+      <p class="subtitle">按匹配度筛选的远程岗位，以及每日历史记录。</p>
+    </div>
+  </header>
+  <main class="container">
+    <section class="toolbar" aria-label="岗位筛选">
+      <label>
+        日期
+        <select id="date-select" disabled>
+          <option>正在加载…</option>
+        </select>
+      </label>
+      <label class="search-field">
+        搜索
+        <input id="search-input" type="search" placeholder="职位、公司或标签">
+      </label>
+      <label class="score-field">
+        最低匹配分
+        <select id="score-select">
+          <option value="0">不限</option>
+          <option value="60">60+</option>
+          <option value="70">70+</option>
+          <option value="80">80+</option>
+          <option value="90">90+</option>
+        </select>
+      </label>
+    </section>
+    <p id="status" class="status" role="status">正在加载岗位记录…</p>
+    <section id="job-list" class="job-list" aria-live="polite"></section>
+    <footer>岗位信息来自公开招聘来源，匹配结果仅供参考。点击职位标题可查看原始招聘页面。</footer>
+  </main>
+</body>
+</html>

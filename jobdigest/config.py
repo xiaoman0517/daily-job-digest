@@ -14,6 +14,7 @@ DEFAULTS = {
     "DEEPSEEK_BATCH_SIZE": "15",
     "DEEPSEEK_TIMEOUT": "90",
     "DEEPSEEK_MAX_RETRIES": "2",
+    "SKILL_PROFILE_TEXT": "",
     # ---- 邮件 ----
     "SMTP_HOST": "smtp.qq.com",
     "SMTP_PORT": "465",
@@ -135,7 +136,7 @@ class Config:
         self.path = path
 
     @classmethod
-    def load(cls, env_file: str = "config.env"):
+    def load(cls, env_file: str = "config.env", require_mail: bool = True):
         """加载配置。优先级：系统环境变量 > config.env 文件 > 内置默认值。"""
         env_file = os.path.abspath(env_file)
         data = dict(DEFAULTS)
@@ -148,11 +149,12 @@ class Config:
             if val:
                 data[key] = val
         cfg = cls(data, env_file)
-        cfg._validate()
+        cfg._validate(require_mail=require_mail)
         return cfg
 
-    def _validate(self) -> None:
-        missing = [k for k in REQUIRED if not self.get(k)]
+    def _validate(self, require_mail: bool = True) -> None:
+        required = REQUIRED if require_mail else ("DEEPSEEK_API_KEY",)
+        missing = [k for k in required if not self.get(k)]
         if missing:
             raise SystemExit(
                 "\n[配置错误] 缺少必要配置项: " + ", ".join(missing)
@@ -201,6 +203,9 @@ class Config:
     @property
     def skill_profile(self) -> str:
         """返回技能画像文本；未配置/文件缺失/为空时回退内置模板并给出提示。"""
+        profile_text = self.get("SKILL_PROFILE_TEXT")
+        if profile_text:
+            return profile_text.strip()
         f = self.get("SKILL_PROFILE_FILE")
         if f and os.path.exists(f):
             with open(f, "r", encoding="utf-8") as fp:

@@ -120,6 +120,17 @@ def test_config_list_parsing():
     assert cfg.mail_to == ["a@x.com", "b@x.com", "c@x.com"]
 
 
+def test_web_export_does_not_require_mail():
+    cfg = Config({"DEEPSEEK_API_KEY": "sk-test"})
+    cfg._validate(require_mail=False)
+    try:
+        cfg._validate()
+    except SystemExit:
+        pass
+    else:
+        raise AssertionError("normal email mode must still require SMTP settings")
+
+
 def test_skill_profile_adaptation(tmp_path):
     """技能画像适配：未配置时用内置模板；配置后读取文件内容；文件缺失时回退。"""
     from jobdigest.config import BUILTIN_SKILL_PROFILE
@@ -139,6 +150,58 @@ def test_skill_profile_adaptation(tmp_path):
     # 3) 文件缺失 -> 回退内置模板
     cfg3 = make_cfg(SKILL_PROFILE_FILE=os.path.join(str(tmp_path), "not_exist.txt"))
     assert cfg3.skill_profile == BUILTIN_SKILL_PROFILE
+
+    # GitHub Actions can provide the profile from an Actions secret.
+    cfg4 = make_cfg(SKILL_PROFILE_TEXT="数据分析师，熟悉 SQL 和 Python。")
+    assert cfg4.skill_profile == "数据分析师，熟悉 SQL 和 Python。"
+
+
+def test_web_archive_roundtrip(tmp_path):
+    import json
+
+    from jobdigest.web import load_archived_ids, save_daily_archive
+
+    data_dir = os.path.join(str(tmp_path), "archive-data")
+    first = {"id": "job-1", "title": "Engineer", "score": 88, "url": "https://example.com"}
+    save_daily_archive(data_dir, "2026-11-03", "2026-11-03T00:00:00+00:00", [first])
+    save_daily_archive(data_dir, "2026-11-03", "2026-11-03T01:00:00+00:00", [
+        {"id": "job-2", "title": "Analyst", "score": 76},
+    ])
+
+    with open(os.path.join(data_dir, "2026-11-03.json"), encoding="utf-8") as f:
+        archive = json.load(f)
+    with open(os.path.join(data_dir, "index.json"), encoding="utf-8") as f:
+        index = json.load(f)
+    assert archive["count"] == 2
+    assert index["dates"] == ["2026-11-03"]
+    assert load_archived_ids(data_dir) == {"job-1", "job-2"}
+
+
+def test_run_web_export_archives_once(tmp_path):
+    from unittest.mock import patch
+
+    import daily_job_digest
+    from jobdigest.web import load_archived_ids
+
+    data_dir = os.path.join(str(tmp_path), "run-data")
+    cfg = make_cfg(
+        WEB_DATA_DIR=data_dir,
+        SENT_HISTORY_FILE=os.path.join(str(tmp_path), "run_sent.json"),
+    )
+    fake_jobs = [{
+        "id": "web-job", "source": "RemoteOK", "title": "Senior Analyst",
+        "company": "ACME", "tags": ["python"], "description": "Analytics",
+        "url": "https://example.com/job", "posted_at": "2026-11-03T08:00:00+00:00",
+    }]
+    with patch.object(daily_job_digest, "fetch_all_jobs", return_value=fake_jobs), \
+         patch.object(daily_job_digest, "score_jobs", return_value={
+             "web-job": {"score": 91, "reason": "经验匹配"},
+         }) as score:
+        assert daily_job_digest.run(cfg, web_export=True) == 0
+        assert daily_job_digest.run(cfg, web_export=True) == 0
+    assert score.call_count == 1
+    assert load_archived_ids(data_dir) == {"web-job"}
+    assert not os.path.exists(cfg.get("SENT_HISTORY_FILE"))
 
 
 def test_score_jobs_mocked():
@@ -244,4 +307,3 @@ if __name__ == "__main__":
                 failed += 1
     print(f"\n{passed} passed, {failed} failed")
     sys.exit(1 if failed else 0)
-
