@@ -3,33 +3,72 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="每日远程岗位推荐与历史归档">
-  <title>每日岗位推荐</title>
+  <meta name="description" content="以项目维护者的 GIS、计算机视觉与 AI 应用背景为参考，每日发现并归档可能适合自己的远程岗位。">
+  <title>我的求职雷达 · 每日岗位档案</title>
   <link rel="stylesheet" href="style.css">
   <script src="app.js" defer></script>
 </head>
 <body>
   <header class="site-header">
-    <div class="container">
-      <p class="eyebrow">DAILY JOB DIGEST</p>
-      <h1>每日岗位推荐</h1>
-      <p class="subtitle">按匹配度筛选的远程岗位，以及每日历史记录。</p>
+    <div class="hero container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-star" aria-hidden="true">✦</span> DAILY JOB DIGEST <span class="eyebrow-label">MADE FOR ONE</span></p>
+        <h1>我的求职雷达<span class="title-sparkle" aria-hidden="true">✧</span></h1>
+        <p class="subtitle">每天打捞新机会，看看下一段冒险会在哪里开启。</p>
+        <div class="profile-note">
+          <span class="note-icon" aria-hidden="true">✿</span>
+          <p><strong>这是项目维护者的个人岗位档案。</strong><br>
+            AI 根据维护者的 GIS / 遥感、计算机视觉与 AI 应用背景评估匹配度；分数只代表与这份个人画像的契合程度，不是通用排名或对其他求职者的建议。</p>
+        </div>
+        <div class="profile-tags" aria-label="维护者画像方向">
+          <span>GIS &amp; 遥感</span>
+          <span>计算机视觉</span>
+          <span>LLM / Agent / RAG</span>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <span class="orbit orbit-one"></span>
+        <span class="orbit orbit-two"></span>
+        <span class="art-star star-one">✦</span>
+        <span class="art-star star-two">✧</span>
+        <span class="art-star star-three">✦</span>
+        <div class="mascot">
+          <span class="mascot-ear ear-left"></span>
+          <span class="mascot-ear ear-right"></span>
+          <span class="mascot-face">
+            <i class="mascot-eye eye-left"></i>
+            <i class="mascot-eye eye-right"></i>
+            <i class="mascot-blush blush-left"></i>
+            <i class="mascot-blush blush-right"></i>
+            <i class="mascot-mouth"></i>
+          </span>
+          <span class="mascot-spark">✦</span>
+        </div>
+        <span class="art-caption">new quest!</span>
+      </div>
     </div>
   </header>
   <main class="container">
+    <div class="section-heading">
+      <div>
+        <p class="section-kicker">YOUR DAILY QUEST</p>
+        <h2>岗位情报站 <span aria-hidden="true">☁</span></h2>
+      </div>
+      <p class="section-hint">挑个日期，找找今天的心动机会吧</p>
+    </div>
     <section class="toolbar" aria-label="岗位筛选">
       <label>
-        日期
+        <span><i class="label-icon" aria-hidden="true">◷</i> 日期</span>
         <select id="date-select" disabled>
           <option>正在加载…</option>
         </select>
       </label>
       <label class="search-field">
-        搜索
+        <span><i class="label-icon" aria-hidden="true">⌕</i> 搜索</span>
         <input id="search-input" type="search" placeholder="职位、公司或标签">
       </label>
       <label class="score-field">
-        最低匹配分
+        <span><i class="label-icon" aria-hidden="true">♡</i> 最低匹配分</span>
         <select id="score-select">
           <option value="0">不限</option>
           <option value="60">60+</option>
@@ -39,9 +78,13 @@
         </select>
       </label>
     </section>
-    <p id="status" class="status" role="status">正在加载岗位记录…</p>
+    <p id="status" class="status" role="status"><span class="status-spark" aria-hidden="true">✦</span> 正在加载岗位记录…</p>
     <section id="job-list" class="job-list" aria-live="polite"></section>
-    <footer>岗位信息来自公开招聘来源，匹配结果仅供参考。点击职位标题可查看原始招聘页面。</footer>
+    <footer>
+      <span class="footer-star" aria-hidden="true">✦</span>
+      岗位信息来自公开招聘来源；匹配分数以项目维护者的个人画像为依据，仅供参考。点击职位标题查看原始招聘页面。
+      <span class="footer-star" aria-hidden="true">✦</span>
+    </footer>
   </main>
 </body>
 </html>
