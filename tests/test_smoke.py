@@ -286,6 +286,69 @@ def test_run_dry_run_empty(tmp_path):
         assert "没有达到" in f.read()
 
 
+def test_run_publish_archives_and_sends(tmp_path):
+    """--publish：同一次运行归档 + 发信（网页与邮件同源）。"""
+    import json
+    from unittest.mock import patch
+
+    import daily_job_digest
+
+    data_dir = os.path.join(str(tmp_path), "publish-data")
+    cfg = make_cfg(
+        LOG_DIR=str(tmp_path),
+        SENT_HISTORY_FILE=os.path.join(str(tmp_path), "publish_sent.json"),
+        WEB_DATA_DIR=data_dir,
+    )
+    fake_jobs = [{
+        "id": "p1", "source": "Jobicy", "title": "ML Engineer", "company": "ACME",
+        "tags": ["ai"], "description": "LLM + PyTorch", "url": "https://example.com/p1",
+        "posted_at": "2026-11-03T08:00:00+00:00",
+    }]
+    with patch.object(daily_job_digest, "fetch_all_jobs", return_value=fake_jobs), \
+         patch.object(daily_job_digest, "score_jobs", return_value={
+             "p1": {"score": 82, "reason": "匹配"},
+         }), \
+         patch.object(daily_job_digest, "send_email", return_value=True) as mocked_send:
+        assert daily_job_digest.run(cfg, web_export=True, send_mail=True) == 0
+    assert mocked_send.call_count == 1
+
+    with open(os.path.join(data_dir, "index.json"), encoding="utf-8") as f:
+        assert json.load(f)["dates"]
+    daily = [f for f in os.listdir(data_dir) if f.endswith(".json") and f != "index.json"][0]
+    with open(os.path.join(data_dir, daily), encoding="utf-8") as f:
+        archive = json.load(f)
+    assert archive["count"] == 1
+    assert archive["jobs"][0]["id"] == "p1"
+
+
+def test_run_publish_skips_archive_when_email_fails(tmp_path):
+    """发信失败时不写归档，避免岗位被永久跳过。"""
+    from unittest.mock import patch
+
+    import daily_job_digest
+
+    data_dir = os.path.join(str(tmp_path), "publish-fail-data")
+    cfg = make_cfg(
+        LOG_DIR=str(tmp_path),
+        SENT_HISTORY_FILE=os.path.join(str(tmp_path), "publish_fail_sent.json"),
+        WEB_DATA_DIR=data_dir,
+    )
+    fake_jobs = [{
+        "id": "p2", "source": "Jobicy", "title": "AI Engineer", "company": "ACME",
+        "tags": ["ai"], "description": "LLM", "url": "https://example.com/p2",
+        "posted_at": "2026-11-03T08:00:00+00:00",
+    }]
+    with patch.object(daily_job_digest, "fetch_all_jobs", return_value=fake_jobs), \
+         patch.object(daily_job_digest, "score_jobs", return_value={
+             "p2": {"score": 88, "reason": "匹配"},
+         }), \
+         patch.object(daily_job_digest, "send_email", return_value=False):
+        assert daily_job_digest.run(cfg, web_export=True, send_mail=True) == 0
+
+    archived = [f for f in os.listdir(data_dir) if f.endswith(".json")] if os.path.isdir(data_dir) else []
+    assert not archived
+
+
 if __name__ == "__main__":
     import tempfile
     import traceback

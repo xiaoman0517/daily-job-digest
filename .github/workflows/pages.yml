@@ -1,12 +1,13 @@
-name: Publish job archive
+name: Daily digest (archive + email)
 
 on:
   schedule:
+    # 每天 00:30 UTC = 08:30 Asia/Shanghai（GitHub 调度可能有几分钟~数小时延迟）
     - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: write   # 把当天的 site/data 归档提交回仓库，形成可浏览的历史
   pages: write
   id-token: write
 
@@ -32,33 +33,55 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
-      - name: Fetch, score, and archive jobs
-        run: |
-          if [ -z "$DEEPSEEK_API_KEY" ]; then
-            echo "::error::Add the DEEPSEEK_API_KEY Actions secret."
-            exit 1
-          fi
-          if [ -z "$SKILL_PROFILE_TEXT" ]; then
-            echo "::error::Add the SKILL_PROFILE_TEXT Actions secret."
-            exit 1
-          fi
-          python daily_job_digest.py --web-export
+      - name: Fetch, score, archive & send email
+        # 同一次运行同时产出 site/data 归档与邮件 → 网页与邮件内容一致。
+        # 非敏感配置优先读仓库 Variables（Settings → Secrets and variables → Actions → Variables），
+        # 未设置时自动回退到 config.py 内置默认值。
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           SKILL_PROFILE_TEXT: ${{ secrets.SKILL_PROFILE_TEXT }}
-          TIMEZONE: Asia/Shanghai
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ secrets.SMTP_PORT }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_SENDER_NAME: ${{ vars.MAIL_SENDER_NAME }}
+          TIMEZONE: ${{ vars.TIMEZONE || 'Asia/Shanghai' }}
           USE_SYSTEM_PROXY: "false"
-
-      - name: Commit updated daily archive
+          REMOTEOK_TAGS: ${{ vars.REMOTEOK_TAGS }}
+          ENABLED_SOURCES: ${{ vars.ENABLED_SOURCES }}
+          SEARCH_KEYWORDS: ${{ vars.SEARCH_KEYWORDS }}
+          HOURS_LOOKBACK: ${{ vars.HOURS_LOOKBACK }}
+          REMOTEOK_LOOKBACK_HOURS: ${{ vars.REMOTEOK_LOOKBACK_HOURS }}
+          REMOTIVE_LOOKBACK_HOURS: ${{ vars.REMOTIVE_LOOKBACK_HOURS }}
+          SCORE_THRESHOLD: ${{ vars.SCORE_THRESHOLD }}
+          TOP_N: ${{ vars.TOP_N }}
+          SEND_EMPTY_DIGEST: ${{ vars.SEND_EMPTY_DIGEST }}
         run: |
+          set -euo pipefail
+          for name in DEEPSEEK_API_KEY SKILL_PROFILE_TEXT SMTP_USER SMTP_PASS MAIL_TO; do
+            if [ -z "${!name:-}" ]; then
+              echo "::error::缺少 Actions secret：$name（Settings → Secrets and variables → Actions）"
+              exit 1
+            fi
+          done
+          python daily_job_digest.py --publish
+
+      - name: Commit & push updated archive
+        # 关键：归档必须 push 回仓库，否则每次 runner 都从空历史开始，
+        # 页面永远只有当天、且无法跨天去重。GITHUB_TOKEN 的提交不会再次触发 workflow。
+        run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add site/data
           if git diff --cached --quiet; then
             echo "No archive changes to commit."
-          else
-            git commit -m "Update daily job archive"
+            exit 0
           fi
+          git commit -m "chore: update daily job archive $(date -u +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5

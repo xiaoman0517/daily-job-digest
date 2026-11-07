@@ -10,7 +10,8 @@
 用法：
     python daily_job_digest.py             # 正常推送（读取 config.env）
     python daily_job_digest.py --dry-run   # 只抓取+打分，生成HTML预览，不发送邮件
-    python daily_job_digest.py --web-export # 保存岗位到 site/data/，不发送邮件
+    python daily_job_digest.py --web-export # 只保存岗位归档 site/data/，不发送邮件
+    python daily_job_digest.py --publish   # 归档 + 发送邮件（GitHub Actions 单一流水线）
     python daily_job_digest.py --config my.env
 
 定时任务（Windows，每天8点自动推送）：
@@ -36,7 +37,17 @@ from jobdigest.web import load_archived_ids, save_daily_archive
 logger = logging.getLogger("digest")
 
 
-def run(cfg: Config, dry_run: bool = False, web_export: bool = False) -> int:
+def run(cfg: Config, dry_run: bool = False, web_export: bool = False,
+        send_mail=None) -> int:
+    """执行一次完整流程。
+
+    web_export=True 时把结果写入 site/data/ 归档；
+    send_mail 为 None 时默认 `not web_export`（即 --web-export 只归档）；
+    --publish 显式传入 send_mail=True，让网页与邮件来自同一次运行。
+    """
+    if send_mail is None:
+        send_mail = not web_export
+
     logger.info("=== 每日岗位推送启动 v%s ===", __version__)
 
     # 1) 并行抓取
@@ -47,7 +58,7 @@ def run(cfg: Config, dry_run: bool = False, web_export: bool = False) -> int:
     all_jobs = dedupe(all_jobs)
     logger.info("跨来源去重后剩余 %d 条", len(all_jobs))
 
-    # 3) 过滤历史已推送
+    # 3) 过滤历史（归档模式下同时过滤已归档岗位，形成跨天去重）
     sent_ids = load_sent_ids(cfg.get("SENT_HISTORY_FILE"))
     data_dir = cfg.get("WEB_DATA_DIR", os.path.join("site", "data"))
     if web_export:
@@ -56,38 +67,37 @@ def run(cfg: Config, dry_run: bool = False, web_export: bool = False) -> int:
     logger.info("过滤历史已推送，待打分 %d 条", len(new_jobs))
 
     archive_date = now_in(cfg.tz_name).strftime("%Y-%m-%d")
-    if not new_jobs:
-        logger.info("今天没有新岗位，结束。")
-        logger.info("提示：可调大 HOURS_LOOKBACK 扩大抓取范围，例如 48/72 小时。")
-        if web_export:
-            path = save_daily_archive(data_dir, archive_date, utc_now().isoformat(), [])
-            logger.info("岗位归档已更新：%s", path)
-        return 0
-
-    # 4) DeepSeek 打分
-    scored = score_jobs(new_jobs, cfg)
-
-    # 5) 过滤门槛 + 排序 + 取 Top N
     ranked = []
-    for j in new_jobs:
-        s = scored.get(j["id"])
-        if s and s.get("score", 0) >= cfg.get_int("SCORE_THRESHOLD"):
-            ranked.append({**j, **s})
-    ranked.sort(key=lambda x: x["score"], reverse=True)
-    ranked = ranked[: cfg.get_int("TOP_N")]
-    logger.info("匹配度>=%d 的岗位 %d 条，取 Top %d",
-                cfg.get_int("SCORE_THRESHOLD"), len(ranked), cfg.get_int("TOP_N"))
+    if new_jobs:
+        # 4) DeepSeek 打分
+        scored = score_jobs(new_jobs, cfg)
+        # 5) 过滤门槛 + 排序 + 取 Top N
+        for j in new_jobs:
+            s = scored.get(j["id"])
+            if s and s.get("score", 0) >= cfg.get_int("SCORE_THRESHOLD"):
+                ranked.append({**j, **s})
+        ranked.sort(key=lambda x: x["score"], reverse=True)
+        ranked = ranked[: cfg.get_int("TOP_N")]
+        logger.info("匹配度>=%d 的岗位 %d 条，取 Top %d",
+                    cfg.get_int("SCORE_THRESHOLD"), len(ranked), cfg.get_int("TOP_N"))
+    else:
+        logger.info("今天没有新岗位。")
+        logger.info("提示：可调大 HOURS_LOOKBACK 扩大抓取范围，例如 48/72 小时。")
 
-    if web_export:
+    def _archive() -> None:
         path = save_daily_archive(data_dir, archive_date, utc_now().isoformat(), ranked)
         logger.info("岗位归档已更新：%s（本次新增 %d 个岗位）", path, len(ranked))
+
+    # 只归档、不发邮件（--web-export）
+    if web_export and not send_mail:
+        _archive()
         return 0
 
     # 6) 构建邮件内容（无论是否达标都先构建，dry-run 时总能输出预览）
     html = build_email_html(ranked, cfg)
     text = build_email_plain(ranked, cfg)
 
-    # 7) dry-run：只保存预览，不发送
+    # 7) dry-run：只保存预览，不发送（也不写归档）
     if dry_run:
         log_dir = cfg.get("LOG_DIR") or "logs"
         os.makedirs(log_dir, exist_ok=True)
@@ -97,19 +107,26 @@ def run(cfg: Config, dry_run: bool = False, web_export: bool = False) -> int:
         logger.info("[dry-run] 未发送邮件，HTML 预览已保存：%s（本次 %d 个达标岗位）", out, len(ranked))
         return 0
 
-    # 8) 发送
+    # 8) 发送（没有达标岗位时按 SEND_EMPTY_DIGEST 决定是否发说明邮件）
     if not ranked:
         logger.info("今天没有达标的岗位。")
         logger.info("提示：可调大 HOURS_LOOKBACK 扩大抓取范围，或调低 SCORE_THRESHOLD 降低门槛。")
         if cfg.get_bool("SEND_EMPTY_DIGEST"):
             logger.info("SEND_EMPTY_DIGEST=true，发送说明邮件。")
             send_email(html, text, cfg)
+        if web_export:
+            _archive()
         return 0
 
     if send_email(html, text, cfg):
         sent_ids.update(j["id"] for j in ranked)
         save_sent_ids(cfg.get("SENT_HISTORY_FILE"), sent_ids)
         logger.info("已更新历史记录（累计 %d 条）", len(sent_ids))
+        # 只有邮件发送成功才写归档，避免发信失败导致岗位被永久跳过
+        if web_export:
+            _archive()
+    else:
+        logger.warning("邮件发送失败，本次不写岗位归档，下次运行会重试。")
     return 0
 
 
@@ -121,7 +138,12 @@ def main() -> int:
                              help="只抓取+打分并生成HTML预览，不发送邮件")
     output_mode.add_argument("--web-export", action="store_true",
                              help="抓取+打分并保存每日网站归档，不需要 SMTP 配置")
+    output_mode.add_argument("--publish", action="store_true",
+                             help="抓取+打分 → 发送邮件 → 写入网站归档（GitHub Actions 单一流水线）")
     args = parser.parse_args()
+
+    web_export = args.web_export or args.publish
+    send_mail = not args.web_export  # --web-export 只归档；--publish/默认发邮件
 
     try:
         cfg = Config.load(args.config, require_mail=not args.web_export)
@@ -132,7 +154,7 @@ def main() -> int:
         raise
     setup_logging(cfg.get("LOG_DIR"))
     try:
-        return run(cfg, dry_run=args.dry_run, web_export=args.web_export)
+        return run(cfg, dry_run=args.dry_run, web_export=web_export, send_mail=send_mail)
     except KeyboardInterrupt:
         logger.warning("用户中断。")
         return 130

@@ -47,6 +47,7 @@
 - **网页历史归档**：GitHub Actions 可每日抓取并打分，将岗位按日期保存为 JSON，并部署到 GitHub Pages。
 - **跨平台**：`scripts/setup.py` 一键初始化向导；Windows 计划任务 / Linux cron / macOS launchd 均可定时。
 - **隐私友好**：所有密钥与简历只存在于本地 `config.env` / `skill_profile.txt`（已 `.gitignore`，模板才入库）。
+- **网页档案（GitHub Pages）**：`--publish` 在同一次运行里发邮件并把达标岗位写入 `site/data/<日期>.json`，归档提交回仓库，网页可按日期回看历史——**邮件与网页同源，内容一致**。
 
 <a id="how-it-works"></a>
 
@@ -61,7 +62,7 @@
 2. **打分**：把候选人技能画像与岗位的 `title / company / tags / description` 交给 DeepSeek，按以下维度评分（满分 100）：
    - 技术栈重合度（40%）、经验层级匹配（30%）、远程友好度（20%）、岗位质量（10%）。
 3. **筛选**：低于 `SCORE_THRESHOLD` 的岗位不推；只取分数最高的 `TOP_N` 条。
-4. **推送**：渲染 HTML 邮件发送至 `MAIL_TO`；成功推送的岗位 id 记入历史（上限 5000 条）。
+4. **推送与归档**：渲染 HTML 邮件发送至 `MAIL_TO`；成功推送的岗位 id 记入历史（上限 5000 条）。使用 `--publish` 时还会把本次达标岗位写入 `site/data/<日期>.json`（GitHub Pages 展示，并提交回仓库形成历史）。
 
 > 匹配算法细节见 `jobdigest/scorer.py`；各来源抓取实现见 `jobdigest/fetchers.py`。
 
@@ -138,6 +139,7 @@ cp skill_profile.txt.example skill_profile.txt
 | `python daily_job_digest.py` | 正常推送（读取 `config.env`） |
 | `python daily_job_digest.py --dry-run` | 只抓取 + 打分，生成 HTML 预览到 `logs/preview_*.html`，**不发送邮件** |
 | `python daily_job_digest.py --web-export` | 抓取 + 打分并更新 `site/data/` 每日归档，**不需要 SMTP 配置** |
+| `python daily_job_digest.py --publish` | 归档 + 发邮件（GitHub Actions 单一流水线使用） |
 | `python daily_job_digest.py --config my.env` | 指定配置文件（默认 `config.env`） |
 
 [⬆ 返回目录](#目录)
@@ -201,6 +203,7 @@ cp skill_profile.txt.example skill_profile.txt
 | `SKILL_PROFILE_FILE` | 技能画像文件路径（默认 `skill_profile.txt`，参考 `skill_profile.txt.example` 填写你自己的背景） |
 | `TIMEZONE` | 邮件里显示时间的时区（默认 `Asia/Shanghai`） |
 | `SENT_HISTORY_FILE` | 已推送历史记录文件 |
+| `WEB_DATA_DIR` | 网站岗位归档目录（默认 `site/data`），`--publish` / `--web-export` 时写入 |
 | `LOG_DIR` | 运行日志目录（`logs/digest.log`，自动滚动） |
 | `SEND_EMPTY_DIGEST` | 今天没有达标岗位时是否仍发一封说明邮件（默认 `false`） |
 | `USE_SYSTEM_PROXY` | 是否使用系统代理（默认 `true`）。每个请求若走代理失败（如代理软件未开）会自动改直连重试一次 |
@@ -223,6 +226,7 @@ cp skill_profile.txt.example skill_profile.txt
   验证方式：`git status` 看不到上述 ❌ 文件；`git ls-files` 只列出 ✅ 与代码文件。
 - **占位提醒**：若 `skill_profile.txt` 仍是模板占位内容（未删除「请整段替换成你自己的真实背景」），程序运行时会打印警告，避免照抄示例打分。
 - **网络请求**：程序只访问你配置的数据源 / DeepSeek / SMTP 服务，不向任何第三方上报你的配置或个人画像。
+- **公开岗位归档**：`site/data/<日期>.json` 会被提交到公开仓库并由 GitHub Pages 展示，仅含公开岗位字段（标题/公司/链接/评分/理由/描述/来源/标签），**不含** API Key、邮箱或技能画像。
 
 [⬆ 返回目录](#目录)
 
@@ -230,7 +234,9 @@ cp skill_profile.txt.example skill_profile.txt
 
 ## 📮 定时自动推送
 
-### Windows（每天 8 点，任务计划）
+> 推荐使用 **GitHub Actions** 方案（见下）：一次运行同时完成归档与发信，网页与邮件内容一致，归档还会提交回仓库形成可回看的历史。本地定时仅在你不想使用 Actions 时使用，**二者不要同时启用**。
+
+### Windows 本地定时（每天 8 点，任务计划）
 
 项目自带一键安装脚本 `scripts/install_task.ps1`：
 
@@ -261,7 +267,7 @@ powershell -ExecutionPolicy Bypass -File scripts\uninstall_task.ps1
 
 手动运行一次也可以双击 `scripts\run.bat`。
 
-### Linux / macOS
+### Linux / macOS 本地定时
 
 ```bash
 # 每天 08:00 运行（先确认 crontab -e 里 Python 路径）
@@ -271,15 +277,30 @@ powershell -ExecutionPolicy Bypass -File scripts\uninstall_task.ps1
 macOS 也可用 `launchd`；Linux 桌面可配 systemd timer。
 核心就是在固定时间执行 `python daily_job_digest.py`（工作目录为项目根目录，保证能读到 `config.env`）。
 
-### GitHub Actions + GitHub Pages（云端运行与历史岗位页面）
+### GitHub Actions + GitHub Pages（推荐：归档 + 邮件同源）
 
-仓库内置 `.github/workflows/pages.yml`，默认每天北京时间 08:30 抓取、打分并部署岗位页面。首次启用：
+仓库内置 `.github/workflows/pages.yml`：每天云端**一次运行**完成 抓取 → 打分 → 写归档 → 发邮件 → `git push` 归档 → 部署 Pages。因此**网页与邮件来自同一份数据**；`site/data/<日期>.json` 会提交回仓库，页面顶部日期下拉可回看历史。
 
-1. 在 GitHub 仓库 **Settings → Secrets and variables → Actions** 添加 `DEEPSEEK_API_KEY`，并添加 `SKILL_PROFILE_TEXT`（你的技能画像，多行文本），供云端评分使用。不要将密钥或个人画像提交到仓库。
-2. 在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
-3. 在 **Actions → Publish job archive → Run workflow** 手动运行一次。之后也可在该工作流的运行记录中查看结果。
+首次启用：
 
-工作流使用 `--web-export`，不需要配置 SMTP；本地邮件推送流程不受影响。每日归档写入 `site/data/YYYY-MM-DD.json` 并提交到仓库，因此历史记录会跨运行保留。页面含职位、公司、匹配分数、来源、标签、描述和原始链接；**GitHub Pages 与仓库中的归档数据是公开的**，请勿在技能画像或岗位描述中放入隐私信息。工作流使用的 `DEEPSEEK_API_KEY` 和 `SKILL_PROFILE_TEXT` 仅从 Actions Secrets 读取，不会发布到 Pages。
+1. 在 **Settings → Secrets and variables → Actions → Secrets** 添加：
+
+   | Secret | 说明 |
+   | --- | --- |
+   | `DEEPSEEK_API_KEY` | DeepSeek API Key |
+   | `SKILL_PROFILE_TEXT` | 技能画像全文（与本地 `skill_profile.txt` 保持一致） |
+   | `SMTP_HOST` / `SMTP_PORT` / `SMTP_USER` / `SMTP_PASS` | 发件邮箱 SMTP（`SMTP_PASS` 是授权码/应用专用密码） |
+   | `MAIL_TO` | 收件人，多个用英文逗号分隔 |
+
+2. （可选）在 **Variables** 添加非敏感配置：`REMOTEOK_TAGS`、`ENABLED_SOURCES`、`SEARCH_KEYWORDS`、`SCORE_THRESHOLD`、`TOP_N`、`HOURS_LOOKBACK`、`REMOTEOK_LOOKBACK_HOURS`、`REMOTIVE_LOOKBACK_HOURS`、`TIMEZONE`、`MAIL_SENDER_NAME`、`SEND_EMPTY_DIGEST`；未设置时使用内置默认值。
+3. 在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+4. 在 **Actions → Daily digest (archive + email) → Run workflow** 手动运行一次验证；之后按 cron `00:30 UTC`（= 08:30 Asia/Shanghai）自动执行（GitHub 调度可能延迟几分钟～数小时）。
+
+页面地址：`https://<你的用户名>.github.io/<仓库名>/`，顶部日期下拉可切换历史日期。
+
+> 页面与 `site/data` 归档是公开的（含职位标题/公司/链接/评分/理由/描述），不要写入隐私信息；密钥与画像只从 Secrets 读取，不会进入 Pages。
+> 使用 Actions 后请**停用本地计划任务**（`scripts/uninstall_task.ps1`），否则两套流水线会各自发信，内容可能不一致。
+> 历史数据持久化：workflow 的「Commit & push updated archive」会把 `site/data` 推回 main；此前未入库的旧归档只能在 Actions artifact 保留期内尝试下载合并，过期则无法恢复。
 
 [⬆ 返回目录](#目录)
 
@@ -334,6 +355,9 @@ daily-job-digest/
 - **一直收不到邮件**：先跑 `python daily_job_digest.py --dry-run` 看打分是否正常、有没有达标岗位；再查 `logs/digest.log`。常见原因：① 当天代理软件没开导致全部来源失败（现在会自动直连重试，通常不再全 0）；② 非月初时 HN 本就没量，而 RemoteOK/Remotive 是常驻岗、靠 7 天窗口兜底；③ `SCORE_THRESHOLD` 太高可调低，或调大 `HOURS_LOOKBACK` / `TOP_N`。
 - **中文字符在控制台乱码/报错**：程序已自动将输出切为 UTF-8，正常无需处理。
 - **改技能画像 / 适配不同用户**：复制 `skill_profile.txt.example` 为 `skill_profile.txt` 后整段替换成你自己的背景，并在 `config.env` 里同步修改 `REMOTEOK_TAGS`。项目不绑定任何职业背景，打分完全以你的画像为准。
+- **Pages 页面内容和邮件不一样？**：旧版是"本地发邮件 + 云端 `--web-export`"两套独立流水线，配置/运行时间/去重历史都不同，内容必然有差异。现在统一为 `--publish` 单一流水线（同一次运行同时归档 + 发信）；如仍不一致，请确认：已停用本地计划任务、Actions Variables 与预期一致、`SKILL_PROFILE_TEXT` 与本地画像一致、页面已强制刷新。
+- **历史页面只有一天？**：确认 workflow「Commit & push updated archive」成功（需要 Contents 读写权限，本仓库已配置）；归档在 `site/data/<日期>.json` 并提交回 main。旧版本只 commit 未 push，导致每次 runner 从空历史开始——现已修复。
+- **Actions 提示缺少 secret**：在 **Settings → Secrets and variables → Actions → Secrets** 添加 `DEEPSEEK_API_KEY`、`SKILL_PROFILE_TEXT`、`SMTP_HOST`、`SMTP_PORT`、`SMTP_USER`、`SMTP_PASS`、`MAIL_TO`。
 - **避免重复推送**：推送成功的岗位 id 会记入 `sent_job_ids.json`（最多保留 5000 条），同一天重复运行不会重复推送。
 
 [⬆ 返回目录](#目录)

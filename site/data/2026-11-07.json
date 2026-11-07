@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T06:19:12.305535+00:00",
+  "count": 5,
+  "jobs": [
+    {
+      "id": "remoteok_1137619",
+      "title": "AI ML Engineer",
+      "company": "Docusketch",
+      "score": 82,
+      "reason": "AI/ML工程师做目标检测与3D视觉，与候选人PyTorch/CV/遥感检测经验高度匹配。",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-ml-engineer-docusketch-1137619",
+      "source": "RemoteOK",
+      "tags": [
+        "dev",
+        "ai",
+        "machine learning",
+        "deep learning",
+        "artificial intelligence",
+        "neural networks",
+        "3D",
+        "exec",
+        "PyTorch",
+        "product"
+      ],
+      "posted_at": "2026-11-02T10:43:35+00:00",
+      "description": "The fastest-growing European SaaS company is searching for anÂ AI/ML Engineer ! You can be our perfect match! About DocuSketch: DocuSketch, with its European Headquarters in Potsdam, Germany, is a leading European software technology provider for the digital real estate economy. With our product brands Immoviewer and DocuSketch, we have become one of the most successful and fastest-growing software vendors in the rapidly expanding property tech sector. Our enthusiastic customer base is located across Europe and North America. DocuSketch's groundbreaking digital technology greatly facilitates real estate companies and building restoration companies to digitize, visualize, and virtualize real estate properties. Our solutions help our clients realize tremendous cost-saving potentials, process optimization, and revenue growth.Â Youâll be working in a team that drives the company's AI development to developÂ algorithms for a variety of different use cases. This includes e.g. working withÂ equirectangular, phone, or satellite images to detect doors, windows, or other objects insideÂ of buildings or finding facets on the roof. Youâll be challenged by solving complex 3DÂ geometry problems and working closely with our labeling team to ensure the best possibleÂ data quality. Responsibilities and Duties: Â·Â Research, train and deploy state-of-the-art machine learning models for objectÂ detection and 3D perception on equirectangular images Â·Â Quickly prototype new ideas/technologies to create proof of concept and demos Qualifications: Â·Â Bachelorâs Degree in Computer Science or equivalent experience Â·Â Excellent math skills Â·Â Experience with 3D computer vision algorithms Â·Â Preferably 5+ years of experience developing and training machine learning models Â·Â StrongÂ Ex…"
+    },
+    {
+      "id": "hn_50398466",
+      "title": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, TypeScript, React, AI Agents We’re buildin",
+      "company": "",
+      "score": 78,
+      "reason": "远程欧洲高级/资深工程师，Python+AI Agents技术栈高度重合，CAD/几何经验为加分项，匹配度高。",
+      "url": "https://news.ycombinator.com/item?id=50398466",
+      "source": "HN-WhoIsHiring",
+      "tags": [],
+      "posted_at": "2026-11-06T21:01:10+00:00",
+      "description": "3ive | Senior/Staff Software Engineer | REMOTE (Europe) | Full-time | Python, TypeScript, React, AI Agents We’re building Cursor for mechanical engineering. Imagine an AI that doesn’t just answer questions about a mechanical design, but can actually understand CAD models, work with geometry, and help engineers create and modify real designs. That’s what we’re building. It’s a hard engineering problem. We’re combining AI agents, CAD, computational geometry, and interactive software into a product engineers can rely on. We’re a small but mighty team looking for an exceptional, hands-on Senior/Staff Engineer to help build it. Think founding engineer in terms of ownership. You’ll help shape our agent and backend architecture, solve challenging problems across the stack, and establish the engineering foundations as we grow. We’re looking for someone who’s built ambitious products, ideally at startups or scaleups, and has the technical depth to figure things out when there’s no obvious solution. Ideally, you have experience with CAD, 3D geometry, or engineering software, alongside strong software engineering fundamentals. Experience building AI agents is a big plus. Our stack is primarily Python, TypeScript, and React. Apply: https://jobs.ashbyhq.com/3ive/36d01a3c-94ac-4d6c-b872-4b0f9c..."
+    },
+    {
+      "id": "remoteok_1137691",
+      "title": "Feltsense AI Engineer",
+      "company": "Silver.dev",
+      "score": 78,
+      "reason": "AI Agent系统架构与LLM后端开发，与候选人Agent/RAG/FastAPI经验高度契合，远程友好。",
+      "url": "https://remoteOK.com/remote-jobs/remote-feltsense-ai-engineer-silver-dev-1137691",
+      "source": "RemoteOK",
+      "tags": [
+        "design",
+        "sys admin",
+        "exec",
+        "technical",
+        "customer support",
+        "dev",
+        "testing",
+        "javascript",
+        "cloud",
+        "postgres",
+        "typescript",
+        "node",
+        "node.js",
+        "engineer",
+        "backend",
+        "digital nomad"
+      ],
+      "posted_at": "2026-11-05T16:00:07+00:00",
+      "description": "About the company We raised $5.1M to build agents that operate as fully autonomous founders. Our backers include Matt Schlicht (founder of Moltbook), the founders of Crunchbase and Republic, and VCs including Draper, Precursor, and Liquid2. We're working at the frontier of autonomous systems, building agents that don't just chat, but run entire businesses. Our system identifies business opportunities through market signals, validates ideas with live ad tests, builds and launches software products, and brings in human experts wherever agents fall short. That loop already runs end to end: from idea to launched product to first revenue. Over the next 12 months, our focus is on reliability, throughput, and self-improvement, making every launch better than the last. About the role We're looking for a hands-on AI Engineer to take ownership of the architecture and development of our autonomous agent system. You'll lead the technical direction of the platform, building multi-agent orchestration systems, self-improving agent harnesses, and AI-powered backend services. This is a highly technical leadership role that combines architectural decision-making with hands-on engineering. You'll be expected to ship production code, make key technical decisions, improve agent behavior in production, and help establish the engineering standards as the company scales. Responsibilities Own the system architecture and make key technical decisions across the platform. Design and build multi-agent systems and orchestration infrastructure that take products from idea to launch. Develop self-improving agent harnesses, including feedback loops, evaluation systems, and memory. Build and maintain AI-powered backend services on top of LLM APIs such as Anthropic, OpenAI, and Gemini. Write production c…"
+    },
+    {
+      "id": "hn_50396245",
+      "title": "BuildQ | Founding Engineer | REMOTE (PT to ET overlap preferred) | $130K - $150K + equity | Full-time | Seed | https://b",
+      "company": "",
+      "score": 72,
+      "reason": "远程创始工程师，Python/React/AWS技术栈与AI Agent产品方向高度契合，薪资透明，仅需PT-ET时区重叠。",
+      "url": "https://news.ycombinator.com/item?id=50396245",
+      "source": "HN-WhoIsHiring",
+      "tags": [],
+      "posted_at": "2026-11-06T18:26:22+00:00",
+      "description": "BuildQ | Founding Engineer | REMOTE (PT to ET overlap preferred) | $130K - $150K + equity | Full-time | Seed | https://buildq.ai/careers/founding-engineer Hey folks! I'm Dylan, CTO at BuildQ, and we're building out our founding eng team. Today, a $200M solar project sits for weeks while someone reads thousands of PDFs before it can be financed. We make that review fast: customers order diligence from us, our agents do the work, and an expert signs off. We've processed 200,000+ documents across 1,100+ projects so far. We're remote, and the benefits are great (a startup with a 401k match!). We're looking for a Founding Engineer to join 2 of us on the engineering team. You'll ship to production on your first day, and you'll help shape what the future of BuildQ looks like. Stack: Rails, Python, React, TS, Postgres, AWS Email careers@buildq.ai with \"HN Founding Engineer\", anything you're proud to share that you've built, and any questions you may have."
+    },
+    {
+      "id": "hn_50398375",
+      "title": "Sparcle | San Francisco Bay Area | Remote | Equity, full-time, part-time, fractional, project, partnership or revenue sh",
+      "company": "",
+      "score": 60,
+      "reason": "远程AI工作区与搜索产品，涉及AI/本地优先系统，与LLM应用背景契合，但岗位形式灵活且信息较模糊。",
+      "url": "https://news.ycombinator.com/item?id=50398375",
+      "source": "HN-WhoIsHiring",
+      "tags": [],
+      "posted_at": "2026-11-06T20:53:38+00:00",
+      "description": "Sparcle | San Francisco Bay Area | Remote | Equity, full-time, part-time, fractional, project, partnership or revenue share We build Bolt, a governed AI workspace with on-device and hybrid AI, and Aeira, ACL-aware enterprise search. Privacy and sovereignty first. Looking for engineers (security, local-first systems), GTM and partnerships people who know regulated industries, fractional experts, and integrators open to revenue share. Try Bolt first (sparcle.app/download) and see if we are the fit mutually. No LeetCode, no trick questions. Tell us your story and what you would do first: rajendra@sparcle.app"
+    }
+  ]
+}
