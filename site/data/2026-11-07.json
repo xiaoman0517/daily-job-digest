@@ -1,7 +1,7 @@
 {
   "date": "2026-11-07",
-  "generated_at": "2026-11-07T06:19:12.305535+00:00",
-  "count": 5,
+  "generated_at": "2026-11-07T08:09:37.837287+00:00",
+  "count": 7,
   "jobs": [
     {
       "id": "remoteok_1137619",
@@ -78,6 +78,34 @@
       "tags": [],
       "posted_at": "2026-11-06T18:26:22+00:00",
       "description": "BuildQ | Founding Engineer | REMOTE (PT to ET overlap preferred) | $130K - $150K + equity | Full-time | Seed | https://buildq.ai/careers/founding-engineer Hey folks! I'm Dylan, CTO at BuildQ, and we're building out our founding eng team. Today, a $200M solar project sits for weeks while someone reads thousands of PDFs before it can be financed. We make that review fast: customers order diligence from us, our agents do the work, and an expert signs off. We've processed 200,000+ documents across 1,100+ projects so far. We're remote, and the benefits are great (a startup with a 401k match!). We're looking for a Founding Engineer to join 2 of us on the engineering team. You'll ship to production on your first day, and you'll help shape what the future of BuildQ looks like. Stack: Rails, Python, React, TS, Postgres, AWS Email careers@buildq.ai with \"HN Founding Engineer\", anything you're proud to share that you've built, and any questions you may have."
+    },
+    {
+      "id": "jobicy_159382",
+      "title": "Head of AI Native Operations",
+      "company": "Supabase",
+      "score": 62,
+      "reason": "Supabase AI原生运营负责人岗涉及Agent平台架构与LLM工程，与候选人Agent/RAG经验契合，但偏运营管理且要求团队领导经验。",
+      "url": "https://jobicy.com/jobs/159382-head-of-ai-native-operations",
+      "source": "Jobicy",
+      "tags": [
+        "Product & Operations"
+      ],
+      "posted_at": "2026-11-06T16:02:00+00:00",
+      "description": "📍 Anywhere\nAbout Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We are looking for a Head of AI Native Operations to build the autonomous systems that run Supabase. Supabase is building an AI-native internal operating system, where agents carry the operational load end to end. We are standing up a new central team to build that platform and run it in production. This is the role that leads it, and it is hands-on. You design the architecture, build the first versions of the critical pieces, and are accountable for whether every agent we run is correct, safe, and improving over time. We build rather than buy, and there are no settled best practices for most of this yet, so you will be setting them. You will lead a team of senior individual contributors extending the platform and driving adoption across teams. What You’ll Be Responsible For In this role, you’ll: Own the agent platform architecture: The harness and orchestration layer and connectors into company systems, shared context and memory, and the path from prototype to production. Catch regressions before they ship: Model, prompt, and tool changes can’t ship until they pass the evals. When a new model comes out, you know within hours whether to adopt it. Make every agent observable: Every run and every decision is traced. For any agent at any time, you can answer what it did, why, what it cost, and how its quality is trending. Own safety and trust: Design the controls that let agents act without a human in the loop: least-privilege credentials, hard policy limits, escalation thresholds, audi…"
+    },
+    {
+      "id": "jobicy_152574",
+      "title": "Solution Engineer",
+      "company": "RelationalAI",
+      "score": 62,
+      "reason": "RelationalAI方案工程师涉及LLM/知识图谱与Python，与AI应用背景契合，但偏客户交付且需企业数据建模经验。",
+      "url": "https://jobicy.com/jobs/152574-solution-engineer-3",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-07T03:05:14+00:00",
+      "description": "📍 Anywhere\nWho We Are At RelationalAI , we’re solving one of the most important challenges in artificial intelligence: how to teach large language models the logic, semantics, and business context of the modern enterprise. Frontier models are trained almost entirely on public data — they can speak about the world, but they don’t understand your business. We fix that. RelationalAI has pioneered a breakthrough called Superalignment — technology that enables LLMs to learn natively from private, structured enterprise data inside the data cloud. By combining this with relational knowledge graphs and our proprietary neuro/symbolic-relational reasoners , we deliver trustworthy decision intelligence : systems that use semantic models to truly understand how a business operates and can reason across its data to drive better outcomes. We’re a globally distributed team of engineers, scientists, and builders redefining how AI learns from data. We believe that high-stakes decisions deserve frontier intelligence — intelligence that’s explainable, aligned, and grounded in reality. If you’re driven by curiosity, thrive in complexity, and want to help build the system that brings true understanding to enterprise AI, you’ll feel right at home here. The Role You will be embedded inside our customers' hardest problems, and you will own the outcome until it works in production. You'll sit with executives, domain experts, and data teams to find the decisions that actually move their business - inventory that's in the wrong place, risk concentrations nobody can see, fraud patterns that only emerge across three systems, capacity plans built on guesses. Then you'll model their world in our ontology, formulate the reasoning problem, write the PyRel, and ship something that runs against their real data in t…"
     },
     {
       "id": "hn_50398375",
