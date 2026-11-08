@@ -1,0 +1,83 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T06:25:55.379804+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "id": "remoteok_1137701",
+      "title": "AI Developer",
+      "company": "Salvo Software",
+      "score": 82,
+      "reason": "AI开发者岗位，LLM/RAG/Python/Docker高度重合，远程友好，契合候选人当前转型方向。",
+      "url": "https://remoteOK.com/remote-jobs/remote-ai-developer-salvo-software-1137701",
+      "source": "RemoteOK",
+      "tags": [
+        "dev",
+        "grafana",
+        "infosec",
+        "python",
+        "docker",
+        "technical",
+        "customer support",
+        "devops",
+        "c",
+        "c plus plus",
+        "cloud",
+        "git",
+        "admin",
+        "microsoft",
+        "ops",
+        "golang",
+        "engineer",
+        "apache",
+        "linux",
+        "backend",
+        "digital nomad"
+      ],
+      "posted_at": "2026-11-07T00:00:02+00:00",
+      "description": "Salvo Software is a global technology company specializing in custom software development and advanced engineering solutions. With distributed teams across the US, LATAM, and India, we partner with clients to build high-performance, scalable systems that solve complex technical challenges. Our culture values innovation, ownership, and engineering excellence. We're growing our AI department and are looking for a hands-on AI Developer to help build it. Role Overview We are looking for an AI Developer to join and strengthen our AI department. Your core work will be building and operating LLM-powered systems: serving open-source models with Ollama and llama.cpp, building RAG pipelines, and developing MCP integrations that connect large language models to real tools and data. Solid DevOps fundamentals - Docker, CI/CD, Azure - support this work, but AI engineering is the heart of the role. You don't need to be a deep ML researcher. What matters is production-grade Python, strong fundamentals, and the aptitude to learn fast. You'll work closely with our engineering and product teams to take LLM-powered features from prototype to reliably deployed systems, with mentorship available as you ramp up in areas like RAG architecture, Kafka, and advanced MCP work. Key Responsibilities AI / LLM Engineering (core focus) Serve and operate open-source LLMs using Ollama and llama.cpp, locally and in on-prem environments. Build and maintain RAG pipelines: embeddings, vector databases, chunking strategies, and retrieval quality. Develop MCP (Model Context Protocol) integrations connecting LLMs to internal tools and data sources. Build backend services in Python that power ML inference and AI-driven product features. Parse and process structured and semi-structured data (XML/XSD, Office docum…"
+    },
+    {
+      "id": "jobicy_152627",
+      "title": "Senior AI Engineer - Multi-Agent Frameworks",
+      "company": "ClickUp",
+      "score": 78,
+      "reason": "多智能体框架AI工程师，要求LLM、LangGraph、Agent编排，与候选人当前LLM/Agent/RAG方向高度契合，但为美国本地岗位降低远程适配。",
+      "url": "https://jobicy.com/jobs/152627-senior-ai-engineer-multi-agent-frameworks",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-08T02:55:09+00:00",
+      "description": "📍 USA\nAt ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring process. Join us and help redefine what's possible. 🚀 Role Overview: We are seeking a skilled and experienced Senior AI Engineer - Multi-Agent Frameworks to join our AI Platform team. In this role, you will play a pivotal part in building a cutting-edge platform that empowers our users to create and deploy sophisticated intelligent agents, with a key focus on enabling collaborative and multi-agentic behaviors . This is a backend-focused role that requires deep expertise in AI, large language models (LLMs), and orchestration software. Key Responsibilities: Design, develop, and maintain a robust platform to enable users to create and manage AI agents and their interactions. Integrate and work with multiple LLMs, ensuring seamless orchestration and scalability for both individual and coordinated agent operations. Leverage orchestration frameworks like LangGraph and others to build complex workflows and pipelines that support diverse agent functionalities, including frameworks for multi-agent coordination . Develop and implement evaluation frameworks for testing AI agents in challenging and complex scenarios, focusing on individual performance and system-level dynamics. Stay at the forefront of AI advancements, incorporating the latest research and technologies into our platform to enhance agent capabilities and collaboration. Collaborate with cross-functional teams, including product managers, designers, and frontend engineers, to deliver a seamless user experien…"
+    },
+    {
+      "id": "jobicy_152636",
+      "title": "Staff AI Engineer - Multi-Agent Frameworks",
+      "company": "ClickUp",
+      "score": 78,
+      "reason": "多智能体框架Staff AI工程师，要求LLM、LangGraph、Agent编排，与候选人当前LLM/Agent/RAG方向高度契合，唯限USA。",
+      "url": "https://jobicy.com/jobs/152636-staff-ai-engineer-multi-agent-frameworks",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-08T02:45:20+00:00",
+      "description": "📍 USA\nAt ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring process. Join us and help redefine what's possible. 🚀 Role Overview: We are seeking a highly skilled Staff AI Engineer - Multi-Agent Frameworks to join our AI Platform team. In this role, you will play a pivotal part in building a cutting-edge platform that empowers our users to create and deploy sophisticated intelligent agents, with a key focus on enabling collaborative and multi-agentic behaviors . This is a backend-focused role that requires deep expertise in AI, large language models (LLMs), and orchestration software. Key Responsibilities: Design, develop, and maintain a robust platform to enable users to create and manage AI agents and their interactions. Integrate and work with multiple LLMs, ensuring seamless orchestration and scalability for both individual and coordinated agent operations. Leverage orchestration frameworks like LangGraph and others to build complex workflows and pipelines that support diverse agent functionalities, including frameworks for multi-agent coordination . Develop and implement evaluation frameworks for testing AI agents in challenging and complex scenarios, focusing on individual performance and system-level dynamics. Stay at the forefront of AI advancements, incorporating the latest research and technologies into our platform to enhance agent capabilities and collaboration. Collaborate with cross-functional teams, including product managers, designers, and frontend engineers, to deliver a seamless user experience for bui…"
+    },
+    {
+      "id": "jobicy_154820",
+      "title": "Research Engineer - Inference",
+      "company": "Elevenlabs",
+      "score": 60,
+      "reason": "推理方向研究工程师涉及深度学习模型部署优化，与PyTorch/模型部署经验契合，但偏底层推理优化且限欧美",
+      "url": "https://jobicy.com/jobs/154820-research-engineer-inference",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-08T03:00:16+00:00",
+      "description": "📍 Bulgaria,  Poland,  UK,  USA\nAbout ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovativ…"
+    }
+  ]
+}
