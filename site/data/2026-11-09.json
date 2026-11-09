@@ -1,0 +1,77 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T06:58:41.007361+00:00",
+  "count": 5,
+  "jobs": [
+    {
+      "id": "jobicy_152763",
+      "title": "Member of Technical Staff (Applied AI)",
+      "company": "Reka",
+      "score": 82,
+      "reason": "应用AI工程岗，要求LLM/Transformer落地与端到端交付，与候选人AI应用开发及模型部署经验高度契合，远程优先。",
+      "url": "https://jobicy.com/jobs/152763-member-of-technical-staff-applied-ai",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-09T03:10:05+00:00",
+      "description": "📍 UK,  USA\nAs a Member of Technical Staff on Applied AI, you will: Productionize frontier AI models to solve complex real-world problems. Collaborate closely with researchers and other teammates on the latest advancements in AI and ML. Work closely with our customers to integrate our models into their technology stack. Make direct business impact with a high level of product ownership. Be a founding member of a fast-growing team and wear many hats. You may be a good fit, if you have: An obsession with customers and a passion for solving practical (but sometimes ambiguous) real-world problems. Experience as a machine learning engineer, ideally working on AI products for external customers. Background as a technical founder or in a similar capacity. Practical experience working with transformer models and LLMs. An exceptional ability to communicate and work effectively with cross-functional teams. Track records of owning problems end-to-end, and can learn fast and pick up new knowledge to get the job done. A kind and collaborative nature and work style. Reka's Mission Reka's mission is to build useful multimodal artificial intelligence and use it to empower organisations and businesses. We are a globally distributed foundation model startup, headquartered in the San Francisco Bay Area, California. Embracing a remote-first approach, our team brings together top talent from around the world. Our founding team, along with many of our team members, has contributed to many of the breakthroughs in AI over the past decade. Why Reka? An Elite Team : Collaborate with top-tier engineers, researchers, operators from renowned organizations like Google DeepMind and Facebook AI Research (FAIR) and successful startups, driving innovation in cutting-edge AI technology. Massive Market Opportunity : …"
+    },
+    {
+      "id": "jobicy_152760",
+      "title": "Member of Technical Staff (ML)",
+      "company": "Reka",
+      "score": 72,
+      "reason": "大模型训练与评估岗，PyTorch与深度学习经验匹配，但更偏研究型大规模训练，候选人偏应用工程。",
+      "url": "https://jobicy.com/jobs/152760-member-of-technical-staff-ml",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-09T03:10:04+00:00",
+      "description": "📍 UK,  USA\nAs a Member of Technical Staff on Machine Learning, you will: Contribute to the entire development cycle of our cutting-edge large deep learning models. Prepare datasets, design architectures, implement solutions, train and evaluate models to improve our products. Collaborate closely with engineers and researchers to translate cutting-edge research into practical applications. Join us at an exciting moment, wear many hats and help us build something from the ground up! You may be a good fit, if you have: Experience with training and evaluating large deep learning models. Proficiency in standard deep learning frameworks (e.g. PyTorch, JAX). Proven track record of applying and implementing machine learning algorithms into software applications at scale. The ability to build in a fast-paced environment under some uncertainty. A kind and collaborative nature and work style. Reka's Mission Reka's mission is to build useful multimodal artificial intelligence and use it to empower organisations and businesses. We are a globally distributed foundation model startup, headquartered in the San Francisco Bay Area, California. Embracing a remote-first approach, our team brings together top talent from around the world. Our founding team, along with many of our team members, has contributed to many of the breakthroughs in AI over the past decade. Why Reka? An Elite Team : Collaborate with top-tier engineers, researchers, operators from renowned organizations like Google DeepMind and Facebook AI Research (FAIR) and successful startups, driving innovation in cutting-edge AI technology. Massive Market Opportunity : Be part of a rapidly growing industry poised to transform multiple sectors globally, offering the chance to make a significant impact. Mission-Driven Environment : Work along…"
+    },
+    {
+      "id": "jobicy_152746",
+      "title": "Data Scientist, AI/ML",
+      "company": "Gremlin",
+      "score": 68,
+      "reason": "AI/ML数据科学家岗，机器学习建模与故障分析契合，但偏数据科学与可观测性领域，且限美国。",
+      "url": "https://jobicy.com/jobs/152746-data-scientist-ai-ml",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-09T03:04:29+00:00",
+      "description": "📍 USA\nData Scientist, AI/ML Job Description: Today’s complex, fast-paced systems have become a minefield of reliability risks, any of which could cause an outage that costs millions and destroys customer confidence. That’s why high-availability teams use Gremlin to find and fix reliability risks before they become incidents. Gremlin Reliability Platform helps software teams proactively monitor and test their systems for common reliability risks, build and enforce reliability standards, and automate their reliability practices organization-wide. As the industry leader in Chaos Engineering and reliability testing, we work with hundreds of the world’s largest organizations where high availability is non-negotiable. About the Role of the Data Scientist, AI/ML As a Data Scientist, AI/ML at Gremlin, you will have the opportunity to improve the reliability of the internet at large by turning millions of chaos engineering experiments into automated failure analysis and remediation. You will be able to leverage your applied machine learning experience to inform product direction as well as solve complex technical problems that directly impact our customers (which range from the Fortune 500 to smaller organizations). You will work closely with a small, talented engineering team focused on quality, delivery, and predictability with an emphasis on providing our customers a great user experience. In this role, you’ll get to: Analyze Gremlin’s proprietary dataset of millions of chaos engineering experiments to identify failure patterns, root causes, and resilience signals across complex distributed systems Pretraining and fine-tuning machine learning models that automatically detect, classify, and explain failures observed during chaos experiments Build intelligent systems that deliver aut…"
+    },
+    {
+      "id": "jobicy_154946",
+      "title": "AI Engineer, GTM",
+      "company": "Cresta",
+      "score": 62,
+      "reason": "GTM方向AI工程师，涉及LLM/Agent应用开发与候选人AI应用方向契合，但偏销售运营场景且限美国",
+      "url": "https://jobicy.com/jobs/154946-ai-engineer-gtm",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-09T03:20:23+00:00",
+      "description": "📍 USA\nCresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta’s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu , founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta. AI Engineer, GTM Cresta’s mission is to help companies turn conversations into their competitive advantage. We build AI that helps the world’s largest enterprises unlock revenue, efficiency, and insight from every customer interaction. We are hiring an AI Engineer (GTM) to rebuild how go to market works. This role is about eliminating manual work, helping our teams focus on the right accounts, and building systems that make winning easier. You will work directly with our CEO, CRO, CMO, and Rev Ops leadership to design and deploy an AI native operating system for our revenue engine. Location: Remote / Hybrid - Targeting SF or NYC, may consider additional locations across the US. What you will do Help GTM teams prioritize the right accounts Use AI and data to help SDR, marketing, and s…"
+    },
+    {
+      "id": "jobicy_154018",
+      "title": "Full-Stack Engineer (Back-End Leaning)",
+      "company": "Elevenlabs",
+      "score": 62,
+      "reason": "AI公司全栈偏后端工程岗，Python/后端与AI产品经验契合，但需较强后端系统经验且未明确远程",
+      "url": "https://jobicy.com/jobs/154018-full-stack-engineer-back-end-leaning",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-09T03:15:13+00:00",
+      "description": "📍 Bulgaria,  Germany,  Ireland,  Netherlands,  Poland,  Portugal,  Spain,  UK,  USA\nAbout ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $11B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovativ…"
+    }
+  ]
+}
