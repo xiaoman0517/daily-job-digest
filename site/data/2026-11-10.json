@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T07:34:56.981023+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "id": "jobicy_160792",
+      "title": "Senior Software Engineer",
+      "company": "Cloudbeds",
+      "score": 82,
+      "reason": "Python为主的生产级AI/Agent工作流与评估工程岗，与候选人LLM/Agent/RAG经验高度契合，远程友好。",
+      "url": "https://jobicy.com/jobs/160792-senior-software-engineer-23",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-10T04:19:53+00:00",
+      "description": "📍 LATAM,  Canada,  USA\nWhat Makes Cloudbeds Unique At Cloudbeds , we're not just building software, we're transforming hospitality. Our platform powers hotels across 150 countries, processing billions in bookings annually. From boutique properties to large hotel groups, we help hoteliers transform operations and uplevel their commercial strategy through a unified platform that integrates with hundreds of partners. And we do it with a completely remote team. Imagine working alongside global innovators to build AI-powered solutions that solve hoteliers' biggest challenges. Since our founding in 2012, we've continually been recognized for excellence, most recently earning top honors at the 2026 HotelTechAwards for Best Hotel Management Software and landing on Deloitte's Technology Fast 500 again, but we're just getting started. How You'll Make an Impact: As a Senior Software Engineer on the Core AI Squad, you'll design, build, and operate customer-facing AI platform capabilities that power intelligent product experiences across Cloudbeds. This is a product engineering role focused on production AI systems, agentic workflows, evaluation, and observability - not an internal tooling role. You'll work primarily in Python while collaborating across our broader PHP and Java ecosystem, building systems where correctness, reliability, latency, cost, and model quality are core to the job. Your goal is to help Cloudbeds ship AI-powered customer experiences that are useful, trusted, scalable, and measurable. Our Core AI Squad: The Core AI Squad owns the customer-facing AI platform infrastructure, agentic workflows, and evaluation and observability foundations that enable AI-powered experiences across Cloudbeds products. The team builds the production capabilities that let us evaluate models and providers f…"
+    },
+    {
+      "id": "jobicy_160802",
+      "title": "Senior Engineer",
+      "company": "Caylent",
+      "score": 62,
+      "reason": "AWS+Lambda+生成式AI/Agent开发与候选人技能部分重合，但偏Amazon Connect客服中心方向且限墨西哥。",
+      "url": "https://jobicy.com/jobs/160802-senior-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-10T04:22:03+00:00",
+      "description": "📍 Mexico\nCaylent is an AI-first cloud services company that helps organizations turn ambitious ideas into meaningful business impact. As an AWS Premier Tier Services Partner and a charter member of Anthropic’s Claude Partner Network, we combine deep expertise in AWS, artificial intelligence, and Anthropic’s Claude platform to help customers modernize their technology, build intelligent products, and move AI from experimentation into production. Our capabilities span generative and agentic AI, cloud migration and modernization, cloud-native application development, data and analytics, DevOps, managed services, security and compliance, and customer experience transformation. At Caylent, our people always come first. We are a fully remote global company with employees in Canada, the United States and Latin America. We celebrate the culture of each of our team members and foster a community of technological curiosity. Come talk to us to learn more about what it means to be a Caylien! The Mission As a Senior CXE Engineer, you are a hands-on builder on enterprise contact center transformations. You will spend the majority of your time in code and in the AWS console: building contact flows and AI agents, writing Lambda functions and CDK stacks, developing React-based agent and admin tooling, and debugging production issues on systems that serve tens of thousands of agents and millions of customer interactions. You work within architectures set by practice leads, and you’re expected to pressure-test them, propose better patterns, and own the implementation quality of your workstream from first commit through production cutover. This role blends deep Amazon Connect platform engineering, generative AI development on Bedrock and Claude, and full-stack serverless work, with regular direct i…"
+    },
+    {
+      "id": "jobicy_160721",
+      "title": "Senior Software Engineer, Operations Tools & Al Enablement",
+      "company": "Serve Robotics",
+      "score": 62,
+      "reason": "机器人公司高级软件工程师，涉及AI辅助编码与运营工具开发，与候选人AI应用开发及端到端交付经验较契合，但需美国地点。",
+      "url": "https://jobicy.com/jobs/160721-senior-software-engineer-operations-tools-al-enablement",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-10T02:53:47+00:00",
+      "description": "📍 USA\nAt Serve Robotics , we’re reimagining how things move in cities. Our personable sidewalk robot is our vision for the future. It’s designed to take deliveries away from congested streets, make deliveries available to more people, and benefit local businesses. The Serve fleet has been delighting merchants, customers, and pedestrians along the way in Los Angeles, Miami, Dallas, Atlanta and Chicago while doing commercial deliveries. We’re looking for talented individuals who will grow robotic deliveries from surprising novelty to efficient ubiquity. Who We Are We are tech industry veterans in software, hardware, and design who are pooling our skills to build the future we want to live in. We are solving real-world problems leveraging robotics, machine learning and computer vision, among other disciplines, with a mindful eye towards the end-to-end user experience. Our team is agile, diverse, and driven. We believe that the best way to solve complicated dynamic problems is collaboratively and respectfully. JOB OVERVIEW Build practical software that makes Robotics Operations more effective. We are looking for a proactive engineer with a product and entrepreneurial mindset: someone who discovers opportunities, anticipates pain points, and turns them into useful, reliable software. You will deliver improvements quickly and own the tools we rely on, including applications originally built with Al-assisted coding. You will be an engineer embedded with Operations, taking initiative to understand how teams work and where software can make the biggest difference. You will observe workflows, ask questions, and use feedback and data to uncover unmet needs, including problems users have learned to work around. You will help shape what gets built, rather than wait for a fully defined tas…"
+    },
+    {
+      "id": "jobicy_152824",
+      "title": "Senior/Staff Machine Learning Data Scientist",
+      "company": "Bayesian Health",
+      "score": 60,
+      "reason": "端到端ML模型开发与AWS部署要求与候选人CV/深度学习交付经验高度契合，但偏医疗数据科学且限美国。",
+      "url": "https://jobicy.com/jobs/152824-senior-staff-machine-learning-data-scientist",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-10T03:05:13+00:00",
+      "description": "📍 USA\nSenior/Staff Machine Learning Data Scientist In Brief We’re an early-stage startup on a mission to make healthcare proactive by empowering physicians, nurses, and care team members with real-time data to save lives. TLDR : Independent end-to-end model development with ability to work cross-functionally with Clinical, Engineering, and Product to clarify and prioritize specifications and features for our life-saving AI models. Who We Are Bayesian Health’s mission is to improve patient outcomes by empowering clinicians with the insights they need to make the right decision for the right patient at the point-of-care. We’re a diverse team of clinicians, engineers, machine learning experts, product designers, and performance improvement leaders committed to enabling smarter, patient-specific care delivery through unlocking the power of data. We’re funded by top tier tech and biotech investors: Andreessen Horowitz, American Medical Association’s venture arm, Catalio Partners, and LifeForce Capital. Our company has won many awards; most recent recognitions include: Forbes AI Top 50, World Economic Forum Tech Pioneer, Time Best Inventions, BioTech AI Company of the Year. Read more about our recent publication in Nature Medicine that associates our products with lives saved. What you’ll do As a Senior/Staff Machine Learning Data Scientist, you are not satisfied with training and tuning ML models that predict clinical conditions in patients; you also want to own the effectiveness of your model in the real world. In practice, that means you aren’t afraid to get your hands dirty by writing data mapping code, debugging a specific patient case by following patient data as it moves through our AWS services, or improving the timeliness of your model’s predictions by reading and writing …"
+    }
+  ]
+}
