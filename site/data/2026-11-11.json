@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T06:52:30.380695+00:00",
+  "count": 2,
+  "jobs": [
+    {
+      "id": "remoteok_1137710",
+      "title": "Senior Agentic AI Engineer NDA",
+      "company": "GT",
+      "score": 88,
+      "reason": "高级Agentic AI工程师，LangChain/LLM/Agent与候选人当前方向高度契合，远程友好。",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-agentic-ai-engineer-nda-gt-1137710",
+      "source": "RemoteOK",
+      "tags": [
+        "design",
+        "react",
+        "sys admin",
+        "infosec",
+        "python",
+        "consulting",
+        "docker",
+        "technical",
+        "recruiter",
+        "dev",
+        "testing",
+        "marketing",
+        "exec",
+        "senior",
+        "ops",
+        "stats",
+        "engineer",
+        "digital nomad"
+      ],
+      "posted_at": "2026-11-09T16:00:13+00:00",
+      "description": "GT was founded in 2019 by a former Apple, Nest, and Google executive. Â GTâs mission is to connect the worldâs best talent with product careers offered by high-growth companies in the UK, USA, Canada, Germany, and the Netherlands. On behalf of the client, GT is looking for a Senior Agentic AI Engineer who is interested in solving complex matching and search problems at scale, applying ML and algorithms to hundreds of millions of real-world data records. Â About the Client Our client is a leading global management consultancy known for tackling some of the worldâs most complex business challenges. With a focus on strategy, transformation, and performance improvement, the firm partners with major organizations across industries to drive lasting impact. Recognized consistently as a top workplace, it combines deep industry expertise with a collaborative, innovative culture. Its centralized European hub plays a key role in supporting operations across the EMEA region, ensuring excellence and efficiency at scale. Â About the Project & Role We are looking for a Senior AI Engineer to help design, build, and evolve an AI-powered conversational analytics platform that enables businesses to explore their data, generate insights and visualizations, and make data-driven decisions. The product helps users analyze promotional performance, answer complex analytical questions, build charts and tables, and generate evidence-based recommendations using LLMs, agentic workflows, and governed client data. The team is developing a scalable, secure, and extensible agentic AI framework that can be customized for different clients and integrated with other products through standards such as Model Context Protocol (MCP). The existing solution is built on LangChain, with plans to evolve and …"
+    },
+    {
+      "id": "jobicy_161153",
+      "title": "Forward Deployed Engineer - Singapore",
+      "company": "Roboflow",
+      "score": 78,
+      "reason": "Roboflow前向部署工程师，计算机视觉模型落地与端到端部署高度契合候选人CV工程化优势，但地点在新加坡。",
+      "url": "https://jobicy.com/jobs/161153-forward-deployed-engineer-singapore",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-10T14:03:49+00:00",
+      "description": "📍 Singapore\nWho We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We’re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using computer vision models. Today, over 1M+ developers, including those from half the Fortune 100, use Roboflow’s computer vision AI open source and hosted tools. That includes counting cells to accelerate cancer research, improving construction site safety , digitizing floor plans , preserving coral reef populations , guiding drone flight , and much more . Roboflow is supported by great customers and investors, having raised over 63 million from Y Combinator, Google Ventures, Craft Ventures, Sam Altman, Lachy Groom, amongst other leading software investors. Roboflowers are passionate builders who value ownership, accountability, and a bias toward action. We’re curious, hands-on with new tech, and prefer showing our work over talking about it. Many of us have a founder mindset and thrive in our high-autonomy environment. What You’ll Do We’re hiring Forward Deployed Engineers (FDEs) to be the first technical hands on our new customer’s Roboflow deployments. After our Sales and Solutions Architecture team closes a deal and validates the technical approach, you step in to take it from proof-of-concept to production, the critical 0-to-1 phase where vision meets reality. You’ll embed directly with new Customers, working alongside their engineering and operations teams to build and deploy their first production computer vision workflows on Roboflow. This is the most difficult, important and rewarding phase of the customer journey. Infrastructure is unfamiliar…"
+    }
+  ]
+}
