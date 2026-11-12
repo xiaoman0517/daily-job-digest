@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:29:46.521122+00:00",
+  "count": 7,
+  "jobs": [
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/edgeq-technologies-private-limited-gis-software-engineer",
+      "title": "EdgeQ Technologies Private Limited: GIS  Software Engineer",
+      "company": "EdgeQ Technologies Private Limited",
+      "score": 88,
+      "reason": "GIS 软件工程师，要求 Python/JS/Java、ArcGIS/QGIS、遥感与空间数据，与候选人 GIS/遥感背景高度吻合，且 100% 远程、薪资透明。",
+      "url": "https://weworkremotely.com/remote-jobs/edgeq-technologies-private-limited-gis-software-engineer",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-11T17:00:56+00:00",
+      "description": "Headquarters: United States GIS Software Engineer Job Title: GIS Software Engineer Location: United States (Remote) Work Mode: 100% Remote Experience: 1–7 Years Salary Range: $75,000 – $135,000 per year (USD) Employment Type: Full-Time Job Category: Software Development / Geographic Information Systems (GIS) Job Summary We are seeking a talented and detail-oriented GIS Software Engineer to join our technology team in the United States. The ideal candidate will be responsible for developing, implementing, and maintaining GIS applications, geospatial software solutions, mapping platforms, and location-based services. The candidate should have strong programming skills, experience with geospatial technologies, spatial databases, mapping APIs, and GIS development frameworks. This position offers a fully remote work opportunity for qualified candidates across the United States. Key Responsibilities Design, develop, and maintain GIS software applications and geospatial solutions. Build interactive mapping applications and location-based services. Develop geospatial functionality using Python, JavaScript, Java, or C#. Integrate mapping platforms such as ArcGIS, QGIS, and Mapbox. Work with spatial databases such as PostgreSQL/PostGIS and SQL Server. Develop and integrate REST APIs for geospatial data services. Process, analyze, and visualize geographic and spatial datasets. Implement geospatial analysis, mapping, and data visualization features. Optimize GIS application performance and spatial query execution. Integrate GPS, satellite imagery, remote sensing, and location-based data. Collaborate with product managers, data engineers, and cross-functional teams. Troubleshoot technical issues and maintain software documentation. Required Skills & Qualifications 1–7 years of exper…"
+    },
+    {
+      "id": "jobicy_155100",
+      "title": "Senior Forward Deployed Engineer (AI Agent) - UK",
+      "company": "Cresta",
+      "score": 78,
+      "reason": "AI Agent前向部署工程师，与候选人LLM/Agent/RAG及端到端交付经验高度契合，但需英国时区。",
+      "url": "https://jobicy.com/jobs/155100-senior-forward-deployed-engineer-ai-agent-uk",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-12T03:30:20+00:00",
+      "description": "📍 UK\nCresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta’s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu , founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta. About the role: At Cresta, the AI Agent team is on a mission to create state-of-the-art AI Agents that solve practical problems for our customers. We are focused on leveraging the latest technologies in Large Language Models (LLMs) and AI Agent systems, while ensuring that the solutions we develop are cost-effective, secure, and reliable. As an AI Agent Engineer , you'll be at the forefront of deploying AI agents that address real-world challenges. In this role, you will work closely with customers as well as our software and machine learning engineers, ensuring high-impact AI Agent deployments and contributing to the continuous improvement of our core AI platform. You’ll develop intelligent AI agents, integrate them seamlessly with external systems and offer hands-on technical exper…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/edgeq-technologies-private-limited-machine-learning-data-engineer",
+      "title": "EdgeQ Technologies Private Limited: Machine Learning Data Engineer",
+      "company": "EdgeQ Technologies Private Limited",
+      "score": 72,
+      "reason": "ML 数据工程岗，Python/数据管道/特征工程与候选人 AI 工程经验重合，但更偏数据基础设施而非模型与 LLM 应用。",
+      "url": "https://weworkremotely.com/remote-jobs/edgeq-technologies-private-limited-machine-learning-data-engineer",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-11T17:00:55+00:00",
+      "description": "Headquarters: United States Machine Learning Data Engineer Job Title: Machine Learning Data Engineer Location: United States (Remote) Work Mode: 100% Remote Experience: 3–8 Years Salary Range: $110,000 – $175,000 per year (USD) Employment Type: Full-Time Job Category: Artificial Intelligence / Machine Learning / Data Engineering Job Summary We are seeking a skilled and experienced Machine Learning Data Engineer to join our growing AI and Data Engineering team in the United States. The ideal candidate will be responsible for designing, developing, and maintaining scalable data pipelines, data infrastructure, and data processing systems that support machine learning and artificial intelligence applications. The candidate should have strong expertise in Python, SQL, ETL/ELT pipelines, cloud data platforms, big data technologies, and machine learning data workflows. This position offers a fully remote work opportunity for qualified candidates across the United States. Key Responsibilities Design, develop, and maintain scalable data pipelines for machine learning and AI applications. Build and optimize ETL/ELT workflows for structured and unstructured datasets. Develop data ingestion, transformation, validation, and processing solutions. Collaborate with Data Scientists, ML Engineers, and AI teams to prepare high-quality training datasets. Implement data preprocessing, feature engineering, and feature extraction pipelines. Manage large-scale datasets using distributed processing technologies. Develop and maintain cloud-based data infrastructure. Implement data quality checks, monitoring, and automated validation processes. Optimize data storage, retrieval, and processing performance. Support machine learning model training, evaluation, and deployment workflows. Integrate dat…"
+    },
+    {
+      "id": "jobicy_161438",
+      "title": "Full Stack AI Engineer",
+      "company": "3Y Health",
+      "score": 72,
+      "reason": "AI原生医疗平台全栈AI工程师，AI Agent/工作流与端到端交付高度契合，但需全栈Web与阿根廷时区",
+      "url": "https://jobicy.com/jobs/161438-full-stack-ai-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-11T18:50:06+00:00",
+      "description": "📍 Argentina\nAbout 3Y Health 3Y Health is building the operating system for healthcare practices, an AI-native platform that helps clinicians start, run and grow their practice. We work as a managed services organization (MSO): along with the software, our operations team runs the back office for the clinics we partner with, including billing, insurance and compliance. We currently serve applied behavior analysis (ABA) therapy practices and are expanding into speech, occupational and physical therapy, and psychiatry. About the role Members of Technical Staff own features end to end. You'll work with the clinicians and operators who use what we build, scope the problem, design and build the solution across the stack, deploy it and follow how it performs in production. Our engineering team is flat, with no sub-teams, so you'll work across the whole platform. We build with AI coding agents every day and expect you to do the same. What you'll do Design and build AI agents and automated workflows for clinic operations, such as insurance benefits verification, prior authorizations, patient intake, claims and clinical documentation Build features for clinicians, patients and families, and our internal operations team, on web and mobile Take ambiguous problems from 0 to 1, working with operators and clinicians to define the problem, write the spec and ship a first version Design the services, data models and APIs behind your features and manage the infrastructure as code Own your services in production: deployments, monitoring and incident response Write evals for model-facing features and track the metrics of the workflows you ship Work with protected health information (PHI) safely, with least-privilege access, no PHI in logs and auditable changes Build and maintain the skills, plugins, M…"
+    },
+    {
+      "id": "jobicy_161435",
+      "title": "Full Stack Engineer",
+      "company": "3Y Health",
+      "score": 70,
+      "reason": "同为3Y Health全栈AI岗，AI Agent与端到端交付契合，但偏Web全栈且限阿根廷",
+      "url": "https://jobicy.com/jobs/161435-full-stack-engineer-9",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-11T18:49:26+00:00",
+      "description": "📍 Argentina\nAbout 3Y Health 3Y Health is building the operating system for healthcare practices, an AI-native platform that helps clinicians start, run and grow their practice. We work as a managed services organization (MSO): along with the software, our operations team runs the back office for the clinics we partner with, including billing, insurance and compliance. We currently serve applied behavior analysis (ABA) therapy practices and are expanding into speech, occupational and physical therapy, and psychiatry. About the role Members of Technical Staff own features end to end. You'll work with the clinicians and operators who use what we build, scope the problem, design and build the solution across the stack, deploy it and follow how it performs in production. Our engineering team is flat, with no sub-teams, so you'll work across the whole platform. We build with AI coding agents every day and expect you to do the same. What you'll do Design and build AI agents and automated workflows for clinic operations, such as insurance benefits verification, prior authorizations, patient intake, claims and clinical documentation Build features for clinicians, patients and families, and our internal operations team, on web and mobile Take ambiguous problems from 0 to 1, working with operators and clinicians to define the problem, write the spec and ship a first version Design the services, data models and APIs behind your features and manage the infrastructure as code Own your services in production: deployments, monitoring and incident response Write evals for model-facing features and track the metrics of the workflows you ship Work with protected health information (PHI) safely, with least-privilege access, no PHI in logs and auditable changes Build and maintain the skills, plugins, M…"
+    },
+    {
+      "id": "jobicy_161432",
+      "title": "Founding Engineer",
+      "company": "3Y Health",
+      "score": 68,
+      "reason": "创始工程师需全栈与AI Agent能力，契合度高但要求更广的全栈Web与本地时区",
+      "url": "https://jobicy.com/jobs/161432-founding-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-11T18:49:22+00:00",
+      "description": "📍 Argentina\nAbout 3Y Health 3Y Health is building the operating system for healthcare practices, an AI-native platform that helps clinicians start, run and grow their practice. We work as a managed services organization (MSO): along with the software, our operations team runs the back office for the clinics we partner with, including billing, insurance and compliance. We currently serve applied behavior analysis (ABA) therapy practices and are expanding into speech, occupational and physical therapy, and psychiatry. About the role Members of Technical Staff own features end to end. You'll work with the clinicians and operators who use what we build, scope the problem, design and build the solution across the stack, deploy it and follow how it performs in production. Our engineering team is flat, with no sub-teams, so you'll work across the whole platform. We build with AI coding agents every day and expect you to do the same. What you'll do Design and build AI agents and automated workflows for clinic operations, such as insurance benefits verification, prior authorizations, patient intake, claims and clinical documentation Build features for clinicians, patients and families, and our internal operations team, on web and mobile Take ambiguous problems from 0 to 1, working with operators and clinicians to define the problem, write the spec and ship a first version Design the services, data models and APIs behind your features and manage the infrastructure as code Own your services in production: deployments, monitoring and incident response Write evals for model-facing features and track the metrics of the workflows you ship Work with protected health information (PHI) safely, with least-privilege access, no PHI in logs and auditable changes Build and maintain the skills, plugins, M…"
+    },
+    {
+      "id": "remotive_2091136",
+      "title": "Senior React Full-stack Developer",
+      "company": "Lemon.io",
+      "score": 62,
+      "reason": "React+Python全栈岗位，Python与AWS技能重合，但React非候选人主力且岗位偏前端全栈，远程灵活匹配。",
+      "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091136",
+      "source": "Remotive",
+      "tags": [
+        ".Net",
+        "android",
+        "AWS",
+        "azure",
+        "C",
+        "C#",
+        "C++",
+        "data science",
+        "fullstack",
+        "golang",
+        "ios",
+        "java",
+        "javascript",
+        "magento",
+        "node.js",
+        "php",
+        "python",
+        "react",
+        "react js",
+        "ruby/rails",
+        "scala",
+        "shopify",
+        "swift",
+        "UI/UX",
+        "wordpress",
+        "blockchain",
+        "AI/ML",
+        "automation",
+        "project management",
+        "react native",
+        "rust",
+        "unity",
+        "electron",
+        "spring",
+        "laravel",
+        "Ethereum",
+        "graphic design",
+        "Typescript ",
+        "angular ",
+        "GCP",
+        "firebase",
+        "data engineering",
+        "Site Reliability",
+        "Symfony",
+        "next.js",
+        "flutter"
+      ],
+      "posted_at": "2026-11-10T14:25:05+00:00",
+      "description": "📍 LATAM, Europe, USA, Canada, APAC\nLemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. We’ve been doing this since 2015, and more than 1,500 companies have hired engineers through us. New roles for Senior React Full-stack Engineers come in all the time, and several are open right now. Two ways to work with clients Contract: most roles are contract-based. You join the client’s team and work as part of it. Direct hire: some clients hire engineers full-time, and we support you through the process. Because companies trust our vetting, applying through Lemon.io is often a shortcut. You get to the client faster than going through their full hiring process on your own. What you get Competitive rate, based on your seniority and skills We find the projects. No client hunting or rate negotiations. We match you manually based on your skills and preferences. Flexible schedule. Work async or with a small overlap with the team’s hours. No micromanagement, no screen trackers Direct work with clients, most of them with technical backgrounds Ongoing support from your application through every project, plus a community of engineers from 75+ countries Who we’re looking for Senior React & Python Developers with: 5+ years of software development experience. Commercial experience: React.js 3+ years & Python 3+ years OR React.js 2+ years & Python 5+ years OR React.js 5+ years & Python 2+ years Experience with AWS, GCP, or Azure is required. Other requirements: You own problems end-to-end: you spot the issue, design and build the solution, and ship it to production You can show the business impact of your work with concrete results (e.g., faster processing, lower costs, more users, fewer incidents) Advanced English: you discuss business task…"
+    }
+  ]
+}
