@@ -1,0 +1,89 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T07:00:39.544720+00:00",
+  "count": 6,
+  "jobs": [
+    {
+      "id": "jobicy_153037",
+      "title": "AI Senior Engineer (Graph)",
+      "company": "Able",
+      "score": 78,
+      "reason": "AI高级工程师（图谱）涉及RAG、知识图谱ETL与LLM应用，与候选人LLM/Agent/RAG工程方向高度契合，且100%远程。",
+      "url": "https://jobicy.com/jobs/153037-ai-senior-engineer-graph",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-13T03:10:08+00:00",
+      "description": "📍 LATAM\nBack in 2012, we were a group of engineers and designers who decided we wanted to build things—so we did. Able started as an engineering and product hub building for a portfolio of early-stage startups. We built many relationships while developing products that were thoughtful, effective, and genuinely useful. But, since then, we’ve grown… and so has our ambition. Now, we’re entering our next chapter—defined by applied AI. AI is a powerful force in the end-to-end software development cycle, and we’re creating practices that allow us to deliver software fast and more effectively than traditional approaches, creating meaningful value for our partners. Today, our builder mindset is driving us to become an AI-native organization across every function. We’re still evolving, and that’s part of the opportunity. If you want to build, learn, and tackle challenges alongside an ambitious team, let’s build together. This position is 100% remote within LatAm. What you’ll be doing We are seeking someone who views the Knowledge Graph not just as a database, but as a living organism that requires constant care, feeding, and pruning. You understand that a RAG system is only as good as the data underlying it. You are intrigued by the complexity of ingesting massive, messy datasets and transforming them into clean, connected knowledge. In short, someone who likes: Architecting Graph ETL: Designing and developing robust ETL pipelines specifically for graph ingestion. You aren't just dumping rows into tables; you are determining how disparate data sources connect, evolve, and relate in a graph structure. Data Ingestion at Scale: Managing high-volume data streams using tools like Kafka and implementing CDC (Change Data Capture) patterns to ensure the graph reflects real-time reality. Automat…"
+    },
+    {
+      "id": "hn_50474550",
+      "title": "Alternative Payments | Senior Software Engineer, Alti (AI agents) | REMOTE (Brazil) | Full-time | $90k–105k + equity We’",
+      "company": "",
+      "score": 78,
+      "reason": "AI Agent/RAG工程岗与候选人当前方向高度契合，薪资透明，但远程仅限巴西境内。",
+      "url": "https://news.ycombinator.com/item?id=50474550",
+      "source": "HN-WhoIsHiring",
+      "tags": [],
+      "posted_at": "2026-11-12T21:28:47+00:00",
+      "description": "Alternative Payments | Senior Software Engineer, Alti (AI agents) | REMOTE (Brazil) | Full-time | $90k–105k + equity We’re building the financial operating system for service-based SMBs (accounts receivable, payables, analytics). Alti, our AI agent product, launched in July and is growing fast. We’re looking for a product-minded engineer who has shipped LLM, agent or RAG features to real users in the past year, to help us scale it: more agents, automated routines, eval pipelines and AI observability. Small squad, high ownership. Stack: Go, TypeScript, Python, Postgres. Apply: https://jobs.ashbyhq.com/alternativepayments/76a7a829-d08d-4... Questions? feel free to reach out to me: https://www.linkedin.com/in/filipegarcias"
+    },
+    {
+      "id": "jobicy_155167",
+      "title": "Sr. Forward Deployed AI Engineer (Remote Eligible in the UK)",
+      "company": "Smartsheet",
+      "score": 78,
+      "reason": "前向部署AI工程师，涉及多智能体/MCP/LLM部署，与候选人AI应用与Agent开发高度契合，但限英国远程。",
+      "url": "https://jobicy.com/jobs/155167-sr-forward-deployed-ai-engineer-remote-eligible-in-the-uk",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-13T03:15:19+00:00",
+      "description": "📍 UK\nFor over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. You independently lead the most complex AI deployments Smartsheet undertakes. You own the full engagement lifecycle from technical discovery through production deployment through solutions org handoff. You architect multi-agent solutions, design client-personalized MCP resource packs, and build the Deployment Kits that transform how 200+ solutions consultants and partners operate. You mentor junior FDEs, drive the intelligence loop, and present field findings at weekly Applied AI strategy sessions. You are building a function, not filling a role. What You Will Do Lead complex, multi-system AI deployments end-to-end scope, architect, build, validate, and manage the customer relationship throughout. Own the AI workshop program for your pod, customize modules per customer, lead technical sessions, translate outputs into production requirements, evolve content from field learning. Architect multi-agent solutions selecting the right coordination pattern for each customer’s workflow characteristics and compliance requirements. Design client-specific and industry-specific MCP resource packs that serve personalized intelligence from the server so every connected AI surface gets smarter for that customer automatically. Own Deployment Kit quality for your pod. If a kit is not documented well enough for a solutions consultant with no e…"
+    },
+    {
+      "id": "jobicy_155182",
+      "title": "Senior Forward Deployed Engineer (AI Agent)",
+      "company": "Cresta",
+      "score": 72,
+      "reason": "AI Agent部署工程师，涉及LLM/Agent与客户交付，与候选人AI应用开发及端到端交付经验较契合，但岗位在澳洲且偏售前部署。",
+      "url": "https://jobicy.com/jobs/155182-senior-forward-deployed-engineer-ai-agent",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-13T03:10:25+00:00",
+      "description": "📍 Australia\nCresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta’s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu , founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta. About the role: At Cresta, the AI Agent team is on a mission to create state-of-the-art AI Agents that solve practical problems for our customers. We are focused on leveraging the latest technologies in Large Language Models (LLMs) and AI Agent systems, while ensuring that the solutions we develop are cost-effective, secure, and reliable. As an AI Agent Engineer , you'll be at the forefront of deploying AI agents that address real-world challenges. In this role, you will work closely with customers as well as our software and machine learning engineers, ensuring high-impact AI Agent deployments and contributing to the continuous improvement of our core AI platform. You’ll develop intelligent AI agents, integrate them seamlessly with external systems and offer hands-on technical exper…"
+    },
+    {
+      "id": "jobicy_161663",
+      "title": "Senior Software Engineer - Python & AI",
+      "company": "Nearform",
+      "score": 68,
+      "reason": "Python+AI方向与候选人LLM/Agent背景契合，但要求美国境内工作授权并需出差，远程友好度受限。",
+      "url": "https://jobicy.com/jobs/161663-senior-software-engineer-python-ai",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-12T16:50:43+00:00",
+      "description": "📍 USA\nThis is a full-time, permanent opportunity for candidates based in the United States and authorized to work without sponsorship. Please note that visa sponsorship is not available for this role. This position also requires traveling to client sites within the U.S. , with travel expenses covered by the company . About Nearform Nearform is an independent team of data & AI experts, engineers, and designers who build intelligent digital solutions and capability at pace. We create AI-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. In these ways, we partner with ambitious enterprises to deliver enduring impact. Our deep expertise in solving the world’s most complex digital problems, along with our collaborative, people-first approach, enables enterprises to build breakthrough products and modernise legacy systems by unleashing the power of AI. Today, our team of 500 experts in 20+ countries is trusted by leading enterprises including Lululemon, Puma, Sun Life, Starbucks, Travelex, Virgin Media 02, and Walmart. As part of our Engineering function, you will work closely with clients to translate complex business requirements into innovative digital products. Whether you are a Senior Engineer, Tech Lead, or DevOps Engineer, you will collaborate with distributed teams, leveraging cutting-edge technologies to build secure, high-performance applications. Our Nearform engineers are known for building high quality, scalable solutions that solve real world problems. About the Senior Python Engineer role As a Senior Engineer at Nearform your main task will be designing & building applications using Python. However as you’ll likely work on a variety of projects your responsibilities may also include: Supporting component design, de…"
+    },
+    {
+      "id": "jobicy_161667",
+      "title": "Senior Software Engineer - React & Python",
+      "company": "Nearform",
+      "score": 62,
+      "reason": "React+Python技术栈部分重合，但要求美国境内且需出差客户现场，远程友好度低，且偏前端全栈而非AI方向。",
+      "url": "https://jobicy.com/jobs/161667-senior-software-engineer-react-python",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-12T16:51:25+00:00",
+      "description": "📍 USA\nThis is a full-time, permanent opportunity for candidates based in the United States and authorized to work without sponsorship. Please note that visa sponsorship is not available for this role. This position also requires traveling to client sites within the U.S. , with travel expenses covered by the company . About Nearform Nearform is an independent team of data & AI experts, engineers, and designers who build intelligent digital solutions and capability at pace. We create AI-enabled solutions that enhance digital experiences, empower developers, and deliver measurable results. In these ways, we partner with ambitious enterprises to deliver enduring impact. Our deep expertise in solving the world’s most complex digital problems, along with our collaborative, people-first approach, enables enterprises to build breakthrough products and modernise legacy systems by unleashing the power of AI. Today, our team of 500 experts in 20+ countries is trusted by leading enterprises including Lululemon, Puma, Sun Life, Starbucks, Travelex, Virgin Media 02, and Walmart. As part of our Engineering function, you will work closely with clients to translate complex business requirements into innovative digital products. Whether you are a Senior Engineer, Tech Lead, or DevOps Engineer, you will collaborate with distributed teams, leveraging cutting-edge technologies to build secure, high-performance applications. Our Nearform engineers are known for building high-quality, scalable solutions that solve real world problems. About the Senior Software Engineer role As a Senior Engineer at Nearform your main task will be designing & building applications using React and Python. However, as you’ll likely work on a variety of projects your responsibilities may also include: Supporting compone…"
+    }
+  ]
+}
