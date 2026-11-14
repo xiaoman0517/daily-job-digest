@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T06:50:32.265296+00:00",
+  "count": 6,
+  "jobs": [
+    {
+      "id": "jobicy_153108",
+      "title": "Senior Gen AI Software Engineer",
+      "company": "Liftoff",
+      "score": 72,
+      "reason": "Senior Gen AI工程师，Python+AI产品化与候选人LLM/Agent经验高度契合，但限美国且偏广告技术栈。",
+      "url": "https://jobicy.com/jobs/153108-senior-gen-ai-software-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-14T02:50:25+00:00",
+      "description": "📍 USA\nLiftoff is a leading AI-powered performance marketing platform for the mobile app economy. Our end-to-end technology stack helps app marketers acquire and retain high-value users, while enabling publishers to maximize revenue across programmatic and direct demand. Liftoff’s solutions, including Accelerate, Direct, Monetize, Intelligence, and Vungle Exchange, support over 6,600 mobile businesses across 74 countries in sectors such as gaming, social, finance, ecommerce, and entertainment. Founded in 2012 and headquartered in Redwood City, CA, Liftoff has a diverse, global presence. Join Liftoff as a Senior Gen AI Software Engineer and help shape the future of ad tech. As a key member of our Gen AI team, you’ll design and build AI-powered products for our demand-side business, helping teams turn complex data into better decisions and meaningful customer growth. You’ll work across the stack, building intelligent systems and data pipelines in Python, alongside the TypeScript and React experiences that bring those capabilities to users. You’ll partner closely with product, engineering, and customer-facing teams to identify high-impact opportunities, move quickly from prototype to production, and continuously improve what you ship. This is a hands-on role for an engineer who enjoys working at the intersection of AI, product, and software engineering. You’ll help define how Liftoff applies modern AI to real business problems, balancing experimentation with the judgment and engineering discipline needed to build useful, reliable products. This role is ideal for an engineer who thrives in ambiguity, enjoys experimenting with new technology, and is motivated by turning promising AI capabilities into products that create real value. You’ll tackle complex problems, validate new appr…"
+    },
+    {
+      "id": "hn_50481529",
+      "title": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time We build AI age",
+      "company": "",
+      "score": 68,
+      "reason": "AI Agent产品工程与候选人LLM/Agent开发高度契合，支持远程（限美欧时区），但需较强客户交付能力。",
+      "url": "https://news.ycombinator.com/item?id=50481529",
+      "source": "HN-WhoIsHiring",
+      "tags": [],
+      "posted_at": "2026-11-13T10:43:35+00:00",
+      "description": "Elm AI | Forward-Deployed Product Engineer | New York / London (REMOTE US/Europe considered) | Full-time We build AI agents that help companies work with their suppliers. Looking for someone who will talk to customers, figure out what needs building, and then build it. Want a referral? DM me on X @Sarve___tanvesh"
+    },
+    {
+      "id": "jobicy_149101",
+      "title": "Senior Software Engineer, Backend (AI Agent Integrations)",
+      "company": "Cresta",
+      "score": 68,
+      "reason": "AI Agent后端集成岗，与候选人Agent/LLM工程经验契合，但限加拿大且偏CCaaS后端。",
+      "url": "https://jobicy.com/jobs/149101-senior-software-engineer-backend-ai-agent-integrations",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-14T02:50:21+00:00",
+      "description": "📍 Canada\nCresta unlocks the true potential of the customer experience, turning every conversation into a competitive advantage. Cresta’s unified AI platform combines conversational AI agents, real-time human agent augmentation, and comprehensive conversation intelligence to drive revenue and efficiency gains across every channel. The world’s leading companies, including United Airlines, Cox Communications, and Marriott, use Cresta to power world-class customer experiences every day. Born from the Stanford AI Lab, Cresta has raised more than $270 million from the world’s leading investors, including a16z, Greylock, and Sequoia. Cresta’s leadership includes some of the leading minds in AI today. Our CEO, Ping Wu , founded and led Google's Contact Center AI and Vertex AI platforms before joining Cresta to build the future of AI-driven customer experiences. Over the next few years, AI is going to redefine how people all over the world interact with businesses every day. Come build that future at Cresta. About the role: Cresta’s AI Agent team is building enterprise-grade AI Agents that can operate inside real-world contact center environments. A critical part of that mission is enabling our AI Agents to seamlessly integrate with customers’ CCaaS platforms (Contact Center as a Service), including voice and digital channels — and to smoothly transition conversations between AI and human agents when needed. This role is focused on building the backend systems that allow our AI Agents to: Integrate deeply with leading CCaaS platforms Participate in live customer conversations across voice and chat Maintain full conversation state and context Perform real-time actions within the CCaaS ecosystem Seamlessly hand off conversations to human agents — without losing context, history, or workflo…"
+    },
+    {
+      "id": "jobicy_155260",
+      "title": "Senior Data Scientist, Audio",
+      "company": "Deepgram",
+      "score": 65,
+      "reason": "音频方向高级数据科学家，涉及深度学习与语音模型，与候选人深度学习工程经验较契合，但偏研究且限美国。",
+      "url": "https://jobicy.com/jobs/155260-senior-data-scientist-audio",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-14T02:55:13+00:00",
+      "description": "📍 USA\nCompany Overview Deepgram is the leading platform underpinning the emerging trillion-dollar Voice AI economy, providing real-time APIs for speech-to-text (STT), text-to-speech (TTS), and building production-grade voice agents at scale. More than 200,000 developers and 1,300+ organizations build voice offerings that are ‘Powered by Deepgram’, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Daily, Cresta, Granola, and Jack in the Box. Deepgram’s voice-native foundation models are accessed through cloud APIs or as self-hosted and on-premises software, with unmatched accuracy, low latency, and cost efficiency. Backed by a recent Series C led by leading global investors and strategic partners, Deepgram has processed over 50,000 years of audio and transcribed more than 1 trillion words. There is no organization in the world that understands voice better than Deepgram. Company Operating Rhythm At Deepgram, we expect an AI-first mindset—AI use and comfort aren’t optional, they’re core to how we operate, innovate, and measure performance. Every team member who works at Deepgram is expected to actively use and experiment with advanced AI tools, and even build your own into your everyday work. We measure how effectively AI is applied to deliver results, and consistent, creative use of the latest AI capabilities is key to success here. Candidates should be comfortable adopting new models and modes quickly, integrating AI into their workflows, and continuously pushing the boundaries of what these technologies can do. Additionally, we move at the pace of AI. Change is rapid, and you can expect your day-to-day work to evolve just as quickly. This may not be the right role if you’re not excited to experiment, adapt, think on your feet, and learn constantly, or if you’re seeking so…"
+    },
+    {
+      "id": "hn_50480454",
+      "title": "CERN | Machine Learning Engineer | Geneva, Switzerland | HYBRID | Full-time, 3-year contract | From CHF 9,236/month, tax",
+      "company": "",
+      "score": 62,
+      "reason": "PyTorch模型训练到生产部署与候选人端到端AI交付经验高度吻合，但需日内瓦混合办公且限成员国国籍。",
+      "url": "https://news.ycombinator.com/item?id=50480454",
+      "source": "HN-WhoIsHiring",
+      "tags": [],
+      "posted_at": "2026-11-13T09:04:38+00:00",
+      "description": "CERN | Machine Learning Engineer | Geneva, Switzerland | HYBRID | Full-time, 3-year contract | From CHF 9,236/month, tax-free Not a physics job: this role is in CERN's healthcare AI team. CAFEIN, CERN's federated AI platform, trains models on medical data held by hospitals and research institutes across Europe without that data ever leaving them. It powers EU projects such as UMBRELLA and AIM-SAFE. It's hands-on ML engineering, from experiment to production: - designing and running ML experiments in Python (PyTorch, TensorFlow, JAX, scikit-learn) - deploying models on distributed infrastructure shared by several institutions - privacy and security: differential privacy, encryption, access control - tools for data ingestion and data quality, including medical images - benchmarking state-of-the-art methods for accuracy, efficiency and scalability Looking for an ML engineer who has taken models to production and is comfortable with Python, PyTorch/TensorFlow/JAX, Git/GitLab and the security side of distributed systems. Experience with federated or distributed learning, or with healthcare data, is a big plus. Master's in ML/CS/Data Science or equivalent experience. English required, plus a commitment to learning French. Eligibility: open to nationals of CERN Member and Associate Member States. Tax-free salary from CHF 9,236/month, 30 days of leave plus a two-week annual closure, relocation package, health insurance and pension fund. The contract is 3 years, extendable up to 8, wi"
+    },
+    {
+      "id": "jobicy_155276",
+      "title": "(US) Principal ML System Engineer",
+      "company": "PointClickCare",
+      "score": 60,
+      "reason": "医疗科技ML系统工程师，涉及AI与ML工程化，与候选人模型部署经验有交集，但偏系统架构且要求美国。",
+      "url": "https://jobicy.com/jobs/155276-us-principal-ml-system-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "DevOps & Infrastructure"
+      ],
+      "posted_at": "2026-11-14T02:55:18+00:00",
+      "description": "📍 USA\nAt PointClickCare our mission is simple: to help providers deliver exceptional care. And that starts with our people. As a leading health tech company that’s founder-led and privately held, we empower our employees to push boundaries, innovate, and shape the future of healthcare. With the largest long-term and post-acute care dataset and a Marketplace of 400+ integrated partners, our platform serves over 30,000 provider organizations, making a real difference in millions of lives. We also reinvest a significant percentage of our revenue back into research and development, ensuring our employees have the resources to innovate and make a lasting impact. Recognized by Forbes as a top private cloud company and honored as one of Canada’s Most Admired Corporate Cultures, we offer flexibility, growth opportunities, and meaningful work. At PointClickCare, we empower our people to be the architects of a smarter healthcare future; one that is human-first and accelerated by AI to create meaningful and lasting change. Employees harness AI as a catalyst for creativity, productivity, and thoughtful decision-making. By integrating AI tools into our daily workflows, collaboration is enhanced, outcomes are improved, and every team member has the proficiency to maximize their impact. It all starts with our hiring practices where we uncover AI expertise that complements our mission, and we continue to invest in training and development to nurture innovation throughout the employee journey. Join us in redefining healthcare — so it doesn’t just survive, it thrives. To learn more about PointClickCare, check out Life at PointClickCare and connect with us on Glassdoor and LinkedIn . **Travel to Office expectations** For Remote Roles : If this role is remote, there will be in-office events that…"
+    }
+  ]
+}
