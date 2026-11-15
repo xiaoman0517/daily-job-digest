@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T06:54:10.743808+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "id": "jobicy_155385",
+      "title": "AI Platform Engineer",
+      "company": "Supabase",
+      "score": 78,
+      "reason": "AI平台工程师聚焦Agent运行时、评估与治理，与候选人LLM/Agent/RAG工程高度契合，且完全远程。",
+      "url": "https://jobicy.com/jobs/155385-ai-platform-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-15T03:45:11+00:00",
+      "description": "📍 Anywhere\nAbout Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We are hiring a AI Platform Engineer to build the execution layer for Supabase's internal AI systems. Supabase is building an AI-native internal operating system: a common way of working across the company where AI carries a meaningful share of the operational load rather than sitting alongside it as an assistant. We are standing up a new central team to build those systems, enable the teams, and embed AI operations throughout the organization. You are the engineer on that team. The execution layer is yours. You will build the platform that actually runs agents: an event-triggered queue, a headless model-agnostic runtime, durable state so work survives a restart, a human review gate, atomic rollback, and full logging of every prompt, tool call and decision so any run can be reconstructed. You will build the evaluation layer that makes any of it trustworthy, because an agent that cannot be measured cannot be trusted with anything beyond reading. And you will build the agents themselves, across everything from executive reporting down to a layer of agents that watch the platform and improve it. This is a governance-heavy environment by design, and that is the interesting part of the problem. Agents are risk-tiered from read-only internal data through to external-facing output, with review depth, evaluation requirements and human approval scaling by tier. Some capabilities are permanently off limits: an agent may read and report, it may carry a human-authored update into a system of rec…"
+    },
+    {
+      "id": "jobicy_162215",
+      "title": "Software Engineer, AI & Automation - Canada",
+      "company": "NerdWallet",
+      "score": 78,
+      "reason": "AI/自动化工程师岗位，要求Python、RAG、多智能体、生产API，与候选人LLM/Agent/RAG及Python后端经验高度重合，但涉及安全领域且为加拿大远程。",
+      "url": "https://jobicy.com/jobs/162215-software-engineer-ai-automation-canada",
+      "source": "Jobicy",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "posted_at": "2026-11-14T14:23:40+00:00",
+      "description": "📍 Canada\nAt NerdWallet , we're building tools and experiences that help people make smarter financial decisions. As a Software Engineer focused on AI & Automation within our Security organization, you'll build production software and AI-enabled systems that make security work more scalable, effective, and developer-friendly across NerdWallet. You'll apply strong software engineering fundamentals and hands-on AI experience to automate complex security workflows, build internal platforms and developer tooling, and help us rethink how security engineering operates in an AI-native environment. You do not need to come from a traditional security engineering background. We're looking for an engineer who has built and operated production software and AI-enabled systems, is curious about security, and is excited to develop deeper security expertise while solving meaningful problems at scale. You'll have room to bring new ideas, influence how AI and automation practices evolve at NerdWallet, and shape a growing area within Security. This role reports to the Security Automation Manager. Projects you may be working on in this position include: Designing and building AI-enabled workflows and multi-agent systems that automate security design review, threat modeling, policy Q&A, vulnerability analysis, and other high-value security processes. Building retrieval-augmented generation (RAG) and semantic search experiences across large code and documentation repositories. Creating automated code-review capabilities that help identify insecure patterns and improve software quality earlier in the development lifecycle. Building production Python services and APIs that power AI-enabled security workflows, with thoughtful architecture, authentication, authorization, testing, observability, and reliab…"
+    },
+    {
+      "id": "jobicy_153164",
+      "title": "Junior Software Engineer",
+      "company": "PolicyMe",
+      "score": 72,
+      "reason": "全栈AI工程师使用Python/LangChain/LangGraph/AWS，与候选人技能高度重合，但为初级岗且限加拿大。",
+      "url": "https://jobicy.com/jobs/153164-junior-software-engineer-2",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-15T03:40:36+00:00",
+      "description": "📍 Canada\nOverview of the role We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that’s remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re building the future of insurance in Canada and beyond. We're building a groundbreaking new product line that will transform the insurance broker experience through AI and machine learning. As an AI-Driven Full Stack Engineer, you'll be part of a team charting new territory - designing and implementing intelligent systems that automate manual processes and unlock powerful data-driven insights. You will work across the stack, contributing to front end, back end, and AI/ML initiatives, while also participating in architecture discussions, release planning, and company-wide engineering initiatives. Our core stack includes Python, React, Redux, PostgreSQL, n8n, LangChain/LangGraph and AWS , and we are always open to adopting new tools and technologies that help us deliver better results. What you'll be doing: Develop full stack features for our AI-powered web application using Python, React, Redux, PostgreSQL and AWS Integrate AI models and APIs for tasks like document processing, data extraction, recommendation engines etc. Work closely with Sr. Engineers experienced in AI to seamlessly integrate models into production Stay current on emerging AI technologies/frameworks and explore new applications Build scalable, reliable backend services to fuel our AI workflows Create intuitive user experiences that surface AI-powered capabilities Participate in architecture planning, code reviews, and ideation sessions Take ownership of feature development end-to-end (…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/life360-senior-software-engineer-verticals-ai-native",
+      "title": "Life360: Senior Software Engineer, Verticals (AI Native)",
+      "company": "Life360",
+      "score": 60,
+      "reason": "AI Native高级软件工程师岗，与候选人LLM/AI应用方向契合且远程友好，但需美加地区且偏移动端全栈。",
+      "url": "https://weworkremotely.com/remote-jobs/life360-senior-software-engineer-verticals-ai-native",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-14T17:00:42+00:00",
+      "description": "Headquarters: Canada URL: http://www.life360.com About Life360 Life360’s mission is to keep people close to the ones they love. Our category-leading mobile app, Tile tracking devices, and Pet GPS tracker empower members to protect the people, pets, and things they care about most with a range of services, including location sharing, safe driver reports, and crash detection with emergency dispatch. Life360 serves approximately 107.7 million monthly active users (MAU), as of September 30, 2026, across more than 180 countries. Life360 delivers peace of mind and enhances everyday family life with seamless coordination for all the moments that matter, big and small. By continuing to innovate and deliver for our customers, we have become a household name and the must-have mobile-based membership for families (and those friends who are basically family). Life360 has more than 500 (and growing!) remote-first employees. For more information, please visit life360.com . Life360 is a Remote First company, which means a remote work environment will be the primary experience for all employees. All positions, unless otherwise specified, can be performed remotely (within the US and Canada) regardless of any specified location above. We are AI Native We are building an AI native company where AI is an integral part of how we build and operate. AI tool usage during interviews varies by role. You may be asked to demonstrate proficiency with AI tools, discuss how you leverage AI, or complete interview exercises without AI assistance. Your Recruiter will provide clear guidance as you move through the interview process. Undisclosed use of AI not previously discussed with or approved by your Recruiter may impact your candidacy. About The Team This role sits on the Verticals team within Life36…"
+    }
+  ]
+}
