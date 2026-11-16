@@ -1,0 +1,76 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:57:40.621444+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/true-talent-solutions-partners-software-engineer-ai-agents",
+      "title": "True Talent Solutions Partners: Software Engineer, AI Agents",
+      "company": "True Talent Solutions Partners",
+      "score": 88,
+      "reason": "AI Agent产品工程岗位，LLM/Agent/后端架构与候选人当前方向高度契合，经验年限与远程要求匹配。",
+      "url": "https://weworkremotely.com/remote-jobs/true-talent-solutions-partners-software-engineer-ai-agents",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-15T17:00:39+00:00",
+      "description": "Headquarters: United States URL: https://truetalentsolutionspartners.com About the Role Join a product engineering team building AI-powered tools for data and marketing workflows. You will help explore new product opportunities, shape the underlying AI architecture, and bring prototypes into production. What You'll Do Rapidly prototype ideas that apply AI to data and marketing workflows. Work with a small team to develop and ship product concepts, including foundational work for new product areas. Choose AI architectures and frameworks suited to each use case. Evaluate where different language models and AI methods work well within the product. Build production data agents that use company data to answer analytics and data science questions. Understand user workflows and create seamless AI-assisted experiences. What We're Looking For Five to twelve years of software engineering experience building core products, ideally in an AI or machine learning context. Strong backend architecture skills and product intuition, with experience taking ideas from prototype through production. Experience building complex AI applications and applying machine learning in product or engineering settings, beyond simple retrieval-augmented generation. Product engineering experience in a fast-moving startup or growth-stage environment, with evidence of increasing scope or responsibility. Experience contributing as an early engineering hire or founder is valuable. TypeScript experience is relevant; prior LLM experience is not required. Compensation & Benefits Base salary: $200,000 to $320,000 annually. Visa sponsorship is available. Location Remote within the United States. To apply: https://weworkremotely.com/remote-jobs/true-talent-solutions-partners-software-engineer-ai-agents"
+    },
+    {
+      "id": "jobicy_155430",
+      "title": "Backend Engineer (Python),AI Engineering: Agent Foundations",
+      "company": "GitLab",
+      "score": 78,
+      "reason": "GitLab Python后端工程师（Agent Foundations），与候选人LLM/Agent工程及Python主力栈高度契合，远程友好，仅经验层级为中级略低于其5年+。",
+      "url": "https://jobicy.com/jobs/155430-backend-engineer-pythonai-engineering-agent-foundations",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-16T03:20:14+00:00",
+      "description": "📍 Canada,  Poland,  UK\nGitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As an Intermediate Backend Engineer (Python) in GitLab's Agent Foundations stage, you'll go beyond using AI tools. You'll help build the foundations for GitLab's agentic AI experiences: the platform that lets AI agents work across the whole software delivery lifecycle, not just write code. That covers the reusable building blocks agents and flows are made from as well as our core harness, Duo Developer. Most of yo…"
+    },
+    {
+      "id": "jobicy_152419",
+      "title": "Software Engineer, AI/ML Infrastructure",
+      "company": "Thumbtack",
+      "score": 72,
+      "reason": "Thumbtack AI/ML基础设施工程师，涉及GenAI应用平台与部署，与候选人模型部署及LLM工程经验较契合，但偏基础设施平台方向且限加拿大。",
+      "url": "https://jobicy.com/jobs/152419-software-engineer-ai-ml-infrastructure",
+      "source": "Jobicy",
+      "tags": [
+        "DevOps & Infrastructure"
+      ],
+      "posted_at": "2026-11-16T03:20:07+00:00",
+      "description": "📍 Canada\nThumbtack helps millions of people confidently care for their homes. Thumbtack is the one app you need to take care of and improve your home — from personalized guidance to AI tools and a best-in-class hiring experience. Every day in every county of the U.S., people turn to Thumbtack to complete urgent repairs, seasonal maintenance and bigger improvements. We help homeowners know which projects to do, when to do them and who to hire from our growing community of 300,000 local service businesses. If making an impact inspires you, join us. Imagine what we’ll build together. About the Machine Learning Infrastructure Team At Thumbtack, our challenges span a wide range of areas, including search, recommendations, matchmaking, pricing, safety, content generation, fraud detection, and more. The ML Infrastructure team is responsible for centralizing, standardizing and evolving AI/ML infrastructure that enables these experiences. We empower product engineering teams by providing scalable, high-performance systems that drive AI innovation at scale. To read more about some of the engineering challenges at Thumbtack, visit our engineering blog . Challenge As a Software Engineer on the ML Infrastructure team, you will work closely with product and platform engineering teams to build and evolve core AI platform capabilities. You will help design and improve systems that allow teams to develop, run, and scale GenAI-powered applications in production. Your work will directly support AI-driven experiences used by millions of customers and pros across the Thumbtack ecosystem. What you'll do Build and evolve core AI platform capabilities that enable teams to develop, run, and scale GenAI-powered applications across Thumbtack. Contribute to the design, development, and deployment of scalab…"
+    },
+    {
+      "id": "remoteok_1137792",
+      "title": "Research Engineer Privacy and Anonymization",
+      "company": "Pragmatike",
+      "score": 62,
+      "reason": "隐私与匿名化研究工程，Python与数据处理/ML有重合，但方向偏PII检测，且需与美西或新加坡时区大幅重叠。",
+      "url": "https://remoteOK.com/remote-jobs/remote-research-engineer-privacy-and-anonymization-pragmatike-1137792",
+      "source": "RemoteOK",
+      "tags": [
+        "design",
+        "embedded",
+        "infosec",
+        "python",
+        "education",
+        "technical",
+        "finance",
+        "content writing",
+        "ops",
+        "medical",
+        "recruiter",
+        "engineer",
+        "full time",
+        "digital nomad"
+      ],
+      "posted_at": "2026-11-12T16:00:38+00:00",
+      "description": "Location: San Francisco or Singapore (on-site), or remote (Singapore or US Pacific time zones) Start Date: ASAP Languages: English Team: Engineering About the Role Our client is a fast-growing AI company building reliable, fair and open infrastructure for AI training data. Their marketplace helps the people who create data get value for it, and gives AI labs trustworthy data to train on. It is already used by startups, Fortune 500 companies and frontier labs, and the company is backed by leading venture investors, including Y Combinator. They are scaling quickly to meet strong demand. We are looking for a Research Engineer, Privacy and Anonymization to build the systems that make sensitive, real-world data safe and still useful for AI training. You will develop methods to detect and remove personally identifiable information, secrets and other sensitive content from raw data before it enters processing and synthetic data pipelines â protecting privacy without destroying the structure and signal that make the data valuable for training agents. This is a privacy and data-protection engineering seat, not a synthetic-task design role. You will own the pipeline that stands in front of downstream processing, training, evaluation and synthetic generation. This is a full-time role, starting ASAP. Offices are in San Francisco and Singapore; remote candidates are welcome if their working hours can overlap about 70â80% with either San Francisco (US Pacific) or Singapore business hours. The exact daily schedule will be agreed during hiring. What You'll Do Build systems to detect PII, quasi-identifiers, credentials and other sensitive information, and design transformations based on the data type and the downstream use case. Develop and benchmark detection approaches that combin…"
+    }
+  ]
+}
