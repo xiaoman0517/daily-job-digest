@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T08:14:18.871347+00:00",
+  "count": 6,
+  "jobs": [
+    {
+      "id": "jobicy_162673",
+      "title": "Applied AI Data Scientist (Brazil)",
+      "company": "AE Studio",
+      "score": 85,
+      "reason": "Python+LLM全生命周期（RAG、向量库、微调、评估）与候选人当前方向高度匹配，数据科学经验也契合其遥感/深度学习背景。",
+      "url": "https://jobicy.com/jobs/162673-applied-ai-data-scientist-brazil",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-16T15:45:11+00:00",
+      "description": "📍 Brazil\nAE Studio builds products, platforms, and internal ventures that increase agency for all conscious beings. We combine world-class software engineering, AI expertise, and product design to ship ambitious projects that matter. ABOUT THE ROLE As a Data Scientist at AE Studio, you’ll work on a mix of client projects and internal research initiatives. You’ll solve real-world problems, help build meaningful products, and contribute to groundbreaking AI alignment research. Your work will involve building data-driven solutions, leveraging machine learning models, and using your creativity to deliver results that matter. In addition to client projects, you’ll have the opportunity to propose and pursue high-impact research projects , especially those aligned with our mission of increasing agency. Promising projects could even become prioritized skunkworks initiatives. We want problem-solvers who are adaptable, collaborative, and excited to push boundaries. If this sounds like you, let’s talk. ABOUT YOU You thrive on solving challenging problems and bring a mix of technical expertise, creativity, and humor to your work. You enjoy working independently but also love collaborating with a team that shares your passion for making a difference. Required Skills and Experience Fluency in Python .. Experience with LLM lifecycle: prompt design/engineering, prompting techniques (RAG, few-shot, CoT, etc.), vector databases, multimodality, fine-tuning, and evaluation. Proven data science experience : You’ve been a key contributor to impactful projects and know how to deliver results with real-life outcomes. Statistical & causal ML fundamentals: expertise in experimental design, uncertainty quantification, and rigorous model evaluation across tabular, time-series, and foundation-model fine-tun…"
+    },
+    {
+      "id": "jobicy_162678",
+      "title": "Product Engineer (AI Driven)",
+      "company": "AE Studio",
+      "score": 78,
+      "reason": "全栈+LLM/RAG工程与候选人AI应用开发方向高度契合，但要求7年以上全栈经验且偏TypeScript前端，候选人经验略低且前端非主力。",
+      "url": "https://jobicy.com/jobs/162678-product-engineer-ai-driven",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-16T15:45:35+00:00",
+      "description": "📍 Brazil\nAE Studio is a development, data science, and design studio that works closely with founders and executives to create custom software and machine learning solutions. We build products, platforms, and internal ventures that increase agency for all conscious beings. We combine world-class software engineering, AI expertise, and product design to ship ambitious projects that matter. We’re looking for a Full-Stack Developer who bridges modern web engineering with practical AI; someone who can design, build, and ship production-ready, AI-powered applications while maintaining the standards of a top-tier software developer. What You’ll Do Design and ship end-to-end applications from prototype to production across frontend, backend, and cloud. Build clean, scalable APIs and services and integrate AI models where they create real value. Create AI pipelines (data ingestion, preprocessing, embeddings, retrieval, orchestration) that are reliable and maintainable. Engineer prompting strategies and guardrails for real-world performance (latency, cost, accuracy), not just demo hype. Integrate AI features into full-stack apps with robust APIs, frontend UX, and CI/CD pipelines. Collaborate with designers, PMs, and engineers to deliver polished product experiences. Continuously evaluate new AI tools/models for performance, cost, and fit. Write production-grade, testable, maintainable code in TypeScript/JavaScript and Python (and other languages as needed). What We’re Looking For 7+ years of professional software engineering experience. Proven track record shipping production applications (links to live products welcome). Hands-on experience with LLM APIs (e.g., OpenAI, Anthropic), embeddings, vector databases, and orchestration frameworks. Strong command of modern web stacks (e.g., Reac…"
+    },
+    {
+      "id": "jobicy_155579",
+      "title": "AI Engineer - 4 Day Week + Remote",
+      "company": "Laminar Projects",
+      "score": 62,
+      "reason": "AI Engineer岗位，4天工作制且远程，AI工程与候选人LLM/Agent方向契合，但建筑行业背景与具体技术栈未明示。",
+      "url": "https://jobicy.com/jobs/155579-ai-engineer-4-day-week-remote",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-17T03:25:18+00:00",
+      "description": "📍 Poland,  Portugal\nEver wondered how it would be to revolutionise one of the least digitised industries in the market, alongside a growing and switched-on team? Read on! ___________________________________________________________________________________ We are Shape.Construction ! We are digitising the largest and most fundamental industry in the world, the industry that literally builds the foundations of the civilisation we all depend on to spare us from a brutal hunter-gatherer life: CONSTRUCTION It is one of the least digitised industries in the world but also the largest – 1 in 9 people globally work in the construction industry and it constitutes 11% of global GDP. Improving construction strengthens the very foundation of human civilisation. ( Watch our short film about it). We got our start as a high-end construction project management consultancy. As a consultancy, we are focused on genuinely upgrading the way construction projects are delivered. We then take the deep understanding of the projects we work on to develop construction management software products that anyone can use to deliver their projects better. We are building a full suite of products one module at a time – kind of like office 365 but for construction management. ( Check out Shape, our construction management tech and watch this video about what we are doing ) The core of all this is our true secret sauce; people. We only recruit the very best both in capability and personality. We are deeply focused on designing a new type of organisation that is optimised for the flourishing of the people in the team first and foremost. People that join us develop fast as a whole person in ways they never imagined. ( Read more about our vision and mission ). This approach has allowed us to grow from just 2 people in 2017 to ov…"
+    },
+    {
+      "id": "jobicy_153341",
+      "title": "Forward Deployed Engineer, Python",
+      "company": "Socket",
+      "score": 62,
+      "reason": "Python方向前向部署工程师，需写代码做集成，与Python工程能力契合，但偏安全领域且需20-30%出差。",
+      "url": "https://jobicy.com/jobs/153341-forward-deployed-engineer-python",
+      "source": "Jobicy",
+      "tags": [
+        "Cybersecurity"
+      ],
+      "posted_at": "2026-11-17T02:50:25+00:00",
+      "description": "📍 USA\nAbout Us Socket helps devs and security teams ship faster by cutting out security busywork. Thousands of orgs use Socket to safely find, audit, and manage open source code. Our customers - from Anthropic to xAI, and Figma to Vercel - love Socket (just check out their tweets to see for yourself!) Founded by Feross Aboukhadijeh , a long-time open source maintainer with software downloaded over a billion times a month, Socket has raised $ 125M in funding from top angels, operators, and security leaders. About the Role We're looking for a high-performing Python focused Forward Deployed Engineer to serve as the technical bridge between Socket's enterprise customers and our engineering teams. In this role, you'll combine your software development expertise with exceptional customer skills to drive successful implementations, write custom code, and build the foundation for our professional services offering. You'll play a critical role in ensuring our largest customers achieve maximum value from Socket's security platform while helping shape the future of our technical services. This role is remote with 20-30% travel required for customer onsite engagements. What You'll Do Serve as the primary technical advisor and trusted expert for 5-8 enterprise accounts. Write custom code, scripts, and integrations to solve complex customer implementation challenges. Lead technical onboarding sessions, training workshops, and hands-on implementation guidance. Develop custom SAST rules, CVE rules, and security policies tailored to customer environments. Coordinate seamless technical rollouts and integrations across complex enterprise environments. Build and maintain strong relationships with customer engineering teams and security stakeholders. Create standardized technical documentation, b…"
+    },
+    {
+      "id": "jobicy_162707",
+      "title": "Senior Software Engineer, Agentic Customer Platform (Poland, Remote, B2B)",
+      "company": "Samsara",
+      "score": 62,
+      "reason": "Agentic平台后端工程岗，涉及AI Agent与API开发，与LLM/Agent经验部分重合，但要求波兰远程且偏平台后端。",
+      "url": "https://jobicy.com/jobs/162707-senior-software-engineer-agentic-customer-platform-poland-remote-b2b-2",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-16T16:55:03+00:00",
+      "description": "📍 Poland\nWho we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations. At Samsara, we are helping improve the safety, efficiency and sustainability of the physical operations that power our global economy. Representing more than 40% of global GDP, these industries are the infrastructure of our planet, including agriculture, construction, field services, transportation, and manufacturing — and we are excited to help digitally transform their operations at scale. Working at Samsara means you’ll help define the future of physical operations and be on a team that’s shaping an exciting array of product solutions, including Video-Based Safety, Vehicle Telematics, Apps and Driver Workflows, and Equipment Monitoring. As part of a recently public company, you’ll have the autonomy and support to make an impact as we build for the long term. About the role: We're building the next chapter: an agentic platform that understands operational context and takes action, with the ambition to make physical operations increasingly autonomous. External Platform EMEA owns critical capabilities behind that transition. Depending on the team, your work could include: Reporting and intelligence. Own the reporting engine and products that turn the complexity of a fleet into answers customers can act on. Enterprise administration. Build how customers configure and control Samsara at scale, from permissions and device metadata to AI-assisted onboarding. Developer and agent platform. Build APIs, event systems, integrations, and tools that give applications and AI agents access to operational data and actions.…"
+    },
+    {
+      "id": "jobicy_150763",
+      "title": "Agentic AI Technical Mentor - Independent Contractor (US Canada, Europe, MENA, APAC)",
+      "company": "Udacity",
+      "score": 60,
+      "reason": "Agentic AI技术导师岗位，与候选人LLM/Agent方向高度契合，但为兼职合同制导师角色。",
+      "url": "https://jobicy.com/jobs/150763-agentic-ai-technical-mentor-independent-contractor-us-canada-europe-mena-india-apac-timezones",
+      "source": "Jobicy",
+      "tags": [
+        "Education & E-learning"
+      ],
+      "posted_at": "2026-11-17T03:25:09+00:00",
+      "description": "📍 APAC,  Canada,  Europe,  USA\nAbout Us Udacity is now an Accenture company, and exciting things are happening! 🚀 We are on a mission of forging futures in tech through radical talent transformation in digital technologies. We offer a unique and immersive online learning platform, powering corporate technical training in fields such as Artificial Intelligence, Machine Learning, Data Science, Autonomous Systems, Cloud Computing and more. Our rapidly growing global organization is revolutionizing how the enterprise market bridges the talent shortage and skills gaps during their digital transformation journey. Recognized for its innovative impact, Udacity part of Accenture continues to empower people with the skills they need to secure the jobs they want. Our School of AI is committed to providing high-quality upskilling opportunities in this rapidly evolving field. We regularly launch new projects and are seeking experienced mentors to join us as external contractors to support our programs and learners. As new initiatives arise, we will reach out to qualified candidates within this talent pool to provide details on project scope, expected timelines, and compensation. If you are passionate about tackling meaningful challenges and making a difference we invite you to apply and explore this opportunity to collaborate with us. You’ll be an excellent fit if you have: Proven technical expertise with 5+ years of experience in the relevant field A passion for mentoring and helping others succeed in their learning Excellent interpersonal skills. You enjoy building relationships, communicating effectively, and fostering a positive learning environment A deep understanding of the tech industry and emerging trends in AI and related fields The flexibility to work part-time as an external contractor alongside your …"
+    }
+  ]
+}
