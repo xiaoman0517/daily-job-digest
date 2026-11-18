@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:47:59.088620+00:00",
+  "count": 3,
+  "jobs": [
+    {
+      "id": "jobicy_155746",
+      "title": "Machine Learning Engineer (Governance ML Platform)",
+      "company": "EDB",
+      "score": 72,
+      "reason": "ML工程师岗涉及模型服务、评估、推理优化与AI agent基础设施，与候选人端到端AI交付及LLM/Agent经验高度契合，100%远程。",
+      "url": "https://jobicy.com/jobs/155746-machine-learning-engineer-governance-ml-platform",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-18T04:10:31+00:00",
+      "description": "📍 EMEA\nA Little About Us EDB provides a data and AI platform that enables organizations to harness the full power of Postgres for transactional, analytical, and AI workloads across any cloud, anywhere. EDB empowers enterprises to control risk, manage costs and scale efficiently for a data and AI led world. Serving more than 1,500 customers globally and as the leading contributor to the vibrant and fast-growing PostgreSQL community, EDB supports major government organizations, financial services, media and information technology companies. EDB’s data-driven solutions enable customers to modernize legacy systems and break data silos while leveraging enterprise-grade open source technologies. EDB delivers the confidence of up to 99.999% high availability with mission critical capabilities built in such as security, compliance controls, and observability. For more information, visit www.enterprisedb.com Candidate Note: This position is 100% remote EDB is building the next generation of AI agent infrastructure on top of Postgres including an Agent Hub, an Agent Memory layer, MCP, governance and trust controls, and enterprise-grade retrieval. We're looking for an experienced Machine Learning (ML) Engineer to own the ML infrastructure spanning serving, evaluation, red-teaming, and continuous improvement for governance models. And turning Postgres into a first-class platform for AI agents. What your impact will be: Serving & evaluations: low-latency serving, eval pipelines, model registry. Research-to-production: <50ms inference via quantization/distillation, drift monitoring, shadow deployment, telemetry-to-training pipelines. Red-team harness: attack orchestration, scorecards, regression suites, CI gating. Self-improvement loop: continuous retraining, dataset curation from the audit…"
+    },
+    {
+      "id": "jobicy_155662",
+      "title": "Senior Software Engineer, AI Engineer (Brazil)",
+      "company": "TRM Labs",
+      "score": 72,
+      "reason": "AI工程师岗，要求LLM/Agent与产品化落地，与候选人AI应用开发方向高度契合，但需巴西居留。",
+      "url": "https://jobicy.com/jobs/155662-senior-software-engineer-ai-engineer-brazil",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-18T04:05:09+00:00",
+      "description": "📍 Brazil\nBuild a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure. TRM's Intel team runs at the intersection of intelligence analysts, back-end systems, and AI. This role sits at that intersection. Its mandate is to make TRM's intelligence collection meaningfully better with AI . You'll work directly alongside our intel analysts to understand how they collect and act on intelligence, then build the AI-powered products, tooling, and infrastructure that let them do it faster and at greater scale. We're looking for a senior engineer with genuine product sense, someone who can sit with a semi-technical analyst, see past the surface-level request, and identify the highest-impact, scalable thing to build. The failure mode we're explicitly hiring against is an engineer who rapidly ships a pile of narrow automations that pick at minor annoyances but don't move the needle. We want sticky, real products that advance the mission. This is a hands-on role for someone who wants to stay deeply technical while also shaping what gets built, not just how . The impact you’ll have here: Embed directly with our intel analysts to deeply understand their goals, constraints, and workflows, then translate those into technical solutions with clear success criteria. Identify the highest-leverage opportunities to improve intelligence collection — bringing a product lens to prioritization, not just an engineering one — and productize your work so it's adopted and durable. Design, build, and own AI…"
+    },
+    {
+      "id": "jobicy_155658",
+      "title": "Senior Data Scientist, Full Stack (Brazil)",
+      "company": "TRM Labs",
+      "score": 60,
+      "reason": "全栈数据科学家岗，涉及ML模型与AI agent生产化，与候选人技能部分重合，但偏区块链领域且需巴西居留。",
+      "url": "https://jobicy.com/jobs/155658-senior-data-scientist-full-stack-brazil",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-18T04:05:08+00:00",
+      "description": "📍 Brazil\nBuild a Safer World. TRM Labs provides AI-powered intelligence solutions that help public and private sector agencies investigate and disrupt crime. TRM's platforms enable investigators to trace illicit activity, build cases, and construct operating pictures of threat networks. Leading agencies and businesses worldwide rely on TRM to make the world safer and more secure. TRM Labs is a blockchain intelligence company committed to fighting crime and creating a safer world. By leveraging blockchain data, threat intelligence, and advanced analytics, our products empower governments, financial institutions, and crypto businesses to combat illicit activity and global security threats. At TRM, you'll join a mission-driven, fast-paced team made up of experts in law enforcement, data science, engineering, and financial intelligence, tackling complex global challenges daily. As a Senior Data Scientist, Attribution, you will be embedded within a specific risk category (e.g., Sanctions, Cybercrime, Counter Terrorism) and own the attribution algorithms that drive direct customer outcomes — from seizing illicit funds to disrupting crypto-enabled crime networks. You'll operate as equal parts Subject Matter Expert and Data Scientist , translating deep domain knowledge into production-grade intelligence. The impact you'll have here: Own end-to-end attribution for a risk category : identify high-impact targets, build algorithms (heuristics, ML models, AI agents), and ship to production. Collaborate tightly with — and become — a Subject Matter Expert for your category, translating customer and GTM needs into actionable intelligence. Navigate all intelligence layers ( Network / On-chain / Protocol ) to uncover patterns competitors can't replicate. Ship production-quality code — heuristics,…"
+    }
+  ]
+}
