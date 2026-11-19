@@ -1,0 +1,105 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T07:43:45.600692+00:00",
+  "count": 7,
+  "jobs": [
+    {
+      "id": "jobicy_150901",
+      "title": "Senior Software Engineer",
+      "company": "PolicyMe",
+      "score": 82,
+      "reason": "全栈AI工程师，Python/React/LangChain/LangGraph/AWS与候选人高度重合，远程友好。",
+      "url": "https://jobicy.com/jobs/150901-senior-software-engineer-2",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-19T02:40:16+00:00",
+      "description": "📍 Canada\nOverview of the role We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that’s remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re building the future of insurance in Canada and beyond. We're building a groundbreaking new product line that will transform the insurance broker experience through AI and machine learning. As an AI-Driven Full Stack Engineer, you'll be part of a team charting new territory - designing and implementing intelligent systems that automate manual processes and unlock powerful data-driven insights. You will work across the stack, contributing to front end, back end, and AI/ML initiatives, while also participating in architecture discussions, release planning, and company-wide engineering initiatives. Our core stack includes Python, React, Redux, PostgreSQL, n8n, LangChain/LangGraph and AWS , and we are always open to adopting new tools and technologies that help us deliver better results What you'll be doing: Leading the design and development of full stack features for our AI-powered web application using Python, React, Redux, PostgreSQL, and AWS Defining the technical vision and architectural principles for AI/ML systems Driving innovation by researching and prototyping cutting-edge AI technologies Ensuring security, scalability, and observability best practices across cloud architecture Work within a cross-functional environment partnering closely with product, design, and business teams to communicate technical designs/strategies Serve as a role model for engineering standards and bring consistency across systems and processes while mentoring junior and …"
+    },
+    {
+      "id": "jobicy_155803",
+      "title": "Forward Deployed Engineer",
+      "company": "Roboflow",
+      "score": 78,
+      "reason": "Roboflow前向部署工程师做计算机视觉生产落地，与候选人CV工程化端到端交付高度契合，仅限美国境内略减分。",
+      "url": "https://jobicy.com/jobs/155803-forward-deployed-engineer-7",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-19T02:55:07+00:00",
+      "description": "📍 USA\nWho We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We’re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using computer vision models. Today, over 1M+ developers, including those from half the Fortune 100, use Roboflow’s computer vision AI open source and hosted tools. That includes counting cells to accelerate cancer research, improving construction site safety , digitizing floor plans , preserving coral reef populations , guiding drone flight , and much more . Roboflow is supported by great customers and investors, having raised over 63 million from Y Combinator, Google Ventures, Craft Ventures, Sam Altman, Lachy Groom, amongst other leading software investors. Roboflowers are passionate builders who value ownership, accountability, and a bias toward action. We’re curious, hands-on with new tech, and prefer showing our work over talking about it. Many of us have a founder mindset and thrive in our high-autonomy environment. What You’ll Do We’re hiring Forward Deployed Engineers (FDEs) to be the first technical hands on our new customer’s Roboflow deployments. After our Sales and Solutions Architecture team closes a deal and validates the technical approach, you step in to take it from proof-of-concept to production, the critical 0-to-1 phase where vision meets reality. You’ll embed directly with new Customers, working alongside their engineering and operations teams to build and deploy their first production computer vision workflows on Roboflow. This is the most difficult, important and rewarding phase of the customer journey. Infrastructure is unfamiliar…"
+    },
+    {
+      "id": "jobicy_155939",
+      "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
+      "company": "Elevenlabs",
+      "score": 72,
+      "reason": "全栈后端偏重工程师，AI Agent产品方向与候选人LLM/Agent经验契合，远程友好。",
+      "url": "https://jobicy.com/jobs/155939-full-stack-engineer-backend-leaning-creative-agents",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-19T03:30:18+00:00",
+      "description": "📍 Anywhere\nAbout ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovativ…"
+    },
+    {
+      "id": "jobicy_155936",
+      "title": "Developer Experience Engineer",
+      "company": "Elevenlabs",
+      "score": 68,
+      "reason": "开发者体验工程师，AI API产品与候选人LLM应用开发经验相关，欧美远程。",
+      "url": "https://jobicy.com/jobs/155936-developer-experience-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-19T03:30:13+00:00",
+      "description": "📍 Europe,  USA\nAbout ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovativ…"
+    },
+    {
+      "id": "jobicy_155802",
+      "title": "Forward Deployed Engineer - Software Engineer - USA",
+      "company": "Elevenlabs",
+      "score": 68,
+      "reason": "前向部署工程师偏AI应用交付，与LLM/Agent经验契合，但需美国地点且偏客户现场。",
+      "url": "https://jobicy.com/jobs/155802-forward-deployed-engineer-software-engineer-usa",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-19T02:40:14+00:00",
+      "description": "📍 USA\nAbout ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovativ…"
+    },
+    {
+      "id": "jobicy_155799",
+      "title": "Research Scientist",
+      "company": "Roboflow",
+      "score": 62,
+      "reason": "CV研究科学家与候选人计算机视觉背景相关，但偏研究型且要求更高学术深度。",
+      "url": "https://jobicy.com/jobs/155799-research-scientist",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-19T02:40:11+00:00",
+      "description": "📍 USA\nWho We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We’re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using computer vision models. Today, over 1M+ developers, including those from half the Fortune 100, use Roboflow’s machine learning open source and hosted tools. That includes counting cells to accelerate cancer research, improving construction site safety, digitizing floor plans, preserving coral reef populations, guiding drone flight, and much more. Our team is small relative to our impact, and we believe our user success is our success (not the inverse). A team member summarized: “Roboflow is a company full of giant brains and tiny egos.” We find software has a multiplier effect on all roles (not only product and engineering), so Roboflow employs developers across the company in design, sales, customer support, marketing, and beyond. We’re supported by great customers and investors, having raised over 63 million from Google Ventures, Y Combinator, Craft Ventures, Sam Altman, Lachy Groom, amongst other leading software investors. What You'll Do As a Research Scientist, you will originate and drive the novel machine learning research directions that shape Roboflow's research agenda. Because of Roboflow’s huge userbase, we have a unique visibility into how people are using computer vision in the real world, including in what circumstances existing methods are unable to solve user problems. Our Research Team’s mission is to introduce novel methods that generalize as well as possible across our userbase. This includes methods that learn well on diverse dat…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/workmotion-senior-software-engineer",
+      "title": "WorkMotion: Senior Software Engineer",
+      "company": "WorkMotion",
+      "score": 60,
+      "reason": "远程且薪资透明，要求后端为主并鼓励AI工具使用，与候选人AI应用经验有一定契合，但需CET±2时区且偏通用全栈。",
+      "url": "https://weworkremotely.com/remote-jobs/workmotion-senior-software-engineer",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-18T11:30:56+00:00",
+      "description": "Headquarters: North Macedonia URL: https://jobs.workable.com/company/jzo8hYoyQi6MffQtCgXykk/jobs-at-workmotion Senior Software Engineer Location: Remote (Within +/- 2 hours of CET) Contract Type: Full-time Starting Salary: €55,000 Euros per annum gross, subject to skills, experience and location Not Your Typical Workplace… Tired of the 9-to-5 grind? Imagine a world without borders, where opportunities are endless. That's the future of work, and what we're building at WorkMotion. Our remote-first team spans the globe, helping companies hire, onboard, and manage talent internationally through smart, flexible workforce solutions. Fast-paced, people-driven, and globally connected, we empower businesses to build teams without borders. More Than a Role We don't just need another Senior Software Engineer—we're looking for a builder who enjoys solving complex engineering challenges and delivering scalable, high-quality software that creates real business impact. You'll play a key role in shaping and building the technology powering our Talent Operations platform, working on backend services while contributing to frontend development when needed. You'll influence technical decisions, contribute to system architecture, and collaborate closely with Product, Engineering, and cross-functional stakeholders to deliver reliable, scalable solutions that support our global business. We're looking for engineers who embrace modern software development practices and actively leverage AI-powered development tools such as Cursor and Claude Code to improve productivity and code quality. Where Responsibility Meets Real Opportunity… Design, develop, and maintain scalable backend services while contributing to frontend features where required. Build high-quality, well-tested software following mo…"
+    }
+  ]
+}
