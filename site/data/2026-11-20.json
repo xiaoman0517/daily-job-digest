@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:35:10.580508+00:00",
+  "count": 3,
+  "jobs": [
+    {
+      "id": "jobicy_155963",
+      "title": "Senior AI Engineer (GTM)",
+      "company": "Paddle",
+      "score": 78,
+      "reason": "Senior AI Engineer端到端构建AI/Agent系统，与LLM/RAG及工程化交付经验高度契合，远程友好。",
+      "url": "https://jobicy.com/jobs/155963-senior-ai-engineer-gtm",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-20T03:20:21+00:00",
+      "description": "📍 Canada,  UK\nWhat do we do? Paddle offers digital product companies a completely different approach to their payment infrastructure. Instead of assembling and maintaining a complex stack of payments-related apps and services, we’re a Merchant of Record for our customers. That means we take away 100% of the pain of payment fragmentation. It’s faster, safer, cheaper, and, above all, way better. We’re backed by investors including KKR, FTV Capital, Kindred, Notion, and 83North and serve over 10,000 software sellers in 245 territories globally. The role: We’re looking for an entrepreneurial and technically strong Senior AI Engineer to join our Data & AI team and work with our Go-To-Market organisation. This is a builder's role, end to end. You’ll work closely with Marketing, Sales, and RevOps to solve high-value problems, design practical AI solutions and build them into reliable systems that people use every day. You’ll be expected to move comfortably from an ambiguous business challenge to a technical design, a working prototype, and then a production-ready solution. Your work could include building systems that segment and prioritise accounts, developing agents that automate sales workflows, or creating intelligent tools that help our teams research prospects and act on buying signals. You’ll own the full lifecycle of what you build, including evaluation, observability, reliability and cost optimisation. This role is ideal for someone who enjoys being close to users, can write production-quality code and is excited by the challenge of turning rapidly evolving AI capabilities into valuable commercial outcomes. Experience working with GTM teams is useful, but the ability to understand problems, build effective systems and measure their impact is more important. What you'll do: Design a…"
+    },
+    {
+      "id": "remoteok_1137808",
+      "title": "Software Engineer AI Coding Tasks",
+      "company": "Askable",
+      "score": 72,
+      "reason": "AI编码任务构建岗位，要求Python/Java/Docker/Git及AI工具使用经验，与候选人技能高度契合且完全远程、时间灵活。",
+      "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808",
+      "source": "RemoteOK",
+      "tags": [
+        "dev",
+        "golang",
+        "python",
+        "javascript",
+        "typescript",
+        "java",
+        "c plus plus"
+      ],
+      "posted_at": "2026-11-19T05:56:01+00:00",
+      "description": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$400-US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skilled engineer. Your tasks are used to measure and train AI coding models. Remote, any location. US$400-US$1,000 per task that passes review. Minimum of one task a week, about 10 hours a week. How it works Apply. Complete a short screener interview and upload your resume. Propose. Once you're selected, pick a change from a repository you know and submit a short proposal. We approve it or suggest a better candidate. Build. In our platform, set up the repository as it was before the change, then write the brief, the correct solution and the grading checks. Stress-test. Try lazy, incorrect and shortcut solutions and make sure your checks catch them. Model testing. Run your task against leading AI models until strong models often fail but a skilled engineer can clearly solve it. Review. A reviewer checks your task and you revise it. Most tasks take more than one round. Next task. Once your task is accepted, start another. Requirements 2+ years of professional software engineering Code merged into a public open-source repository, ideally one you know well. A private codebase you own may also qualify (not employer or client code) Strong in at least one of Python, TypeScript, Go, Rust, Java or C++ Solid with Docker, Linux, Git and automated testing Regular use of an AI coding tool Experience writing tests, rubrics or evaluation criteria, ideally for AI models You can explain a change clearly and concisely, in your own words At least 10 hours a week, starting …"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/postscript-senior-fullstack-engineer-customer-context",
+      "title": "Postscript: Senior Fullstack Engineer, Customer Context",
+      "company": "Postscript",
+      "score": 60,
+      "reason": "全栈高级工程师，AI-first开发与Agent工具经验契合，但偏后端数据密集系统",
+      "url": "https://weworkremotely.com/remote-jobs/postscript-senior-fullstack-engineer-customer-context",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-20T06:01:27+00:00",
+      "description": "Headquarters: Remote Postscript is the AI messaging platform trusted by 20,000+ Shopify brands — including Brooklinen, Ruggable, True Classic, and Dr. Squatch. With a mission to make SMS your number one revenue driving channel, we built the best-in-class SMS marketing platform and launched revenue-driving AI features not available on any other platform. And we're just getting started. Backed by Greylock and Y Combinator, fully remote since 2018. We are looking for a polyglot Senior Fullstack Engineer to join the Customer Context team. You’ll help build and scale the foundational services, APIs, and pipelines that power the Postscript product. This role blends strong backend engineering skills with a deep appreciation for data intensive systems, performance, and reliability. You’ll collaborate closely with other software engineers, data engineers, and product to help e-commerce marketers maximize their revenue with best-in-class targeting and context-driven AI. This is a high-autonomy role for engineers who are energized by ambiguity, take genuine ownership of their work, and bring a strong point of view on how to build things well, without sacrificing speed or pragmatism. AI isn't a nice-to-have here — it's central to how we work. We expect our engineers to be active practitioners of AI-first development: fluent with the latest agentic coding tools, curious about what's emerging, and constantly pushing the boundary of what's possible with AI in their day-to-day craft. If you're the kind of engineer who's already experimenting with new models and tooling before anyone asks you to, you'll feel at home here. As a senior engineer at Postscript, you’ll no longer be only writing code but orchestrating it. This position is fully remote and can be based in the US or Canada. Wha…"
+    }
+  ]
+}
