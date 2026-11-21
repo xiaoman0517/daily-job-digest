@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T07:30:55.632565+00:00",
+  "count": 1,
+  "jobs": [
+    {
+      "id": "jobicy_156098",
+      "title": "Applied AI Engineer",
+      "company": "Future PLC",
+      "score": 78,
+      "reason": "应用AI工程师岗，要求LLM/Agent、工具调用、评估与部署全流程，与候选人AI应用开发及端到端交付经验高度契合。",
+      "url": "https://jobicy.com/jobs/156098-applied-ai-engineer-2",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-21T03:10:26+00:00",
+      "description": "📍 USA\nAbout Us: Future is building a personalized guidance system for lifelong health. We help people understand what to do next for their body, goals, and stage of life — then support them in turning those decisions into sustained behavior change. By combining AI, human expertise, personal health data, and accountability, Future helps members improve performance today while building the resilience, capacity, and healthspan they need for decades to come. About the Role We're looking for an Applied AI Engineer to help us build and ship AI-powered features that directly improve our product experience and business outcomes. This is a hands-on, product-focused role where you'll take ideas from concept to production — designing intelligent systems, validating them with real users, and turning them into reliable, scalable services. You'll work at the intersection of AI, product, and engineering — partnering closely with cross-functional teams to identify high-impact opportunities, prototype quickly, and iterate based on data. This isn't a research-only role. You'll own the full lifecycle: experimentation, evaluation, deployment, monitoring, and continuous improvement. The ideal candidate is excited about applying LLMs and modern ML tooling to real-world problems. You think in terms of systems, tradeoffs, and outcomes — not just models. You care about performance, quality, latency, and cost in production. Most importantly, you're motivated by shipping impactful AI experiences that customers actually use. What You'll Do Build and ship AI agents that serve real users: tool-calling LLM systems with structured output, parallel API orchestration, and streaming responses. Design evaluation harnesses and quality scoring — we use Langfuse, rubrics to measure safety, effectiveness, and perso…"
+    }
+  ]
+}
