@@ -1,0 +1,132 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T07:12:17.590462+00:00",
+  "count": 8,
+  "jobs": [
+    {
+      "id": "jobicy_153740",
+      "title": "AI Senior Engineer (Vision)",
+      "company": "Able",
+      "score": 88,
+      "reason": "AI视觉+LLM/Agent岗位，Vision-Language、LangChain/LangGraph、PDF处理与候选人CV工程化及RAG/Agent经验高度契合，LATAM远程需注意时区。",
+      "url": "https://jobicy.com/jobs/153740-ai-senior-engineer-vision",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-22T03:45:24+00:00",
+      "description": "📍 LATAM\nBack in 2012, we were a group of engineers and designers who decided we wanted to build things—so we did. Able started as an engineering and product hub building for a portfolio of early-stage startups. We built many relationships while developing products that were thoughtful, effective, and genuinely useful. But, since then, we’ve grown… and so has our ambition. Now, we’re entering our next chapter—defined by applied AI. AI is a powerful force in the end-to-end software development cycle, and we’re creating practices that allow us to deliver software fast and more effectively than traditional approaches, creating meaningful value for our partners. Today, our builder mindset is driving us to become an AI-native organization across every function. We’re still evolving, and that’s part of the opportunity. If you want to build, learn, and tackle challenges alongside an ambitious team, let’s build together. This position is 100% remote within LatAm. What you’ll be doing We are seeking someone who enjoys working at the cutting edge where Computer Vision meets Logic . You will be responsible for the \"eyes\" and the \"brain\" of our system—extracting complex data from visual documents and then orchestrating how that data is used by Large Language Models. In short, someone who likes: Unlocking Visual Data: Building pipelines that can \"read\" complex documents, understanding layout, charts, and visual context using Vision-Language Models (GPT-4V, Claude 3.5) and Layout Analysis . Orchestrating Intelligence: Owning the application logic layer. You will use LangChain or LangGraph to build the agents and chains that query our data, reason about it, and generate responses. Native PDF Handling: Handling the messy reality of PDF processing (PyMuPDF, layout parsing) to preserve structure …"
+    },
+    {
+      "id": "remoteok_1137917",
+      "title": "Senior Applied AI Engineer",
+      "company": "Wemolo",
+      "score": 85,
+      "reason": "高级应用AI工程师，要求LLM系统与传统ML端到端落地，与候选人AI应用/Agent及模型交付经验高度匹配，远程友好。",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-applied-ai-engineer-wemolo-1137917",
+      "source": "RemoteOK",
+      "tags": [
+        "embedded",
+        "sys admin",
+        "python",
+        "technical",
+        "dev",
+        "testing",
+        "marketing",
+        "speech",
+        "senior",
+        "ops",
+        "sales",
+        "medical",
+        "engineer",
+        "digital nomad"
+      ],
+      "posted_at": "2026-11-21T00:00:11+00:00",
+      "description": "Parking without barriers, tickets or queues. Wemolo builds its own hardware and its own AI to make that happen. More than 7,000 of our scanners run on around 4,000 parking sites across Europe and have processed over 1.3 billion parking events: unattended, outdoors, around the clock. As Senior Applied AI Engineer (all genders), you work like a forward deployed engineer, embedded with our internal teams. AI is reshaping how we work: you find where it has the highest impact, decide what is worth building, and then build it. You work closely with team leads across departments and within our Data & AI team. The role combines discovery and hands-on engineering: you split your time between working with teams and building the solutions yourself. User pain points are often vague at first, and priorities change as we learn which use cases hold up. Once a solution works, you hand it over and move on to the next problem. Pure coding, pure advisory work or polishing a single system for months are not part of the job. If turning unclear problems into working AI solutions is your thing, youâll feel at home here. As we are looking for a hands-on engineer, a coding interview is an integral part of our interview process. What to expect Discovery: Shadow processes and interview the people doing the work. Quantify and validate where time and quality are lost. Prioritization: Prioritize use cases across departments by impact, not by what is easiest or needs the most advanced tooling, and say no to the ones that donât hold up. Make or buy: Test existing tools and new AI providers against our use cases before building. Build and ship: Build the solution yourself: LLM based systems, traditional ML, rule based automation, or a combination, depending on the problem. Ship a first usable versi…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/ritual-machine-learning-engineer",
+      "title": "Ritual: Machine Learning Engineer",
+      "company": "Ritual",
+      "score": 78,
+      "reason": "ML产品工程师，要求PyTorch/Python、模型部署与端到端交付，与候选人CV+LLM工程经验高度契合，远程友好。",
+      "url": "https://weworkremotely.com/remote-jobs/ritual-machine-learning-engineer",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-21T18:31:57+00:00",
+      "description": "Headquarters: Remote About Ritual Ritual is building a sovereign, execution layer for AI, with our private testnet already live and running. The Ritual chain is the first blockchain custom-built to support AI-native operations, designed from the ground up to enable a new class of applications at the intersection of crypto and AI. Our first product, Infernet, is pioneering new ground as the first solution to enable developers to access AI models both on-chain via smart contracts and off-chain, demonstrating our commitment to bridging these transformative technologies. About the role We are looking for a talented and motivated Machine Learning Product Engineer to join our team. In this role, you will work on a variety of projects related to applied machine learning, including working with the product team on automating Data ETL pipelines, deploying machine learning models, and shipping customer-facing products. Scale up model inference and running predictions at scale on cutting-edge models Work end to end to connect ML models to human interfaces (e.g. APIs, browsers, and applications) Designing and implementing large-scale data and ML pipelines through a full end-to-end product development lifecycle Collaborate with a cross-functional team of engineers, researchers, product managers, designers, and operations teammates to create cutting-edge products About you Experience as a software engineer Experience building and serving machine learning models Familiarity with Python and related ML frameworks such as PyTorch, Tensorflow, Jax, and other open-source stacks such as HuggingFace Ability to reason through machine learning system tradeoffs A high level of end-to-end ownership and self-direction Extras Familiarity with basic machine learning system stacks e.g. TinyML, Trito…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/airbnb-senior-machine-learning-engineer-payments",
+      "title": "Airbnb: Senior Machine Learning Engineer, Payments",
+      "company": "Airbnb",
+      "score": 72,
+      "reason": "高级ML工程师涉及LLM agent与实时模型，与候选人LLM/Agent及部署经验契合，但支付风控领域偏陌生且限美国。",
+      "url": "https://weworkremotely.com/remote-jobs/airbnb-senior-machine-learning-engineer-payments",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-21T18:31:57+00:00",
+      "description": "Headquarters: Remote-USA Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: Payments is key for any healthy marketplace, and is just as central to our product at Airbnb. The Payments org at Airbnb is responsible for everything related to settling money in Airbnb’s global marketplace and makes the Payment experience as delightful, magical, intuitive, and easy as possible. At the Payments modeling team, our goal is to empower the mission by introducing intelligences and personalizations that optimize Airbnb’s massive daily transaction volume to best collect payments from guests, distribute payouts to hosts while preventing fraudulent transactions from happening. The Difference You Will Make: As a Senior ML Engineer for Payments, you will be the catalyst that transforms bold AI innovation - LLMpowered workflow, realtime fraud defenses, and hyperpersonalized checkout flows - into production systems that make Airbnb Payment experience feel effortless and secure; you’ll architect and own end-to-end solutions at global scale, partner closely with product, software, and operations teams to turn complex requirements into elegant, latencyfirst services, and set the technical standard for model governance, continuous learning, and engineering excellence that elevates our entire payments ecosystem while shaping the company’s broader AI strategy. A Typical Day: Spearhead LLM agents, realtime anomaly detectors, and other breakthrough solutions that s…"
+    },
+    {
+      "id": "jobicy_156322",
+      "title": "Senior AI/ML Engineer",
+      "company": "Limbic",
+      "score": 72,
+      "reason": "高级AI/ML工程师，LLM与AI应用方向契合，但限加拿大且需北美时区。",
+      "url": "https://jobicy.com/jobs/156322-senior-ai-ml-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-22T03:50:36+00:00",
+      "description": "📍 Canada\nSenior AI/ML Engineer, remote in Canada: own the AI that assesses patients for US healthcare providers and gets them to the right mental health care faster. About Limbic Limbic’s vision is to ensure the highest quality therapy is accessible to everyone, everywhere. Limbic has supported more than 820,000 patients across the UK and the US. We are used in over 50% of NHS Talking Therapies services, which makes us the largest-ever deployment of generative AI for direct patient care, and our AI now delivers end-to-end therapy to patients in the US under the supervision of licensed clinicians. Safety and science come first. We are the only AI mental health chatbot with UKCA Class IIa medical device certification, and the first AI-led mental healthcare company selected for the FDA’s TEMPO pilot. Our results are published in leading scientific journals: in a randomized, double-blind trial published in Nature Medicine, our AI agents scored higher than licensed CBT therapists on a standard measure of therapy skill. The Role As a Senior AI/ML Engineer, you will take ownership of the AI in our clinical assessment product for US healthcare organizations. A patient describes what they are struggling with in a conversation with our AI, which gathers their history, administers standard clinical questionnaires such as PHQ-9 and GAD-7, detects risk and recommends a treatment program for the organization’s clinicians to review. Every organization configures it for its own services, so the AI has to be safe and accurate across many clinical setups, not just one. The approach is proven at scale in the NHS, where it increased referrals from minority groups by 29%, as published in Nature Medicine. You will work in North American hours alongside product, engineering and clinical colleagues, in…"
+    },
+    {
+      "id": "jobicy_156425",
+      "title": "Staff Forward Deployed Engineer",
+      "company": "hims &#038; hers",
+      "score": 72,
+      "reason": "前向部署工程师用AI改造业务流程，与候选人LLM/Agent应用开发及端到端交付能力高度契合，但岗位限美国且偏业务嵌入。",
+      "url": "https://jobicy.com/jobs/156425-staff-forward-deployed-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-22T04:00:14+00:00",
+      "description": "📍 USA\nHims & Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by putting the customer first and delivering access to care that is affordable, accessible, and personal, from diagnosis to treatment to delivery. No two people are the same, so we provide access to personalized care designed for results. By normalizing health & wellness challenges and innovating on their solutions, we’re making better health outcomes easier to achieve. Hims & Hers is a public company, traded on the NYSE under the ticker symbol “HIMS.” To learn more about the brand and offerings, you can visit hims.com/about and hims.com/how-it-works . For information on the company’s outstanding benefits, culture, and its talent-first flexible/remote work approach, see below and visit www.hims.com/careers-professionals . About the Role: We’re looking for a Staff Forward Deployed Engineer who’s passionate about using AI to change how teams across the business get their work done. You’ll embed with a team, learn how they actually work, and build the AI-powered workflows that make them faster and more effective. You start by mapping how the function operates today, then decide together with the team where AI can create the most value and build it. This is not a support role, a solutions-engineering role, or staff augmentation. You are a full engineer who works at the boundary between our AI platform and a business domain. You ship production systems, and the best of what you build for one team becomes a reusable capability for the whole company. You Will: Embed with a team. Work alongside a function for sustained periods, joining their day-to-day so you understand how they really operate. Map how the work gets …"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/smartsheet-sr-data-scientist-ii-remote-eligible",
+      "title": "Smartsheet: Sr. Data Scientist II (Remote Eligible)",
+      "company": "Smartsheet",
+      "score": 68,
+      "reason": "端到端ML+LLM子Agent建模与部署，与候选人深度学习及Agent经验契合，但偏数据科学分析且限美国。",
+      "url": "https://weworkremotely.com/remote-jobs/smartsheet-sr-data-scientist-ii-remote-eligible",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-22T06:02:20+00:00",
+      "description": "Headquarters: -REMOTE, USA- For over 20 years, Smartsheet has empowered teams to manage work seamlessly and scale solutions smarter. Now, in our most ambitious chapter yet, we are uniting human teams with AI agents. By orchestrating the work agents do best, automating manual tasks and uncovering insights at scale, we create the space for people to focus on what truly matters: judgment, creativity, and big thinking. That is magic at work, and it’s what we show up for every day. Smartsheet is looking for an experienced Senior Data Scientist II to build the ML models and AI sub-agents that drive growth, monetization, efficiency, and retention across the customer lifecycle. You’ll work end-to-end framing problems, building models across the modern ML and deep learning toolkit, designing sub-agents that reason and act, and shipping all of it into production for millions of users. The data is unusually rich: petabyte-scale execution data spanning two decades of how real work gets done. You are curious, technically rigorous, and can translate complex modeling and sub-agent behavior into clear recommendations for your partners. You will work primarily with Product and Engineering and will be a part of Smartsheet’s Business Intelligence team. This full-time position will report to a Data Science & BI Leader and can be located in our Bellevue, WA office, or you may work remotely from anywhere in the US where Smartsheet is a registered employer. You Will: Design and ship AI sub-agents that act across the customer lifecycle, combining predictive models, retrieved context, and LLM reasoning to recommend or take action Build the predictive and prescriptive models that power those sub-agents churn risk, growth, adoption trajectories, account health scoring, and similar lifecycle probl…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/gitlab-backend-engineer-python-ai-engineering-agent-foundations",
+      "title": "GitLab: Backend Engineer (Python),AI Engineering: Agent Foundations",
+      "company": "GitLab",
+      "score": 62,
+      "reason": "Python后端+Agent基础设施，与候选人LLM/Agent经验契合，但偏平台后端且层级为Intermediate略低。",
+      "url": "https://weworkremotely.com/remote-jobs/gitlab-backend-engineer-python-ai-engineering-agent-foundations",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "posted_at": "2026-11-21T18:31:46+00:00",
+      "description": "Headquarters: Remote, Canada; Remote, Poland; Remote, United Kingdom GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As an Intermediate Backend Engineer (Python) in GitLab's Agent Foundations stage, you'll go beyond using AI tools. You'll help build the foundations for GitLab's agentic AI experiences: the platform that lets AI agents work across the whole software delivery lifecycle, not just write code. That covers the reusable building blocks agents and flows…"
+    }
+  ]
+}
