@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:57:41.501731+00:00",
+  "count": 6,
+  "jobs": [
+    {
+      "id": "jobicy_153823",
+      "title": "AI Software Engineer",
+      "company": "Zone &#038; Co",
+      "score": 78,
+      "reason": "AI软件工程师，端到端AI/ML管线与部署要求高度契合候选人经验，但地点为捷克需确认远程。",
+      "url": "https://jobicy.com/jobs/153823-ai-software-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-23T03:25:42+00:00",
+      "description": "📍 Czechia\nZone & Company Software Consulting LLC (“Zone”) is the ERP-native AI platform for financial operations, purpose-built for organizations running on Oracle NetSuite. We are redefining how finance teams operate by delivering an AI-powered system that automates, connects, and scales financial workflows directly within the ERP. As the AI operating system for finance teams in NetSuite, Zone enables more than 4,500 customers worldwide to run smarter, faster, and with greater accuracy. Our platform spans the full financial lifecycle, including Quote-to-Cash, Procure-to-Pay, Treasury, Payroll Management, and Record-to-Report, eliminating manual processes and unlocking real-time financial intelligence. By embedding intelligence directly into NetSuite, Zone helps finance teams move beyond reactive work to proactive, strategic impact. Learn more at www.zoneandco.com or follow us on LinkedIn: linkedin.com/company/zoneandco . About the Job: Zone & Co is seeking a skilled AI Software Engineer to join our fast-paced, innovation-driven development team. In this role, you’ll be responsible for designing, developing, and deploying AI solutions that power and enhance our business products and operations. You’ll collaborate closely with product, data science, and engineering teams to build scalable, production-ready AI systems that deliver real business value. This is an exciting opportunity for a technically curious and creative problem-solver who is passionate about artificial intelligence, continuous learning, and delivering high-impact outcomes. What You'll Do: Design, prototype, and implement AI systems for real-world business applications. Build and deploy end-to-end AI/ML pipelines for key product features. Collaborate cross-functionally with product managers, data scientists, and en…"
+    },
+    {
+      "id": "jobicy_156600",
+      "title": "Engineering - Internal AI Transformation",
+      "company": "Elevenlabs",
+      "score": 72,
+      "reason": "ElevenLabs内部AI转型工程岗，LLM/Agent/RAG经验高度契合，全球远程友好，但岗位偏内部工具建设且未明确薪资。",
+      "url": "https://jobicy.com/jobs/156600-engineering-internal-ai-transformation-2",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-23T03:40:13+00:00",
+      "description": "📍 Canada,  Germany,  Ireland,  Italy,  Poland,  Sweden,  UK,  USA\nAbout ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and Meta. Our investors are some of the world's most prominent, including Andreessen Horowitz, ICONIQ Growth and Sequoia. We've raised $781M in funding and our last valuation was $22B - multiples of 11, always. We have expanded from voice into three main platforms: ElevenAgents enables businesses to deliver seamless and intelligent customer experiences, with the integrations, testing, monitoring, and reliability necessary to deploy voice and chat agents at scale. ElevenCreative empowers creators and marketers to generate and edit speech, music, image, and video across 70+ languages. ElevenAPI gives developers access to our leading AI audio foundational models. Everything we do is the result of the creativity and commitment of our team - builders doing the best work of their lives. We are researchers, engineers, and operators. IOI medalists and ex-founders. If you want to work hard and create lasting positive impact, we want to hear from you. How we work High-velocity: Rapid experimentation, lean autonomous teams, and minimal bureaucracy. Impact not job titles: We don’t have job titles. Instead, it’s about the impact you have. No task is above or beneath you. AI first: We use AI to move faster with higher-quality results. We do this across the whole company—from engineering to growth to operations. Excellence everywhere: Everything we do should match the quality of our AI models. Global team: We prioritize your talent, not your location. What we offer Innovativ…"
+    },
+    {
+      "id": "jobicy_153844",
+      "title": "Principal AI Engineer",
+      "company": "Able",
+      "score": 72,
+      "reason": "Principal AI工程师，100%远程(LATAM)，要求生产级AI系统与LLM应用落地，与候选人AI应用/Agent/RAG方向高度契合，但层级偏高且限拉美时区。",
+      "url": "https://jobicy.com/jobs/153844-principal-ai-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-23T03:30:39+00:00",
+      "description": "📍 LATAM\nBack in 2012, we were a group of engineers and designers who decided we wanted to build things—so we did. Able started as an engineering and product hub building for a portfolio of early-stage startups. We built many relationships while developing products that were thoughtful, effective, and genuinely useful. But, since then, we’ve grown… and so has our ambition. Now, we’re entering our next chapter—defined by applied AI. AI is a powerful force in the end-to-end software development cycle, and we’re creating practices that allow us to deliver software fast and more effectively than traditional approaches, creating meaningful value for our partners. Today, our builder mindset is driving us to become an AI-native organization across every function. We’re still evolving, and that’s part of the opportunity. If you want to build, learn, and tackle challenges alongside an ambitious team, let’s build together. This position is 100% remote within LatAm. About the Role As our Principal AI Engineer, you will lead the design and implementation of production AI systems that solve real business problems for our partners and shape how Able builds. You were a Technical Founder, Co-founder, or founding engineer at an AI company. You have the scar tissue of taking something to market and learning why product-market fit is hard. You will set the technical bar for AI at Able, working at the spec and acceptance layer of an AI-native engineering model, and play a key role in establishing Able as a leader in the AI space. What We’re Looking For Day-to-Day Responsibilities Technical Leadership: you will lead technical conversations, be hands-on in building applications or proofs of concepts, and establish AI/ML guidelines and standards for our partners, prospects, and across the organization…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-safety-processing",
+      "title": "Discord: Staff Software Engineer, Safety Processing",
+      "company": "Discord",
+      "score": 62,
+      "reason": "Python后端+ML/AI内容审核系统与候选人技能部分重合，但Staff级别偏高且限美国远程。",
+      "url": "https://weworkremotely.com/remote-jobs/discord-staff-software-engineer-safety-processing",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "posted_at": "2026-11-22T18:32:35+00:00",
+      "description": "Headquarters: San Francisco Bay Area or Remote (U.S.) Discord has a highly engaged community of millions of daily active users who use the platform for many different reasons, but there’s one thing that nearly everyone does: play video games. Discord plays a uniquely important role in the future of gaming, and we are focused on making it easier and more fun for people to hang out before, during, and after playing games. We’re looking for a Staff Software Engineer to join our Safety Processing team. This team plays a crucial role in ensuring trust and safety across Discord, processing signals from user reports and automated systems to identify and remove harmful or illegal content from our platform. You’ll lead backend projects, provide architectural guidance, and help build scalable systems that protect our users. Your work will directly impact the safety of our platform and help make Discord a place where everyone can belong. To learn more about Discord Engineering, take a look at our engineering blog. What You'll Be Doing: Lead, design, and build scalable backend systems for processing safety-related signals, primarily using Python Guide and mentor the team through architectural and system design challenges, ensuring long-term scalability as Discord continues to grow Collaborate with cross-functional teams to build tools for content moderation and related compliance efforts. This includes in house solutions and vendors Implement and enhance ML/AI models and automation to improve efficiency in content moderation and decision-making processes Build solutions with an adversarial mindset, anticipating and addressing safety challenges such as malicious behavior and illegal content on the platform Drive workstreams and provide leadership to the team, mobilizing others to ac…"
+    },
+    {
+      "id": "jobicy_156483",
+      "title": "Software Engineer, AI/ML Infrastructure (US-Based)",
+      "company": "Thumbtack",
+      "score": 62,
+      "reason": "AI/ML基础设施工程师，涉及AI平台与部署，与候选人模型部署和工程化经验部分重合，但偏基础设施平台方向且限美国。",
+      "url": "https://jobicy.com/jobs/156483-software-engineer-ai-ml-infrastructure-us-based",
+      "source": "Jobicy",
+      "tags": [
+        "DevOps & Infrastructure"
+      ],
+      "posted_at": "2026-11-23T03:30:53+00:00",
+      "description": "📍 USA\nThumbtack helps millions of people confidently care for their homes. Thumbtack is the one app you need to take care of and improve your home — from personalized guidance to AI tools and a best-in-class hiring experience. Every day in every county of the U.S., people turn to Thumbtack to complete urgent repairs, seasonal maintenance and bigger improvements. We help homeowners know which projects to do, when to do them and who to hire from our growing community of 300,000 local service businesses. If making an impact inspires you, join us. Imagine what we’ll build together. About the Machine Learning Infrastructure Team At Thumbtack, our challenges span a wide range of areas, including search, recommendations, matchmaking, pricing, safety, content generation, fraud detection, and more. The ML Infrastructure team is responsible for centralizing, standardizing and evolving AI/ML infrastructure that enables these experiences. We empower product engineering teams by providing scalable, high-performance systems that drive AI innovation at scale. To read more about some of the engineering challenges at Thumbtack, visit our engineering blog . Challenge As a Software Engineer on the ML Infrastructure team, you will work closely with product and platform engineering teams to build and evolve core AI platform capabilities. You will help design and improve systems that allow teams to develop, run, and scale AI-powered applications in production. Your work will directly support AI-driven experiences used by millions of customers and pros across the Thumbtack ecosystem. What you'll do Build and evolve core AI platform capabilities that enable teams to develop, run, and scale AI-powered applications across Thumbtack. Contribute to the design, development, and deployment of scalable too…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/descript-software-engineer-product",
+      "title": "Descript: Software Engineer, Product",
+      "company": "Descript",
+      "score": 60,
+      "reason": "全栈产品工程，Agent/AI工具方向与候选人LLM/Agent经验契合，但限美国远程。",
+      "url": "https://weworkremotely.com/remote-jobs/descript-software-engineer-product",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-23T06:02:06+00:00",
+      "description": "Headquarters: San Francisco, CA or Remote, US Product engineering at Descript means owning outcomes, not just tickets — you'll take a problem from a rough idea to a shipped, measured result, working closely with product, design, and the rest of engineering along the way. We organize around a few teams, each responsible for a distinct part of the product: Editor: owns our video editor. Help make traditionally complex video-editing workflows simpler, craft cutting-edge AI into practical creative tools, and build on our vision of turning a text-editor for video into a tool that puts video in everyone's communication toolkit. Growth & Monetization: owns onboarding and activation, growth loops and in-product experiments, plans and pricing, checkout, billing, and AI credits. Help turn visitors into customers and customers into revenue. Media: owns upload, transcription, diarization, alignment, drive-wide search, playback, rendering, and export (including the engine we're rewriting in Rust ). Help make media fast to bring in, easy to find, instant to play, and reliable to export. Agent: owns Underlord, Descript’s AI co-editor. Build the representations, tools, harness, evals, and feedback loops that let it reason about video projects, make edits, and check its work. Help people and agents collaborate naturally, whether in the editor or through our API and MCP. Identity & Access (aka TACO): owns login, authentication and authorization, account settings, and project organization, plus the enterprise layer of workspaces, SSO/SCIM, governance, and audit logs. Help individuals become teams, and teams scale into enterprises, with the trust and security to go all in. Regardless of your team you’ll have the opportunity to design thoughtful full-stack systems that work reliably and del…"
+    }
+  ]
+}
