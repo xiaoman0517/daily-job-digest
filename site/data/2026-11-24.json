@@ -1,0 +1,91 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T10:11:39.645012+00:00",
+  "count": 6,
+  "jobs": [
+    {
+      "id": "jobicy_156829",
+      "title": "Software Engineer",
+      "company": "PolicyMe",
+      "score": 88,
+      "reason": "AI驱动全栈工程师，Python/LangChain/LangGraph/AWS与候选人高度重合，远程友好，匹配度最高。",
+      "url": "https://jobicy.com/jobs/156829-software-engineer-13",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-24T04:45:15+00:00",
+      "description": "📍 Canada\nOverview of the role We’re on a mission to modernize insurance, making it simpler, more accessible, and customer-first. The insurance industry is a $1T market that’s remained largely untouched by the digital revolution, and PolicyMe is here to change that. As a remote-first, Toronto-based startup with big ambitions, we’re building the future of insurance in Canada and beyond. We're building a groundbreaking new product line that will transform the insurance broker experience through AI and machine learning. As an AI-Driven Full Stack Engineer, you'll be part of a team charting new territory - designing and implementing intelligent systems that automate manual processes and unlock powerful data-driven insights. You will work across the stack, contributing to front end, back end, and AI/ML initiatives, while also participating in architecture discussions, release planning, and company-wide engineering initiatives. Our core stack includes Python, React, Redux, PostgreSQL, n8n, LangChain/LangGraph and AWS , and we are always open to adopting new tools and technologies that help us deliver better results. What you'll be doing: Design and develop full stack features for our AI-powered web application using Python, React, Redux, PostgreSQL, and AWS Integrate AI models and APIs for tasks like document processing, data extraction, recommendation engines etc. Work closely with Sr. Engineers experienced in AI to seamlessly integrate models into production Research and prototype new AI applications to continuously enhance our product capabilities Construct scalable, secure, and observable cloud architectures for our core AI services Implement robust data pipelines to fuel AI model training and inference Craft seamless user experiences that surface AI-powered functionality Participa…"
+    },
+    {
+      "id": "jobicy_156835",
+      "title": "AI Agent Engineer",
+      "company": "Binance",
+      "score": 82,
+      "reason": "AI Agent研发工程师，直接对口LLM/Agent/工具调用与编排经验，技术栈高度重合，仅地点限港新。",
+      "url": "https://jobicy.com/jobs/156835-ai-agent-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-24T04:45:27+00:00",
+      "description": "📍 Hong Kong,  Singapore\nBinance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by 300+ million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, and more. Our mission is to increase the freedom of money and financial access for people around the world. Binance is a leading global blockchain ecosystem behind the world’s largest cryptocurrency exchange by trading volume and registered users. We are trusted by over 250 million people in 100+ countries for our industry-leading security, user fund transparency, trading engine speed, deep liquidity, and an unmatched portfolio of digital-asset products. Binance offerings range from trading and finance to education, research, payments, institutional services, Web3 features, and more. We leverage the power of digital assets and blockchain to build an inclusive financial ecosystem to advance the freedom of money and improve financial access for people around the world. We are building AI Agent systems for core use cases such as AI conversations and AI-powered trading. We are looking for an AI Agent R&D Engineer to develop a conversational agent platform and its underlying capabilities, including tool calling, memory, orchestration, and more. The goal is to transform large language model capabilities into stable, reliable, and continuously evolving product features that can be applied to real business scenarios.. Why Binance • Shape the future with the world’s leading blockchain ecosystem • Collaborate with world-class talent i…"
+    },
+    {
+      "id": "jobicy_144139",
+      "title": "Senior AI Engineer",
+      "company": "eMerchantPay",
+      "score": 82,
+      "reason": "Senior AI Engineer，聚焦LLM/Agent/RAG与Python/FastAPI/AWS，与候选人AI应用开发方向高度契合，但需保加利亚本地",
+      "url": "https://jobicy.com/jobs/144139-senior-ai-engineer-3",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-24T04:20:19+00:00",
+      "description": "📍 Bulgaria\nemerchantpay is a leading global payment service provider and acquirer for online, mobile, in-store and over the phone payments. Our global payments solution is available through a simple integration, offering a diverse range of features, including global acquiring, global and local payment methods, advanced fraud management and performance optimisation. We empower businesses to design seamless and engaging payment experiences for their consumers. We are looking for a Senior AI Engineer to join our AI Engineering team and help design, build, and roll out production-grade AI solutions, with a strong focus on AI engineering, AI agents, agentic workflows, machine learning, GenAI, and LLM-based applications . This is a senior individual contributor role within the AI Engineering team. The Senior AI Engineer will work closely with the AI Tech Lead , engineering teams, product stakeholders, data teams, cloud/platform teams, and security teams to deliver reliable AI capabilities into real business systems. The technology stack is diverse and can include Python (FastAPI/Flask/Django) or equivalent frameworks; React on the frontend side, and various ML/AI frameworks, APIs, cloud-native services, along with modern AI tooling . The role will have a strong focus on AWS , including Amazon Bedrock , Amazon Bedrock AgentCore , Amazon SageMaker , and other AWS AI/ML services. Responsibilities Design, build, and maintain AI-powered applications, services, and integrations as part of the AI Engineering team. Implement solutions focused on AI agents, agentic workflows, automation, LLM-based applications, and AI-assisted business processes . Build and integrate AI applications using technologies such as Python (FastAPI/Flask/Django) or equivalent frameworks, React frontends, and relevant A…"
+    },
+    {
+      "id": "jobicy_151415",
+      "title": "Full Stack Engineer",
+      "company": "Roboflow",
+      "score": 72,
+      "reason": "Roboflow全栈工程师涉及计算机视觉端到端管线，与候选人CV工程化经验高度契合，但需JS/Node全栈且为美国岗。",
+      "url": "https://jobicy.com/jobs/151415-full-stack-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-24T04:25:29+00:00",
+      "description": "📍 USA\nWho We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We’re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using computer vision models. Today, over 1M+ developers, including those from half the Fortune 100, use Roboflow’s machine learning open source and hosted tools. That includes counting cells to accelerate cancer research, improving construction site safety , digitizing floor plans , preserving coral reef populations , guiding drone flight , and much more . Roboflow is supported by great customers and investors, having raised over 63 million from Y Combinator, Google Ventures, Craft Ventures, Sam Altman, Lachy Groom, amongst other leading software investors. Roboflowers are passionate builders who value ownership, accountability, and a bias toward action. We're curious, hands-on with new tech, and prefer showing our work over talking about it. Many of us have a founder mindset and thrive in our high-autonomy environment. What You'll Do You'll be tasked with a wide range of projects. Each engineer has a realm they focus on, but we're still small enough that we don't have the luxury of deep specialization. We're looking for technical generalists that aren’t afraid to dive into a new stack or toolchain if the need arises (but JavaScript and Node.js make up the brunt of the existing codebase). Most of the things we work on are parts of the core product (which is an end-to-end pipeline for building computer vision projects spanning from image ingestion to annotation to training and deployment) but from time to time we're also working on things like integrating…"
+    },
+    {
+      "id": "jobicy_151412",
+      "title": "Developer Advocate",
+      "company": "Roboflow",
+      "score": 68,
+      "reason": "Roboflow开发者关系岗需计算机视觉与开发能力，与候选人CV+AI背景契合，但偏DevRel内容与社区运营。",
+      "url": "https://jobicy.com/jobs/151412-developer-advocate",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-24T04:25:24+00:00",
+      "description": "📍 USA\nWho We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We’re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and using computer vision models. Today, over 1M+ developers, including those from half the Fortune 100, use Roboflow’s machine learning open source and hosted tools. That includes counting cells to accelerate cancer research, improving construction site safety , digitizing floor plans , preserving coral reef populations , guiding drone flight , and much more . Roboflow is supported by great customers and investors, having raised over 63 million from Y Combinator, Google Ventures, Craft Ventures, Sam Altman, Lachy Groom, amongst other leading software investors. Roboflowers are passionate builders who value ownership, accountability, and a bias toward action. We're curious, hands-on with new tech, and prefer showing our work over talking about it. Many of us have a founder mindset and thrive in our high-autonomy environment. What You'll Do You’ll be responsible for driving our goals for enabling every developer to build with computer vision. You’re not starting from scratch, over a million developers use Roboflow today. We have the raw materials ready to be molded and scaled by a DevRel leader. Responsibilities include: Drive awareness and adoption of Roboflow tools in the developer community Develop tools and integrations to help make Roboflow easier and better for software developers to use Build projects that will help improve the bleeding edge of the main Roboflow product Create demos, applications, and technical content while sharing your progress online…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/gitlab-backend-engineer-trusted-agentic-development",
+      "title": "GitLab: Backend Engineer, Trusted Agentic Development",
+      "company": "GitLab",
+      "score": 62,
+      "reason": "Agentic开发与候选人LLM/Agent方向契合，但要求Ruby/Go后端且限波兰，经验层级略低。",
+      "url": "https://weworkremotely.com/remote-jobs/gitlab-backend-engineer-trusted-agentic-development",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "posted_at": "2026-11-23T18:31:30+00:00",
+      "description": "Headquarters: Remote, Poland GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software. * Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. An overview of this role As an Intermediate Backend Engineer, Trusted Agentic Development, based in Poland, you'll build backend systems that help GitLab engineers trust the software they create with artificial intelligence agents. Agents can generate code and tests in seconds, but passing tests don't always mean the software works as intended. You'll contribute to validation approaches and feedback mechanisms…"
+    }
+  ]
+}
