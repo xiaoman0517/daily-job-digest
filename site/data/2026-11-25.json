@@ -1,0 +1,63 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T08:56:40.943995+00:00",
+  "count": 4,
+  "jobs": [
+    {
+      "id": "jobicy_156869",
+      "title": "Senior Software Engineer, Internally Deployed Products",
+      "company": "ClickUp",
+      "score": 72,
+      "reason": "MCP服务器、Agent编排、AWS Lambda/API Gateway与候选人LLM/Agent及AWS经验高度契合，但限美国且偏GTM内部工具。",
+      "url": "https://jobicy.com/jobs/156869-senior-software-engineer-internally-deployed-products",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-25T03:15:19+00:00",
+      "description": "📍 USA\nAt ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring process. Join us and help redefine what's possible. 🚀 The Mission The Foundry is ClickUp's internal AI innovation lab — embedded inside GTM Systems and accountable for turning AI capabilities into production-grade, internally deployed products that make every GTM function faster and smarter. We build the infrastructure that powers AI-first work across Sales, Marketing, Post-Sales, and Revenue Operations. As the Senior Software Engineer on this team you will own the technical delivery of our MCP server platform, agent orchestration layer, and internal tooling — shipping production systems used daily by hundreds of ClickUp employees, and scaling your own throughput by treating AI tools as first-class engineering collaborators. What You'll Own MCP Server Platform Design, build, and operate Model Context Protocol servers that expose CRM, ticketing, analytics, and communication data to AI agents across the GTM stack Implement Okta PKCE authentication flows and RBAC policy enforcement so agents access only the data they're authorized to touch Maintain deployment infrastructure on AWS (Bedrock, Lambda, ECS, API Gateway) and contribute to GCP workloads where applicable Own observability: structured logging, distributed tracing, latency SLOs, and on-call runbooks for every production server Agent Orchestration & AI-Native Products Build and maintain multi-step autonomous agents that execute end-to-end GTM workflows — lead qualification, deal room assembly, onboarding a…"
+    },
+    {
+      "id": "jobicy_156887",
+      "title": "Machine Learning Engineer, Ranking & Retrieval",
+      "company": "ClickUp",
+      "score": 62,
+      "reason": "ML排序与检索工程岗，涉及嵌入推理与检索系统，与LLM/RAG及PyTorch经验部分契合，但要求5年+搜索排序专精且限美国。",
+      "url": "https://jobicy.com/jobs/156887-machine-learning-engineer-ranking-retrieval",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-25T03:20:42+00:00",
+      "description": "📍 USA\nAt ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring process. Join us and help redefine what's possible. 🚀 Machine Learning Engineer, Ranking & Retrieval ClickUp is seeking an experienced Machine Learning Engineer to join our Search team. You'll own the ML systems that power search relevance for millions of users and ground our AI in the right context. Your Impact at ClickUp You'll own the full ML lifecycle for ranking and retrieval, from training through deployment and production serving. Our search indexes large-scale, user-generated content across a multi-tenant platform where permissions-aware retrieval is critical. You'll build the systems that decide what surfaces first. Core Responsibilities Train, deploy, and serve ranking models in production, owning the full ML lifecycle Build ranker features, training pipelines, and offline evaluation frameworks Design and scale hybrid retrieval combining lexical and vector search (including HNSW with disk offloading) Run embedding inference at billions-of-documents scale Improve query understanding through intent modeling and query expansion Build permissions-aware retrieval that respects multi-tenant boundaries Create measurement frameworks to evaluate and improve search quality Collaborate with Search Infrastructure, AI, and backend teams to integrate ranking improvements across the platform Technical Requirements Bachelor's degree in Computer Science, Machine Learning, or related field 5+ years of ML engineering experience focused on ranking, retrieval, or informa…"
+    },
+    {
+      "id": "jobicy_156893",
+      "title": "Senior Machine Learning Engineer I // II",
+      "company": "Signifyd",
+      "score": 62,
+      "reason": "高级ML工程师岗位与候选人深度学习/模型部署经验高度契合，但要求美国base且偏欺诈检测领域，远程友好度受限。",
+      "url": "https://jobicy.com/jobs/156893-senior-machine-learning-engineer-i-ii",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-25T03:20:10+00:00",
+      "description": "📍 USA\nAt Signifyd, we help merchants confidently grow their businesses by building trusted relationships with their customers. Our advanced technology, combined with a team genuinely invested in our clients’ success, creates frictionless shopping experiences, approving more good orders, protecting revenue, and keeping customers happy. Trusted by thousands of leading merchants across more than 100 countries, we securely process billions of transactions each year. Our people are the heart of everything we do, driving our mission forward with commitment, empathy, and creativity. Join us on our mission to empower confident, fraud-free commerce by helping online retailers provide superior customer experiences and eliminate fraud. Learn about our company values here ! The Senior Machine Learning Engineer will join our ML team. This team is responsible for building, maintaining, and monitoring the production ML models and offline experimentation frameworks that are at the core of Signifyd’s product. This includes the core fraud detection model that decides the majority of our traffic, alongside our model training and evaluation infrastructure. We work closely with Platform Engineering teams to contribute novel modeling methods, advanced feature engineering, and robust statistical practices. Our Culture We value tenacity, curiosity, and a hunger for learning. Our adversaries are highly motivated fraudsters looking to exploit any gap. We seek equally motivated individuals who are passionate about keeping our customers safe while pulling the field of adversarial machine learning forward. The Role As a Senior Machine Learning Engineer , you will be a driver of technical execution within the ML team. You won’t just build models—you’ll own the end-to-end lifecycle of high-impact ML projec…"
+    },
+    {
+      "id": "jobicy_149543",
+      "title": "Python Engineer",
+      "company": "Canonical",
+      "score": 60,
+      "reason": "Python工程师通用岗，Python主力技能契合且全球远程，但偏开源系统/CLI方向，未涉及AI/CV/LLM。",
+      "url": "https://jobicy.com/jobs/149543-python-engineer",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-25T03:10:56+00:00",
+      "description": "📍 Anywhere\nCanonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. This is a general track role, hiring for every team at Canonical who works in Python, across all levels of seniority. Apply here if you believe you are already an outstanding Python engineer. Canonical works across the entire open source spectrum. Canonical Ubuntu is well-known as a developer favourite and enterprise-friendly Linux. Our web services and system utilities are often written in Python, which we choose where collaboration with other teams, ecosystems and communities is more important than raw performance. We hire Python Developers with a passion for open-source software, innovation, and cutting-edge technologies. We also look for colleagues who understand that a great product is more than code – it is ready for the unexpected, it is well documented, it is comprehensively tested, it is tastefully presented in its CLI or GUI. At Canonical, you will have the opportunity to make significant contributions through high-quality, idiomatic Python code. Your team will own a product that may comprise several codebases. These may be intended to run on servers, or on Kubern…"
+    }
+  ]
+}
