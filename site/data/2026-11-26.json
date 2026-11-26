@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T08:42:22.639224+00:00",
+  "count": 2,
+  "jobs": [
+    {
+      "id": "jobicy_157182",
+      "title": "Senior Software Engineer II, Applied AI",
+      "company": "Wrapbook",
+      "score": 88,
+      "reason": "Applied AI工程师岗，要求LangGraph、AI Agent、AWS Bedrock，与候选人LLM/Agent/RAG及AWS经验高度契合，远程友好。",
+      "url": "https://jobicy.com/jobs/157182-senior-software-engineer-ii-applied-ai",
+      "source": "Jobicy",
+      "tags": [
+        "Software Engineering"
+      ],
+      "posted_at": "2026-11-26T04:35:11+00:00",
+      "description": "📍 Canada,  USA\nAbout Us: Wrapbook is the AI platform for production finance. We’re building a system of action that puts finance teams in control of their whole production, from payroll, to spend, to accounting. Built for feature films, TV, and commercials, Wrapbook is trusted by teams at Netflix, Paramount, Anonymous Content, and more. With backing from Andreessen Horowitz, Bessemer Venture Partners, and Jeffrey Katzenberg's WndrCo, our team of 350+ is using AI to transform how finance teams work and empower them to do more with less. The Opportunity: Senior Software Engineer II, Applied AI (Remote - USA / Canada) We are looking for a Senior Software Engineer II, Applied AI to join our Agentic Systems team, where you'll build AI agents that automate workflows for teams across Wrapbook. You'll partner directly with internal teams like Marketing, Sales, Support, Operations and Finance to find high-leverage processes, then design, ship and iterate on agents that take real work off their plates. This is a chance to define how a 400+ person company runs on AI. You'll see the impact of your work every day, while shaping the patterns, tools and standards for how we build agents at Wrapbook. What You’ll Do: Design and build production-grade AI agents with LangGraph that automate multi-step workflows for internal teams across Wrapbook Deploy, run and scale agents on Amazon Bedrock AgentCore, using its runtime, memory, identity and gateway capabilities to make them secure and reliable, while tracking what they cost to run and keeping it efficient as usage grows Partner with internal teams to find high-impact workflows, draw out requirements from people who can't hand you a spec, and turn them into agent-driven solutions, explaining clearly what each agent can and can't reliably do Integrate ag…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/launchdarkly-gtm-ai-engineer",
+      "title": "LaunchDarkly: GTM AI Engineer",
+      "company": "LaunchDarkly",
+      "score": 72,
+      "reason": "LLM Agent/RAG工程与AI应用开发高度契合，但偏GTM业务自动化且要求美国远程，技术栈部分重合。",
+      "url": "https://weworkremotely.com/remote-jobs/launchdarkly-gtm-ai-engineer",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Back-End Programming"
+      ],
+      "posted_at": "2026-11-26T06:01:42+00:00",
+      "description": "Headquarters: Remote - US About the Job: LaunchDarkly helps engineering teams ship software faster and more safely through feature management, experimentation, and AI delivery tooling. As a GTM AI Engineer, you will design, build, and operate the AI-powered systems that make our sales, marketing, customer success, and partnerships teams more effective. You will sit at the intersection of engineering and revenue. You’ll turn messy go-to-market workflows into reliable, measurable automation, such as agents that research accounts, tools that surface buying signals, and pipelines that keep our data trustworthy. You’ll work directly with GTM stakeholders to find high-leverage problems, ship quickly, and prove impact with data. Responsibilities: Design and build LLM-powered agents and workflows for use cases like account research, lead and account prioritization, outbound personalization, call summarization, deal inspection, renewal risk detection, and customer health insights. Focus on end user experience to optimize delivery of content, process adherence and tool utilization Integrate AI systems with the GTM stack (Salesforce, Outreach, Gong, Marketo, Slack, Zoom, data warehouse, and enrichment providers). Build and maintain data pipelines that unify product usage, CRM, marketing, and support data into reliable inputs for models and agents. Partner with Sales, Marketing, CS, and RevOps leaders to translate business problems into technical solutions, and prioritize by revenue impact and effort. Establish evaluation frameworks, guardrails, and monitoring for AI outputs, covering accuracy, hallucination rates, cost, latency, and adoption. Use LaunchDarkly’s own products, such as feature flags, AI Configs, and experimentation, to roll out, test, and iterate on GTM AI systems sa…"
+    }
+  ]
+}
