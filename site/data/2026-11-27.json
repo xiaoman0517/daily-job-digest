@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T08:53:08.201500+00:00",
+  "count": 1,
+  "jobs": [
+    {
+      "id": "jobicy_157306",
+      "title": "Staff Machine Learning Engineer, Recommendation Systems - Quora",
+      "company": "Quora",
+      "score": 62,
+      "reason": "推荐系统Staff ML岗，候选人深度学习与LLM/Agent经验部分契合，但推荐系统领域经验不足且级别偏高。",
+      "url": "https://jobicy.com/jobs/157306-staff-machine-learning-engineer-recommendation-systems-quora",
+      "source": "Jobicy",
+      "tags": [
+        "Data Science & Analytics"
+      ],
+      "posted_at": "2026-11-27T03:40:05+00:00",
+      "description": "📍 Canada,  Ireland,  USA\n[ Quora is a privately held, \"remote-first\" company . This position can be performed remotely from multiple countries around the world. Please visit careers.quora.com/eligible-countries for details regarding employment eligibility by country.] About Quora: Quora’s mission is to grow the world's collective intelligence. To do so, we have two platforms: Quora : a global knowledge sharing platform with millions of monthly unique visitors, bringing people together to share insights on various topics and providing a unique platform to learn and connect with others. Poe : a cloud workspace where millions of users run multiple AI agents on shared context and tools. One subscription, every frontier model, and the collaboration layer that makes them work together. Behind these products are passionate, collaborative, and high-performing global teams. We have a culture rooted in transparency, idea-sharing, and experimentation that allows us to celebrate success and grow together through meaningful work. Join us on this journey to create a positive impact and make a significant change in the world. This role will be working on our Quora product. About the Team and Role: At Quora, machine learning drives nearly every aspect of our product, and our lean, high-velocity engineering team tackles complex, high-impact challenges daily. We thrive in a remote-first culture built on absolute autonomy, continuous learning, and bold experimentation. We are looking for a Staff Machine Learning Engineer to define the technical future of Quora’s recommendation ecosystem. In this role, you will own the technical direction for feed ranking and retrieval, lead our highest-impact modeling bets, and pioneer the integration of LLMs and generative models to redefine how we understand and rank content. B…"
+    }
+  ]
+}
