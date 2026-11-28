@@ -1,0 +1,84 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T08:12:59.202588+00:00",
+  "count": 3,
+  "jobs": [
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/3y-health-ai-product-engineer",
+      "title": "3Y Health: AI Product Engineer",
+      "company": "3Y Health",
+      "score": 78,
+      "reason": "AI产品工程师，端到端交付AI Agent/工作流，与候选人LLM/Agent及全栈能力高度契合，远程友好。",
+      "url": "https://weworkremotely.com/remote-jobs/3y-health-ai-product-engineer",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-27T13:00:39+00:00",
+      "description": "Headquarters: Remote - Brazil About 3Y Health 3Y Health is building the operating system for healthcare practices, an AI-native platform that helps clinicians start, run and grow their practice. We work as a managed services organization (MSO): along with the software, our operations team runs the back office for the clinics we partner with, including billing, insurance and compliance. We currently serve applied behavior analysis (ABA) therapy practices and are expanding into speech, occupational and physical therapy, and psychiatry. About the role Members of Technical Staff own features end to end. You'll work with the clinicians and operators who use what we build, scope the problem, design and build the solution across the stack, deploy it and follow how it performs in production. Our engineering team is flat, with no sub-teams, so you'll work across the whole platform. We build with AI coding agents every day and expect you to do the same. What you'll do Design and build AI agents and automated workflows for clinic operations, such as insurance benefits verification, prior authorizations, patient intake, claims and clinical documentation Build features for clinicians, patients and families, and our internal operations team, on web and mobile Take ambiguous problems from 0 to 1, working with operators and clinicians to define the problem, write the spec and ship a first version Design the services, data models and APIs behind your features and manage the infrastructure as code Own your services in production: deployments, monitoring and incident response Write evals for model-facing features and track the metrics of the workflows you ship Work with protected health information (PHI) safely, with least-privilege access, no PHI in logs and auditable changes Build and m…"
+    },
+    {
+      "id": "remoteok_1138202",
+      "title": "Senior Software Developer",
+      "company": "Loopio Inc.",
+      "score": 78,
+      "reason": "AI工程背景的资深开发岗，要求LLM系统落地与Agent工作流，与候选人LLM/Agent/RAG及Python全栈经验高度契合。",
+      "url": "https://remoteOK.com/remote-jobs/remote-senior-software-developer-loopio-inc-1138202",
+      "source": "RemoteOK",
+      "tags": [
+        "dev",
+        "design",
+        "amazon",
+        "react",
+        "hr",
+        "python",
+        "education",
+        "docker",
+        "technical",
+        "customer support",
+        "transcribing",
+        "testing",
+        "marketing",
+        "web dev",
+        "exec",
+        "virtual assistant",
+        "javascript",
+        "elasticsearch",
+        "java",
+        "serverless",
+        "cloud",
+        "php",
+        "sql",
+        "typescript",
+        "node",
+        "ads",
+        "api",
+        "content writing",
+        "senior",
+        "ops",
+        "legal",
+        "medical",
+        "engineer",
+        "recruiter",
+        "backend",
+        "digital nomad"
+      ],
+      "posted_at": "2026-11-27T00:00:03+00:00",
+      "description": "Take your career to new heights with Loopio! ðâ¨ Loopio is a workplace that unleashes learning & growth opportunities for our Loopers. We provide autonomous, challenging work that allows each employee to master their craft. We attract and retain people who are naturally curious, have grit and are eager to grow and build their careers. At Loopio, we genuinely support each other, because true success comes from working as #oneteam. Loopio is on the hunt for a Senior Software Developer with an AI engineering background who thrives on solving complex problems and is driven by curiosity. If you have taken LLM-based systems from idea to production and want your work to help leading organizations respond to RFPs faster and with more confidence, this is the role for you. Youâll join a team of Engineers, ML practitioners, Product Managers, and Designers to design and ship AI-powered features, from agentic workflows that reason over long and messy documents to the evaluation and monitoring that keep them reliable in production. At Loopio, we value clean code, evidence-driven decisions, continuous improvement, and knowledge sharing. From shaping technical direction to mentoring teammates, youâll play a key role in scaling our systems and evolving our product. Weâre deeply collaborative. Whether itâs pair programming, technical design reviews, error-analysis sessions, or whiteboarding ideas, we believe the best solutions are built together. If youâre excited by owning problems from zero, letting evidence drive your decisions, and leaving things better than you found them, letâs build the future together. Note: This is an existing vacancy on the team What Youâll Be Doing: Owning problems end to end, from zero. You take an idea or problem through framing, a research…"
+    },
+    {
+      "id": "wwr_https://weworkremotely.com/remote-jobs/one-applied-scientist-foundation-models",
+      "title": "ONE: Applied Scientist, Foundation Models",
+      "company": "ONE",
+      "score": 62,
+      "reason": "基础模型训练/微调与检索系统，与候选人深度学习及LLM/RAG经验契合，但偏研究型且需美国远程。",
+      "url": "https://weworkremotely.com/remote-jobs/one-applied-scientist-foundation-models",
+      "source": "WeWorkRemotely",
+      "tags": [
+        "Full-Stack Programming"
+      ],
+      "posted_at": "2026-11-27T10:20:39+00:00",
+      "description": "Headquarters: United States (Remote) About OnePay OnePay is the consumer fintech trusted by millions of Americans to make money better. Our financial system is broken. High fees, low rates, and too few ways to actually grow your money. We’re fixing it. And we’re moving fast. We’re an all-in-one financial services platform that brings together banking, high-yield savings, credit cards, point-of-sale lending, investing, and crypto in one place. We also partner with employers, HCM providers, gig platforms, and others to deliver embedded financial services to millions of employees and frontline workers. We’re backed by Walmart, the world’s largest retailer, and Ribbit Capital, one of fintech’s most respected investors, giving us rare scale, distribution, and the opportunity to build something truly category-defining. But what really sets OnePay apart is how we move. Our customers don’t have time to wait… and neither do we. This place moves fast, and we’re looking for people who are: Ready to run Hungry and driven by urgency Exceptional at what they do, with low ego Comfortable operating in motion The Role As an Applied Scientist, Foundation Models at OnePay, you'll be a founding member of our foundation model effort, building it from the ground up. You will: Design, train, and evaluate OnePay’s foundation models, including models built from scratch on our proprietary data and adaptations of existing open or commercial models to our domain. Fine-tune and deploy these models into production applications across the business, partnering closely with product, engineering, and analytics. Identify and mitigate risks like model bias and unreliable outputs to run foundation models reliably in a regulated financial product. Design and optimize search and retrieval systems to improve …"
+    }
+  ]
+}
